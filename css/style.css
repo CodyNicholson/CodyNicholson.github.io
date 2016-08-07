@@ -1,0 +1,60 @@
+.title-super{
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: 600;
+    font-size: 400%;
+}
+
+.container{
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+
+img{
+    outline: 1px solid black;
+}
+
+body {
+    background-color: #000000;
+}
+
+h2, h3{
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.container{
+    background-color: #3a41b3;
+}
+
+.CLN_logo{
+    margin-top: 20px;
+}
+
+.logo_spot{
+    width: 25%;
+}
+
+.header-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_margin{
+    margin-bottom: 20px;
+}
+
+.identity_header{
+    width: 70%;
+    margin-top: 10px;
+    margin-right: 5%;
+    text-align: right;
+}
+
+@media screen and (max-width: 650px){
+    .logo_spot{
+        display: none;
+    }
+    .identity_header{
+        text-align: center;
+        width: 100%;
+    }
+}
