@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Walter+Turncoat" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+  <body>
+  <div class="container">
+
+    <div class="row header-row">
+        <div class="col-md-3 logo_spot">
+            <img class="CLN_logo img-responsive" src="./images/CLN_Logo.png" alt="A logo I created for myself that includes my initials">
+        </div>
+        <div class="col-md-9 identity_header">
+            <h1 class="title-super">Cody Nicholson</h1>
+            <h4 class="sub-header">Undergrad at DePaul University</h4>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive" src="./images/banner.jpeg" alt="A banner displaying my work desk at home">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Featured Work</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive" src="./images/mobileAppDev.png" data-toggle="modal" data-target="#mobileApp" alt="A screenshot of me coding one of my mobile applications">
+            <h3>Mobile App Development</h3>
+            <p>Android applications I have developed using Android Studio</p>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="./images/softwareDev.jpg" data-toggle="modal" data-target="#softDev" alt="An image displaying the life cycle of the software development process. Design, Develop, Implement, Analyze and then start over at design.">
+            <h3>Software Development</h3>
+            <p>A collection of my Software Development projects and studies</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive" src="./images/webDev.png" data-toggle="modal" data-target="#webDev" alt="A screenshot of me coding the framework for this website.">
+            <h3>Web Development</h3>
+            <p>A collection of my Web Development projects and studies</p>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="./images/linkedIn.png" data-toggle="modal" data-target="#linkedIn" alt="A screenshot of my LinkedIn profile page">
+            <h3>LinkedIn</h3>
+            <p>My LinkedIn profile that displays all my previous expereience and skills</p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Modals -->
+
+  <div class="modal fade" id="mobileApp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="mobileAppLabel">Mobile Application Development</h4>
+              </div>
+              <div class="modal-body">
+                  <a target="_blank" href="https://github.com/Cody-Nicholson96/Mobile_Applications">
+                      <img class="img-responsive img_margin" src="images/mobileAppDev.png" alt="A screenshot of me coding one of my mobile applications">
+                  </a>
+                  <p>This repository contains all of my mobile application development projects I have created using Android Studio. You will also find a picture in each project folder that will show what the app's user interface looks like.</p>
+                  <p><a target="_blank" href="https://github.com/Cody-Nicholson96/Mobile_Applications">Link to my Mobile_Applications repository</a></p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="softDev" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="softDevLabel">Software Development</h4>
+              </div>
+              <div class="modal-body">
+                  <a target="_blank" href="https://github.com/Cody-Nicholson96/Software_Development">
+                      <img class="img-responsive img_margin" src="images/softwareDev.jpg" alt="An image displaying the life cycle of the software development process. Design, Develop, Implement, Analyze and then start over at design.">
+                  </a>
+                  <p>This repository contains all of my Software Development projects, as well as my classwork from DePaul University and Udacity.</p>
+                  <p><a target="_blank" href="https://github.com/Cody-Nicholson96/Software_Development">Link to my Software_Development repository</a></p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="webDev" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="webDevLabel">Web Development</h4>
+              </div>
+              <div class="modal-body">
+                  <a target="_blank" href="https://github.com/Cody-Nicholson96/Web_Development">
+                      <img class="img-responsive img_margin" src="images/webDev.png" alt="A screenshot of me coding the framework for this website.">
+                  </a>
+                  <p>In this repository you will find all of my Web Development classwork and projects that includes the code for this website.</p>
+                  <p><a target="_blank" href="https://github.com/Cody-Nicholson96/Web_Development">Link to my Web_Development repository</a></p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="linkedIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="linkedInLabel">LinkedIn</h4>
+              </div>
+              <div class="modal-body">
+                  <a href="https://www.linkedin.com/in/codynicholson" target="_blank">
+                      <img class="img-responsive img_margin" src="images/linkedIn.png" alt="A screenshot of my LinkedIn profile page">
+                  </a>
+                  <p>Following this link will lead you to my LinkedIn page where you can find all of previous work experience and skills listed in one place.</p>
+                  <p><a target="_blank" href="https://www.linkedin.com/in/codynicholson">Link to my LinkedIn Page</a></p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</body>
+</html>
