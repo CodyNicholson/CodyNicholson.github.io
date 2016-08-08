@@ -71,9 +71,18 @@ h2, h3
     }
 }
 
-@media screen and (min-width: 602px) and (max-width: 991px)
+@media screen and (max-width: 991px)
 {
     .modellink {
         width: 100%;
+    }
+}
+
+@media screen and (orientation: portrait)
+{
+    .container
+    {
+        margin-right: 0%;
+        margin-left: 0%;
     }
 }
