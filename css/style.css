@@ -71,10 +71,14 @@ h2, h3
     }
 }
 
-@media screen and (max-width: 991px)
+@media screen and (max-width: 992px)
 {
     .modellink {
         width: 100%;
+    }
+    .center-align
+    {
+        text-align: center;
     }
 }
 
