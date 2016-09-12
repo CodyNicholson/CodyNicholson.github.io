@@ -1,11 +1,6 @@
 # Markdown Practice
--
-=
----
-
-***
-
-___
+_
+*
 
 ~~Sratched out text~~
 
