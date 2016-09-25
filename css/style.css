@@ -1,92 +1,239 @@
-.title-super
-{
-    font-family: 'Walter Turncoat', cursive;
-    font-weight: 600;
-    font-size: 400%;
-}
-
-.container
-{
-    font-family: 'Handlee', cursive;
-    color: white;
-}
-
-img
-{
-    outline: 1px solid black;
-}
-
-body
-{
-    background-color: #000000;
-}
-
-h2, h3
-{
-    font-family: 'Walter Turncoat', cursive;
-}
-
-.container
-{
-    background-color: #3a41b3;
-}
-
-.CLN_logo
-{
-    margin-top: 20px;
-}
-
-.logo_spot
-{
-    width: 25%;
-}
-
-.header-row
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.img_margin
-{
-    margin-bottom: 20px;
-}
-
-.identity_header
-{
-    width: 70%;
-    margin-top: 10px;
-    margin-right: 5%;
-    text-align: right;
-}
-
-@media screen and (max-width: 650px)
-{
-    .logo_spot{
-        display: none;
-    }
-    .identity_header{
-        text-align: center;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 992px)
-{
-    .modellink {
-        width: 100%;
-    }
-    .center-align
+	html, body
     {
-        text-align: center;
+      margin:0;
+      padding:0;
+      background-color: #F5F5F5;
     }
-}
 
-@media screen and (orientation: portrait)
-{
     .container
     {
-        margin-right: 0%;
-        margin-left: 0%;
+      padding: 0%;
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+      position:relative;
     }
-}
+
+    .nameHeader
+    {
+    	position: fixed;
+    	margin-top: 1%;
+    	margin-left: 2%;
+    	color: white;
+    	font-family: 'Josefin Slab', serif;
+    	font-size: 70%;
+    }
+
+    .title_super
+    {
+      padding-top: 18%;
+      padding-bottom: 20%;
+      text-align: center;
+      text-shadow: 0 0 10px #000;
+      font-size: 200%;
+      color: White;
+      letter-spacing: 4px;
+    }
+
+    .parallaxHeader
+    {
+      margin-right: auto;
+      margin-left: auto;
+      width: 100%;
+    }
+
+    #prlx_lyr_1
+    {
+      position: fixed;
+      background: url(../images/topBanner.jpg) no-repeat;
+      background-size: 100%;
+      width: 100%;
+      height: 100%;
+    }
+
+    .nav_bar
+    {
+      width: 100%;
+    }
+
+    nav
+    {
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+    }
+
+    a
+    {
+      background-color: black;
+      color: white;
+      font-family: 'Baloo Tamma', cursive;
+      font-size: 1.3em;
+      margin-top: 1.5px;
+      padding-top: 3px;
+      text-align: center;
+      min-height: 50px;
+      vertical-align: middle;
+    }
+
+    .resume
+    {
+    	margin-right: 0.3%;
+    	margin-left: 0.3%;
+    	width: 38.8%;
+      vertical-align: middle;
+      line-height: 50px;
+    }
+
+    .github
+    {
+    	margin-right: 0.3%;
+    	width: 30%;
+      vertical-align: middle;
+      line-height: 50px;
+    }
+
+    .linkedin
+    {
+    	margin-left: 0.3%;
+    	width: 30%;
+      vertical-align: middle;
+      line-height: 50px;
+    }
+
+    a:hover
+    {
+      color: black;
+      background-color: white;
+    }
+
+    section
+    {
+    	height: 100%;
+    }
+
+    .description
+    {
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+      position: relative;
+      margin-top: 35%;
+      background-color: #ffffff;
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+    }
+
+    .codyPic
+    {
+      display: block;
+      width: 66%;
+      height: 66%;
+      margin-left: 17%;
+      margin-right: 17%;
+      margin-top: 10%;
+      margin-bottom: 5%;
+      border: 3px solid #F5F5F5;
+    }
+
+    .cover_letter
+    {
+      width: 84%;
+      margin-right: 8%;
+      margin-left: 8%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      text-align: justify;
+      line-height: 25px;
+      font-family: 'Georgia';
+      font-size: 85%;
+      background-color: #F5F5F5;
+      padding: 8px;
+    }
+
+    footer
+    {
+    	width: 100%;
+    	position: relative;
+    	background-color: #F5F5F5;
+    }
+
+    .social_media
+    {
+    	width: 20%;
+    	max-height: 65px;
+    	margin-left: 0.2%;
+    }
+
+    .twitter
+    {
+    	margin-right: 0.2%;
+    }
+
+    .email
+    {
+      font-size: 1.1em;
+      padding-top: 7px;
+      width: 59.2%;
+      max-height: 100px;
+      margin-right: 0.2%;
+      vertical-align: middle;
+      line-height: 50px;
+    }
+
+    .social_media_logo
+    {
+    	height: 90%;
+    	padding-top: 2px;
+    }
+
+    .foot_banner
+    {
+    	width: 100%;
+    	max-height: 100%;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+    }
+
+    #contact-area
+	{
+		width: 100%;
+		margin-top: 25px;
+	}
+
+	#contact-area input, #contact-area textarea
+	{
+		padding: 5px;
+		width: 100%;
+		font-family: Helvetica, sans-serif;
+		font-size: 1.4em;
+		margin: 0px 0px 10px 0px;
+		border: 2px solid #ccc;
+	}
+
+	#contact-area textarea
+	{
+		height: 90px;
+		width: 100%;
+	}
+
+	#contact-area textarea:focus, #contact-area input:focus
+	{
+		border: 2px solid #900;
+	}
+
+	#contact-area input.submit-button
+	{
+		width: 100px;
+		float: right;
+	}
+
+	label
+	{
+		float: left;
+		text-align: left;
+		margin-right: 5px;
+		padding-top: 5px;
+		font-size: 1.4em;
+	}

@@ -1,161 +1,86 @@
 <!DOCTYPE html>
-<html>
 <head>
   <title>CLN Portfolio</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-  <link rel="stylesheet" href="css/walterTurncoat.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/mediaQueries.css">
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    function parallax()
+    {
+      var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+      prlx_lyr_1.style.top = -(window.pageYOffset/5) + 'px';
+    }
+    window.addEventListener("scroll", parallax, false);
+  </script>
 </head>
-  <body>
+  
+<body>
+
   <div class="container">
 
-    <div class="row header-row">
-        <div class="col-md-3 logo_spot">
-            <img class="CLN_logo img-responsive" src="./images/CLN_Logo.png" alt="A logo I created for myself that includes my initials">
-        </div>
-        <div class="col-md-9 identity_header">
-            <h1 class="title-super">Cody Nicholson</h1>
-            <h4 class="sub-header">Undergrad at DePaul University</h4>
-        </div>
-    </div>
-
-    <hr>
-    <br>
-
-    <div class="row">
-        <div class="col-md-12">
-            <img class="img-responsive" src="./images/banner.jpeg" alt="A banner displaying my work desk at home">
-        </div>
-    </div>
-
-    <br><br>
-
-    <div class="row">
-        <div class="col-md-12 center-align">
-            <h2>Featured Work</h2>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="row">
-        <div class="col-md-6">
-            <img class="img-responsive modellink" src="./images/mobileAppDev.png" data-toggle="modal" data-target="#mobileApp" alt="A screenshot of me coding one of my mobile applications">
-            <h3>Mobile Development</h3>
-            <p>Android applications I have developed using Android Studio</p>
-        </div>
-        <div class="col-md-6">
-            <img class="img-responsive modellink" src="./images/softwareDev.jpg" data-toggle="modal" data-target="#softDev" alt="An image displaying the life cycle of the software development process. Design, Develop, Implement, Analyze and then start over at design.">
-            <h3>Software Development</h3>
-            <p>A collection of my Software Development projects and studies</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">
-            <img class="img-responsive modellink" src="./images/webDev.png" data-toggle="modal" data-target="#webDev" alt="A screenshot of me coding the framework for this website.">
-            <h3>Web Development</h3>
-            <p>A collection of my Web Development projects and studies</p>
-        </div>
-        <div class="col-md-6">
-            <img class="img-responsive modellink" src="./images/linkedIn.png" data-toggle="modal" data-target="#linkedIn" alt="A screenshot of my LinkedIn profile page">
-            <h3>LinkedIn</h3>
-            <p>My LinkedIn profile that displays all my previous expereience and skills</p>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="row background-tint">
-        <div class="col-md-12 text-center">
-            <h4>Contact Info</h4><p>codynicholson96@gmail.com</p><br>
-        </div>
-    </div>
-
-  </div>
-
-
-  <!-- Modals -->
-
-
-  <div class="modal fade" id="mobileApp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h4 class="modal-title" id="mobileAppLabel">Mobile Development</h4>
-              </div>
-              <div class="modal-body">
-                  <a target="_blank" href="https://github.com/Cody-Nicholson96/Mobile_Development">
-                      <img class="img-responsive img_margin" src="images/mobileAppDev.png" alt="A screenshot of me coding one of my mobile applications">
-                  </a>
-                  <p>This repository contains all of my mobile application development projects I have created using Android Studio. You will also find a picture in each project folder that will show what the app's user interface looks like.</p>
-                  <p><a target="_blank" href="https://github.com/Cody-Nicholson96/Mobile_Development">Link to my Mobile_Applications repository</a></p>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-          </div>
+    <header class="parallaxHeader">
+      <div id="prlx_lyr_1">
+        <p class="nameHeader">Cody Liam Nicholson</p>
+        <p class="title_super">Welcome</p>
       </div>
+    </header>
+
+    <section class="description">
+	  <div class="nav_bar">
+	    <nav>
+	      <a class="github" href="https://github.com/Cody-Nicholson96" target="_blank">Github</a>
+	      <a class="resume" href="views/resume.html">Resume</a>
+	      <a class="linkedin" href="https://www.linkedin.com/in/codynicholson" target="_blank">LinkedIn</a>
+	    </nav>
+	  </div>
+      <img class="codyPic" src="images/codyMid.jpg">
+      <p class="cover_letter">I am a Junior at DePaul University pursuing a bachelor's degree in Computer Science. I'm committed to learning, naturally friendly, relentlessly optimistic, and exceptionally diligent. If you are looking for someone who possesses these traits or any of the skills listed on my resume feel free to contact me by clicking the button below. Hope to hear from you soon!<br><br>Sincerely,<br>Cody Nicholson</p>
+    </section>
+
+    <footer>
+        <nav class="nav_bar">
+          <a class="email" data-toggle="modal" data-target="#contact">Contact Me via Email</a>
+          <a class="social_media twitter" href="https://twitter.com/CodyLiam7?lang=en" target="_blank"><img class="social_media_logo" src="images/twitter.png"></a>
+          <a class="social_media facebook" href="https://www.facebook.com/cody.nicholson1" target="_blank"><img class="social_media_logo" src="images/facebook.png"></a>
+        </nav>
+    	<img class="foot_banner" src="images/chicagoSkyline.jpg">
+    </footer>
+
   </div>
 
-  <div class="modal fade" id="softDev" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <!-- Modal Below -->
+
+  <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
           <div class="modal-content">
               <div class="modal-header">
-                  <h4 class="modal-title" id="softDevLabel">Software Development</h4>
+                  <h4 class="modal-title" id="contactLabel">Contact Me via Email</h4>
               </div>
-              <div class="modal-body">
-                  <a target="_blank" href="https://github.com/Cody-Nicholson96/Software_Development">
-                      <img class="img-responsive img_margin" src="images/softwareDev.jpg" alt="An image displaying the life cycle of the software development process. Design, Develop, Implement, Analyze and then start over at design.">
-                  </a>
-                  <p>This repository contains all of my Software Development projects, as well as my classwork from DePaul University and Udacity.</p>
-                  <p><a target="_blank" href="https://github.com/Cody-Nicholson96/Software_Development">Link to my Software_Development repository</a></p>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <div class="modal fade" id="webDev" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h4 class="modal-title" id="webDevLabel">Web Development</h4>
-              </div>
-              <div class="modal-body">
-                  <a target="_blank" href="https://github.com/Cody-Nicholson96/Web_Development">
-                      <img class="img-responsive img_margin" src="images/webDev.png" alt="A screenshot of me coding the framework for this website.">
-                  </a>
-                  <p>In this repository you will find all of my Web Development classwork and projects that includes the code for this website.</p>
-                  <p><a target="_blank" href="https://github.com/Cody-Nicholson96/Web_Development">Link to my Web_Development repository</a></p>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <div class="modal fade" id="linkedIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h4 class="modal-title" id="linkedInLabel">LinkedIn</h4>
-              </div>
-              <div class="modal-body">
-                  <a href="https://www.linkedin.com/in/codynicholson" target="_blank">
-                      <img class="img-responsive img_margin" src="images/linkedIn.png" alt="A screenshot of my LinkedIn profile page">
-                  </a>
-                  <p>Following this link will lead you to my LinkedIn page where you can find all of previous work experience and skills listed in one place.</p>
-                  <p><a target="_blank" href="https://www.linkedin.com/in/codynicholson">Link to my LinkedIn Page</a></p>
-              </div>
+	          <div class="modal-body">
+	                <div id="contact-area">
+						<form method="post" action="contactengine.php">
+              <label for="Email">Your Email Address:</label>
+              <input type="text" name="Email" id="Email" />
+							<label for="Name">Your Name:</label>
+							<input type="text" name="Name" id="Name" />
+							<label for="Subject">Subject:</label>
+							<input type="text" name="Subject" id="Subject" />
+							<label for="Message">Message:</label><br />
+							<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+              <label for="Feedback">What do you think of my website? How could I improve it?:</label><br />
+              <textarea name="Feedback" rows="20" cols="20" id="Feedback"></textarea>
+							<input type="submit" name="submit" value="Submit" class="submit-button" />
+						</form>	
+						<div style="clear: both;"></div>
+					</div>
+	          </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
