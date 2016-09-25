@@ -164,7 +164,6 @@
     {
     	width: 19.9%;
     	max-height: 65px;
-        max-width: 65px;
     }
 
     .twitter
@@ -193,6 +192,7 @@
     {
     	height: 90%;
 		max-height: 58px;
+        max-width: 58px;
     	padding-top: 1px;
     }
 
