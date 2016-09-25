@@ -12,8 +12,8 @@ var bio =
     "welcomMessage" : "Welcome to my resume",
     "skills" :
     [
-        "Java", "Python", "Git", "HTML", "CSS", "JavaScript", "Linux", "Bootstrap", "Responsive Web Design", "Selenium",
-        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "SharePoint", "Agile Methodologies"
+        "Java", "Python", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "Linux", "Bootstrap", "Responsive Web Design", "Selenium",
+        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies"
     ],
     "bioPic" : "../images/codyHead.jpg"
 };
@@ -58,15 +58,15 @@ var education =
         {
             "name" : "DePaul University",
             "location" : "Chicago, IL",
-            "degree" : "Bachelor's Degree in Computer Science expected in 2018",
-            "majors" : ["Computer Science"],
+            "degree" : ["Bachelor of Science in Computer Science expected in 2018", "Master of Science in Software Engineering expected in 2020"],
+            "majors" : "Computer Science",
             "dates" : "Class of 2018"
         }
     ],
     "onlineCourses" :
     [
         {
-            "title" : "",
+            "title" : ["Responsive Web Design Fundamentals, How to use Git and Github", "Intro to Java Programming", "Programming Foundations with Python", "Responsive Images", "Intro to HTML and CSS", "JavaScript Basics", "Intro to jQuery", "Software Development Process"],
             "school" : "Udacity",
             "date" : "2016",
             "url" : "Udacity.com"
@@ -97,14 +97,14 @@ var projects =
     "projs" :
     [
         {
-            "title" : "MyProject",
+            "title" : "https://cody-nicholson96.github.io/",
             "dates" : "2016",
-            "description" : "A project I made",
-            "images" : "images/197x148.gif"
+            "description" : "A portfolio website I designed and developed myself to promote my professional image",
+            "images" : "../images/projectLogo.png"
         }
     ]
 };
-/*
+
 projects.display = function()
 {
     for (project in projects.projs)
@@ -127,7 +127,7 @@ projects.display = function()
         }
     }
 };
-*/
+
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 
@@ -147,7 +147,7 @@ $("#footerContacts")/*.append(formattedEmail)*/.append(formattedGithub).append(f
 
 // Runs the display functions
 work.display();
-/*projects.display();*/
+projects.display();
 education.display();
 
 
@@ -181,7 +181,7 @@ function locationizer(work_obj)
 }
 console.log(locationizer(work));
 
-
+/*
 // Change name to international format
 function inName(name_obj)
 {
@@ -192,3 +192,4 @@ function inName(name_obj)
     return name_obj[0] + " " + name_obj[1];
 }
 $('#main').append(internationalizeButton);
+*/
