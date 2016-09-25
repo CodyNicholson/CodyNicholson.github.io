@@ -149,14 +149,14 @@
     .cover_letter
     {
       font-size: 150%;
-      line-height: 43px;
+      line-height: 40px;
     }
     .social_media_logo
     {
       padding-top: 2px;
     }
 	}
-	
+
 	@media screen and (min-width: 1200px)
 	{
 	  #prlx_lyr_1
