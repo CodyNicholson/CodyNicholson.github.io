@@ -164,6 +164,7 @@
     {
     	width: 19.9%;
     	max-height: 65px;
+        max-width: 65px;
     }
 
     .twitter
@@ -171,7 +172,7 @@
     	margin-right: 0.3%;
 		margin-left: 0.3%;
     }
-	
+
 	.facebook
 	{
 		margin-left: 0.3%;
