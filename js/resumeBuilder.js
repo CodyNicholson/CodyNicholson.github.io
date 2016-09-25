@@ -58,9 +58,9 @@ var education =
         {
             "name" : "DePaul University",
             "location" : "Chicago, IL",
-            "degree" : ["Bachelor of Science in Computer Science expected in 2018", "Master of Science in Software Engineering expected in 2020"],
+            "degree" : ["Bachelor of Science in Computer Science", "Master of Science in Software Engineering"],
             "majors" : "Computer Science",
-            "dates" : "Class of 2018"
+            "dates" : ["Class of 2018", "Class of 2020"]
         }
     ],
     "onlineCourses" :
@@ -87,7 +87,7 @@ education.display = function()
         var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
         var formattedMajors = HTMLschoolMajor.replace("%data%", education.schools[edu].majors);
         // Adds the edu info to the newly created div
-        $(".education-entry:last").append(formattedTitle).append(formattedDates).append(formattedLocation).append(formattedMajors);
+        $(".education-entry:last").append(formattedTitle).append(formattedDegree).append(formattedDates).append(formattedLocation).append(formattedMajors);
     }
 };
 
@@ -100,7 +100,7 @@ var projects =
             "title" : "https://cody-nicholson96.github.io/",
             "dates" : "2016",
             "description" : "A portfolio website I designed and developed myself to promote my professional image",
-            "images" : "../images/projectLogo.png"
+            "images" : ["../images/projectLogo.png", "../images/homepage.jpg"]
         }
     ]
 };
