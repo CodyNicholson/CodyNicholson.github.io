@@ -59,7 +59,7 @@ var education =
             "name" : "DePaul University",
             "location" : "Chicago, IL",
             "degree" : ["Bachelor of Science in Computer Science", "Master of Science in Software Engineering"],
-            "majors" : "  ",
+            "majors" : "Computer Science with a concentration on Software Engineering",
             "dates" : ["Bachelor of Science in Computer Science expected 2018", "Master of Science in Software Engineering expected 2020"] /*["Class of 2018", "Class of 2020"]*/
         }
     ],
