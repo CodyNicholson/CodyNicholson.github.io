@@ -7,7 +7,7 @@ var bio =
         "github" : "Cody-Nicholson96",
         "twitter" : "@CodyLiam7",
         "location" : "Chicago",
-        "linkedIn" : "https://www.linkedin.com/in/codynicholson"
+        "linkedIn" : "codynicholson"
     },
     "welcomMessage" : "Welcome to my resume",
     "skills" :
@@ -60,7 +60,7 @@ var education =
             "location" : "Chicago, IL",
             "degree" : ["Bachelor of Science in Computer Science", "Master of Science in Software Engineering"],
             "majors" : "Computer Science",
-            "dates" : ["Class of 2018", "Class of 2020"]
+            "dates" : ["Bachelor of Science in Computer Science expected 2018", "Master of Science in Software Engineering expected 2020"] /*["Class of 2018", "Class of 2020"]*/
         }
     ],
     "onlineCourses" :
@@ -87,7 +87,7 @@ education.display = function()
         var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
         var formattedMajors = HTMLschoolMajor.replace("%data%", education.schools[edu].majors);
         // Adds the edu info to the newly created div
-        $(".education-entry:last").append(formattedTitle).append(formattedDegree).append(formattedDates).append(formattedLocation).append(formattedMajors);
+        $(".education-entry:last").append(formattedTitle)/*.append(formattedDegree)*/.append(formattedDates).append(formattedLocation);
     }
 };
 
