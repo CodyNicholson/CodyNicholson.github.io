@@ -141,8 +141,8 @@ var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 
 $("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart);
-$("#topContacts")/*.append(formattedEmail)*/.append(formattedGithub).append(formattedlinkedIn).append(formattedTwitter).append(formattedLocation);
-$("#footerContacts")/*.append(formattedEmail)*/.append(formattedGithub).append(formattedlinkedIn).append(formattedTwitter).append(formattedLocation);
+$("#topContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
+$("#footerContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
 
 
 // Runs the display functions
