@@ -52,8 +52,6 @@
       width: 35%;
       margin-left: 5%;
       margin-right: 2.5%;
-      margin-top: 10%;
-      margin-bottom: 10%;
       border: 3px solid #F5F5F5;
     }
     .cover_letter
@@ -61,8 +59,6 @@
       width: 50%;
       margin-right: 5%;
       margin-left: 2.5%;
-      margin-top: 10%;
-      margin-bottom: 10%;
       line-height: 30px;
       font-size: 115%;
       background-color: unset;

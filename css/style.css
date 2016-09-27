@@ -132,8 +132,8 @@
       height: 66%;
       margin-left: 17%;
       margin-right: 17%;
-      margin-top: 10%;
-      margin-bottom: 5%;
+      margin-top: 8vw;
+      margin-bottom: 5vw;
       border: 3px solid #F5F5F5;
     }
 
@@ -142,8 +142,8 @@
       width: 84%;
       margin-right: 8%;
       margin-left: 8%;
-      margin-top: 5%;
-      margin-bottom: 10%;
+      margin-top: 7vw;
+      margin-bottom: 5vw;
       text-align: justify;
       line-height: 25px;
       font-family: 'Georgia';
