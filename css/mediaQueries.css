@@ -90,7 +90,7 @@
     .title_super
     {
       font-size: 800%;
-      padding-top: 16%;
+      padding-top: 16vw;
     }
     .nameHeader
     {
@@ -118,7 +118,7 @@
 	  }
 	  .title_super
     {
-      padding-top: 18%;
+      padding-top: 18vw;
       font-size: 900%;
     }
     .cover_letter
@@ -160,7 +160,7 @@
 	  }
     .title_super
     {
-      padding-top: 18%;
+      padding-top: 18vw;
       font-size: 1000%;
     }
     .cover_letter
