@@ -115,11 +115,10 @@
 
     .description
     {
-      margin: 0%;
+      margin: 33vw 0vw 0vw 0vw;
       padding: 0%;
       width: 100%;
       position: relative;
-      margin-top: 35%;
       background-color: #ffffff;
       display: flex;
       display: -webkit-flex;
