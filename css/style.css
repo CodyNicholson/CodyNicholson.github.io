@@ -243,3 +243,13 @@
 		padding-top: 5px;
 		font-size: 1.4em;
 	}
+
+  .modal-header
+  {
+    display: flex;
+  }
+
+  .modal-title
+  {
+    width: 90%;
+  }
