@@ -251,5 +251,11 @@
 
   .modal-title
   {
-    width: 90%;
+    width: 95%;
+  }
+  
+  .closeBtn
+  {
+	  height: 30px;
+	  width: 30px;
   }
