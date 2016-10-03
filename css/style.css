@@ -81,7 +81,7 @@
     {
     	margin-right: 0.3%;
     	width: 64.4%;
-		
+
     }
 
     .github
@@ -121,7 +121,7 @@
       margin-left: 17%;
       margin-right: 17%;
       margin-top: 8vw;
-      margin-bottom: 5vw;
+      margin-bottom: 7vw;
       border: 3px solid #F5F5F5;
     }
 
@@ -131,7 +131,7 @@
       margin-right: 8%;
       margin-left: 8%;
       margin-top: 7vw;
-      margin-bottom: 5vw;
+      margin-bottom: 7vw;
       text-align: justify;
       line-height: 25px;
       font-family: 'Georgia';
@@ -218,7 +218,7 @@
   {
     width: 95%;
   }
-  
+
   .closeBtn
   {
 	  height: 30px;
