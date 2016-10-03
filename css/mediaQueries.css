@@ -8,16 +8,10 @@
     {
       font-size: 85%;
     }
-    .github, .linkedin, .resume
+    .github, .linkedin, .resume, .email
     {
       line-height: 60px;
-      font-size: 1.6em;
-      padding-top: 5px;
-    }
-    .email
-    {
-      line-height: 60px;
-      font-size: 1.8em;
+      font-size: 2em;
       padding-top: 5px;
     }
     .cover_letter
@@ -63,21 +57,11 @@
       font-size: 115%;
       background-color: unset;
     }
-    .social_media_logo
-    {
-      padding-top: 2px;
-    }
-    .github, .linkedin, .resume
+    .github, .linkedin, .resume, .email
     {
       line-height: 50px;
-      font-size: 1.8em;
-      padding-top: 5px;
-    }
-    .email
-    {
-      line-height: 50px;
-      font-size: 2em;
-      padding-top: 12px;
+      font-size: 2.2em;
+      padding-top: 8px;
     }
   }
 
@@ -96,17 +80,10 @@
     {
       font-size: 120%;
     }
-    .github, .linkedin, .resume
+    .github, .linkedin, .resume, .email
     {
       line-height: 60px;
-      font-size: 2em;
-      padding-top: 8px;
-    }
-    .email
-    {
-      line-height: 60px;
-      font-size: 2em;
-      padding-top: 5px;
+      font-size: 2.6em;
     }
 	}
 
@@ -129,26 +106,15 @@
     {
       font-size: 140%;
     }
-    .github, .linkedin, .resume
+    .github, .linkedin, .resume, .email
     {
       line-height: 60px;
-      font-size: 2.4em;
-      padding-top: 7px;
-    }
-    .email
-    {
-      line-height: 60px;
-      font-size: 2.4em;
-      padding-top: 5px;
+      font-size: 3em;
     }
     .cover_letter
     {
       font-size: 150%;
       line-height: 40px;
-    }
-    .social_media_logo
-    {
-      padding-top: 2px;
     }
 	}
 
@@ -172,20 +138,10 @@
     {
       font-size: 200%;
     }
-    .github, .linkedin, .resume
+    .github, .linkedin, .resume, .email
     {
-      line-height: 60px;
-      font-size: 2.8em;
-      padding-top: 7px;
-    }
-    .email
-    {
-      line-height: 60px;
-      font-size: 2.8em;
-      padding-top: 6px;
-    }
-    .social_media_logo
-    {
-      padding-top: 3px;
+      line-height: 70px;
+      font-size: 3.4em;
+      padding-top: 10px;
     }
 	}

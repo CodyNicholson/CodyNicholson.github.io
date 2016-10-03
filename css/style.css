@@ -68,7 +68,8 @@
       background-color: black;
       color: white;
       font-family: 'Baloo Tamma', cursive;
-      font-size: 1.3em;
+      font-size: 1.5em;
+	  line-height: 50px;
       margin-top: 1.5px;
       padding-top: 3px;
       text-align: center;
@@ -79,26 +80,14 @@
     .resume
     {
     	margin-right: 0.3%;
-    	margin-left: 0.3%;
-    	width: 38.8%;
-      vertical-align: middle;
-      line-height: 50px;
+    	width: 64.4%;
+		
     }
 
     .github
     {
-    	margin-right: 0.3%;
-    	width: 30%;
-      vertical-align: middle;
-      line-height: 50px;
-    }
-
-    .linkedin
-    {
     	margin-left: 0.3%;
-    	width: 30%;
-      vertical-align: middle;
-      line-height: 50px;
+    	width: 35%;
     }
 
     a:hover
@@ -158,40 +147,16 @@
     	background-color: #F5F5F5;
     }
 
-    .social_media
-    {
-    	width: 19.9%;
-    	max-height: 65px;
-    }
-
-    .twitter
+    .linkedin
     {
     	margin-right: 0.3%;
-		margin-left: 0.3%;
+    	width: 35%;
     }
-
-	.facebook
-	{
-		margin-left: 0.3%;
-	}
 
     .email
     {
-      font-size: 1.1em;
-      padding-top: 7px;
-      width: 59%;
-      max-height: 65px;
-      margin-right: 0.3%;
-      vertical-align: middle;
-      line-height: 50px;
-    }
-
-    .social_media_logo
-    {
-    	height: 90%;
-		max-height: 58px;
-        max-width: 58px;
-    	padding-top: 1px;
+      width: 64.4%;
+      margin-left: 0.3%;
     }
 
     .foot_banner
