@@ -1,2 +1,2 @@
-# Cody-Nicholson96.github.io
+# CodyNicholson.github.io
 This is the code for my portfolio website
