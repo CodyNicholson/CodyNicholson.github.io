@@ -4,7 +4,7 @@ var bio =
     "role" : "Undergrad at DePaul University",
     "contacts" :
     {
-        "github" : "Cody-Nicholson96",
+        "github" : "CodyNicholson",
         "twitter" : "@CodyLiam7",
         "location" : "Chicago",
         "linkedIn" : "codynicholson"
@@ -30,6 +30,13 @@ var work =
                 "description": "Automated test cases to make sure that our products were running smoothly, without errors. " +
                 "Created methods for various web pages to facilitate the work of myself and other automation engineers. " +
                 "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL."
+            },
+            {
+                "employer": "CNA Insurance",
+                "title": "IT Database Analyst",
+                "location": "Chicago, IL",
+                "dates": "September 2016 - ",
+                "description": "As an IT Database Analyst I play an important role in the Acceptance Testing of our company's software systems by consolidating defects, creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications."
             }
         ]
 };
