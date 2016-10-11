@@ -214,7 +214,10 @@
 
     .modal-title
     {
-      width: 95%;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      font-size: x-large;
     }
 
     .closeBtn
