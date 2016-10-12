@@ -177,7 +177,7 @@ ul {
     width: 140px;
     background-color: goldenrod;
     color: white;
-    position: absolute;
+    float: right;
     text-align: center;
     line-height: 2.5;
     font-weight: 600;
