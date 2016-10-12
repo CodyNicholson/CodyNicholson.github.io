@@ -171,6 +171,25 @@ ul {
   border: 3px solid black;
 }
 
+.returnHome
+{
+    height: 40px;
+    width: 140px;
+    background-color: goldenrod;
+    color: white;
+    position: absolute;
+    text-align: center;
+    line-height: 2.5;
+    font-weight: 600;
+    right: 5%;
+}
+
+.returnHome:hover
+{
+    background-color: white;
+    color: goldenrod;
+}
+
 img {
   margin: 10px;
 }

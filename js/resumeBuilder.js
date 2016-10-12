@@ -147,7 +147,7 @@ var formattedwelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomMessage
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 
-$("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart);
+$("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart).prepend(HTMLreturnHome);
 $("#topContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
 $("#footerContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
 
