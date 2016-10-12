@@ -183,6 +183,11 @@ span {
   text-align: center;
 }
 
+a.blueWords
+{
+    color: indianred;
+}
+
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {

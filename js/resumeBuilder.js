@@ -104,7 +104,7 @@ var projects =
     "projs" :
     [
         {
-            "title" : "https://cody-nicholson96.github.io/",
+            "title" : "https://codynicholson.github.io/",
             "dates" : "2016",
             "description" : "A portfolio website I designed and developed myself to promote my professional image",
             "images" : ["../images/resumePage.jpg", "../images/homepage.jpg"]
