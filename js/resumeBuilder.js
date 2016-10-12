@@ -23,7 +23,7 @@ var work =
     "jobs" :
         [
             {
-                "employer": "Textura",
+                "employer": "Textura Corporation",
                 "title": "Software Development Engineer in Test",
                 "location": "Chicago, IL",
                 "dates": "June 2015 - May 2016",
