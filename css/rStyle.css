@@ -175,7 +175,7 @@ ul {
 {
     height: 40px;
     width: 140px;
-    background-color: goldenrod;
+    background-color: #f5a623;
     color: white;
     float: right;
     text-align: center;
@@ -187,7 +187,7 @@ ul {
 .returnHome:hover
 {
     background-color: white;
-    color: goldenrod;
+    color: #f5a623;
 }
 
 img {
