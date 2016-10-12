@@ -1,5 +1,5 @@
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
-var HTMLheaderRole = '<span style="color: whitesmoke">%data%</span><hr>';
+var HTMLheaderRole = '<p style="color: whitesmoke; padding: 5px; font-weight: 600;">%data%</p><hr>';
 var HTMLreturnHome = '<a class="returnHome" href="../index.html">Return Home</a>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
