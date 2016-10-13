@@ -42,6 +42,12 @@ var HTMLonlineSchool = ' - %data%</a>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
+var HTMLhonorStart = '<div class="honor-entry"></div>';
+var HTMLhonorTitle = '<a class="blueWords">%data%</a>';
+var HTMLhonorDates = '<div class="date-text">%data%</div>';
+var HTMLhonorLocation = '<div class="location-text">%data%</div>';
+var HTMLhonorDescription = '<p><br>%data%</p>';
+
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
 

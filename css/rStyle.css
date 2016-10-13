@@ -20,7 +20,8 @@ h6 {
 
 .education-entry,
 .work-entry,
-.project-entry {
+.project-entry,
+.honor-entry {
   padding: 0 5%;
 }
 
@@ -119,6 +120,11 @@ a {
 
 .gray {
   background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.white {
   padding-bottom: 10px;
   clear:both;
 }

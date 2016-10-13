@@ -5,7 +5,7 @@
   <title>CLN Resume</title>
   <link rel="image_src" href="images/topBanner.jpg">
   <link rel="image_src" href="images/chicagoSkyline.jpg">
-  <meta name="description" content="My name is Cody Nicholson and this is my resume webpage where you can find all the details about my skills and background">
+  <meta name="description" content="My name is Cody Nicholson and this is my resume webpage where you can find all the details about my skills, experience, and background">
   <!-- Load the page styles -->
   <link href="../css/rStyle.css" rel="stylesheet">
   <!-- Load google map api -->
@@ -21,11 +21,14 @@
     <div id="workExperience" class="gray">
       <h2 onclick="">Work Experience</h2>
     </div>
-    <div id="projects">
+    <div id="projects" class="white">
       <h2>Projects</h2>
     </div>
     <div id="education" class="gray">
       <h2>Education</h2>
+    </div>
+	<div id="honors" class="white">
+      <h2>Honors and Awards</h2>
     </div>
     <div id="mapDiv">
       <h2>Where I've Lived and Worked</h2>
@@ -57,7 +60,10 @@
     if(document.getElementsByClassName('education-entry').length === 0) {
       document.getElementById('education').style.display = 'none';
     }
-    if(document.getElementsByClassName('flex-item').length === 0) {
+    if(document.getElementsByClassName('honor-entry').length === 0) {
+      document.getElementById('honor').style.display = 'none';
+    }
+	if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('lets-connect').style.display = 'none';
     }
     if(document.getElementById('map') === null) {

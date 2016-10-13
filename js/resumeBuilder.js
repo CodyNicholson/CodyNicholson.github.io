@@ -9,7 +9,7 @@ var bio =
         "location" : "Chicago",
         "linkedIn" : "codynicholson"
     },
-    "welcomMessage" : "Welcome to my resume",
+    "welcomeMessage" : "My name is Cody Nicholson and this is my resume webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
         "Java", "Python", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "Linux", "Bootstrap", "Responsive Web Design", "Selenium",
@@ -67,7 +67,7 @@ var education =
             "location" : "Chicago, IL",
             "degree" : ["Bachelor of Science in Computer Science", "Master of Science in Software Engineering"],
             "majors" : "Computer Science with a concentration on Software Engineering",
-            "dates" : ["Bachelor of Science in Computer Science expected 2018", "Master of Science in Software Engineering expected 2020"] /*["Class of 2018", "Class of 2020"]*/
+            "dates" : ["Bachelor of Science in Computer Science expected 2018", " Master of Science in Software Engineering expected 2020"] /*["Class of 2018", "Class of 2020"]*/
         }
     ],
     "onlineCourses" :
@@ -106,9 +106,16 @@ var projects =
         {
             "title" : "https://codynicholson.github.io/",
             "dates" : "2016",
-            "description" : "A portfolio website I designed and developed myself to promote my professional image",
-            "images" : ["../images/resumePage.jpg", "../images/homepage.jpg"]
+            "description" : "A portfolio website I designed and developed myself to promote my professional image. It includes a homepage with a cover letter and a resume page with all my skills and experience.",
+            "images" : ["../images/homepage.jpg", "../images/resumePage.jpg"]
+        },
+        {
+            "title": "Church of the Holy Spirit - Sidewalk Replacement and Improvement",
+            "dates": "April 2014 - August 2014",
+            "description": "I led a team of 30+ volunteers in removing, replacing, and improving the southern sidewalk of the Church. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people with wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving a 85% discount on the cost of the materials.",
+            "images": []
         }
+
     ]
 };
 
@@ -135,6 +142,43 @@ projects.display = function()
     }
 };
 
+var honorsAndAwards =
+{
+    "honors" :
+        [
+            {
+                "title": "Eagle Scout",
+                "dates": "July 2014",
+                "description": "After developing my leadership skills over six years and learning people and problem solving skills that I still use every day, I finally made it to the rank of Eagle. What this means is that I have extensive experience in working with others to achieve a common goal, resolving conflicts, planning events, and taking responsibiity."
+            },
+            {
+                "title": "National Society of Collegiate Scholars",
+                "dates": "September 2015",
+                "description": "I was accepted into this organization because of my academics achievements at DePaul University."
+            },
+            {
+                "title": "National Society of Leadership and Success",
+                "dates": "September 2016",
+                "description": "I was accepted into this organization because of my leadership experience and my academic achievements at DePaul University."
+            }
+        ]
+};
+
+honors.display = function()
+{
+    for (honor in honorsAndAwards.honors)
+    {
+        // Creates a div with class honor-entry
+        $("#honors").append(HTMLhonorStart);
+        // Creates variables to hold the honor information for each honor
+        var formattedTitle = HTMLhonorTitle.replace("%data%", honorsAndAwards.honors[honor].title);
+        var formattedDates = HTMLhonorDates.replace("%data%", honorsAndAwards.honors[honor].dates);
+        var formattedDescription = HTMLhonorDescription.replace("%data%", honorsAndAwards.honors[honor].description);
+        // Adds the honor info to the newly created div
+        $(".honor-entry:last").append(formattedTitle).append(formattedDates).append(formattedDescription);
+    }
+};
+
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 
@@ -143,11 +187,11 @@ var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
 var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
 var formattedlinkedIn = HTMLlinkedIn.replace("%data%", bio.contacts.linkedIn);
 
-var formattedwelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomMessage);
+var formattedwelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 
-$("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart).prepend(HTMLreturnHome);
+$("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart).append(formattedwelcomeMessage).prepend(HTMLreturnHome);
 $("#topContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
 $("#footerContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
 
@@ -156,7 +200,7 @@ $("#footerContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append
 work.display();
 projects.display();
 education.display();
-
+honors.display();
 
 // Adds all my skills to index.html
 for(i = 0; i < bio.skills.length; i++)
