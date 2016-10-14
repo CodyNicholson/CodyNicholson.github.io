@@ -7,7 +7,7 @@ var bio =
         "email" : "codynicholson96@gmail.com",
         "github" : "CodyNicholson",
         "twitter" : "@CodyLiam7",
-        "location" : "Chicago, IL",
+        "location" : "Schaumburg, IL",
         "linkedIn" : "codynicholson"
     },
     "welcomeMessage" : "My name is Cody Nicholson and this is my resume webpage where you can find all the details about my skills, experience, and background",
