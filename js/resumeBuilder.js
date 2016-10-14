@@ -4,9 +4,10 @@ var bio =
     "role" : "Undergrad at DePaul University",
     "contacts" :
     {
+        "email" : "codynicholson96@gmail.com",
         "github" : "CodyNicholson",
         "twitter" : "@CodyLiam7",
-        "location" : "Schaumburg, IL",
+        "location" : "Chicago, IL",
         "linkedIn" : "codynicholson"
     },
     "welcomeMessage" : "My name is Cody Nicholson and this is my resume webpage where you can find all the details about my skills, experience, and background",
