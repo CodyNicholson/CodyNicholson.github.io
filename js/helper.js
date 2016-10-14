@@ -1,6 +1,6 @@
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<p style="color: whitesmoke; font-weight: 600;">%data%</p><hr>';
-var HTMLreturnHome = '<a class="downloadContainer" href="nicholson_cody_resume.pdf" download="nicholson_cody_resume.pdf">↧</a><a class="returnHome" href="../index.html">Return Home</a>';
+var HTMLreturnHome = '<a class="downloadContainer" href="nicholson_cody_resume.pdf" target="_blank">↧</a>↧</a><a class="returnHome" href="../index.html">Return Home</a>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="orange-text">mobile</span><span class="white-text">%data%</span></li>';
