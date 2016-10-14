@@ -180,7 +180,7 @@ ul {
 .returnHome
 {
     height: 40px;
-    width: 140px;
+    width: 120px;
     background-color: #f5ae23;
     color: white;
     float: right;
@@ -190,7 +190,29 @@ ul {
     right: 5%;
 }
 
-.returnHome:hover
+.downloadContainer
+{
+    height: 40px;
+    width: 40px;
+    background-color: #f5ae23;
+    color: white;
+    float: right;
+    text-align: center;
+    line-height: 2.5;
+    font-weight: 600;
+    right: 5%;
+    margin-left: 2px;
+}
+
+.download
+{
+    height: 80%;
+    width: 80%;
+    margin: 0;
+    padding: 10%;
+}
+
+.returnHome:hover, .downloadContainer:hover
 {
     background-color: white;
     color: #f5ae23;

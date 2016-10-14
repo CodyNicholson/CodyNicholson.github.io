@@ -106,16 +106,15 @@ var projects =
         {
             "title" : "https://codynicholson.github.io/",
             "dates" : "2016",
-            "description" : "A portfolio website I designed and developed myself to promote my professional image. It includes a homepage with a cover letter and a resume page with all my skills and experience.",
+            "description" : "A portfolio website I designed and developed myself to promote my professional image. It includes a homepage with a cover letter and a resume page with all my skills and experience. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg"]
         },
         {
             "title": "Eagle Project",
             "dates": "April 2014 - August 2014",
-            "description": "I led a team of 30+ volunteers in removing, replacing, and improving the southern sidewalk of the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people with wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving a 85% discount on the cost of the materials.",
+            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people with wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving a 85% discount on the cost of the project.",
             "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"]
         }
-
     ]
 };
 
@@ -149,7 +148,7 @@ var honorsAndAwards =
             {
                 "title": "Eagle Scout",
                 "dates": "July 2014",
-                "description": "After developing my leadership skills over six years and learning people and problem solving skills that I still use every day, I finally made it to the rank of Eagle. What this means is that I have extensive experience in working with others to achieve a common goal, resolving conflicts, planning events, and taking responsibiity."
+                "description": "After developing my leadership skills over six years I finally made it to the rank of Eagle. What this means is that I have extensive experience in working with others to achieve common goals, resolve conflicts, and facilitate the growth of others."
             },
             {
                 "title": "National Society of Collegiate Scholars",
@@ -196,11 +195,13 @@ $("#topContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append(fo
 $("#footerContacts")/*.append(formattedEmail)*/.append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
 
 
-// Runs the display functions
+// Runs the display functions and enables Google Maps
 work.display();
 projects.display();
 education.display();
 honors.display();
+
+//$("#mapDiv").append(googleMap);
 
 // Adds all my skills to index.html
 for(i = 0; i < bio.skills.length; i++)
@@ -231,8 +232,6 @@ function locationizer(work_obj)
     return locationArray;
 }
 console.log(locationizer(work));
-
-$("#mapDiv").append(googleMap);
 
 /*
 // Change name to international format
