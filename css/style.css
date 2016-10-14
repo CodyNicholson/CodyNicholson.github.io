@@ -226,3 +226,7 @@
       font-size: 2em;
       padding-right: 3px;
     }
+    .closeButton:hover
+    {
+      color: lightgrey;
+    }
