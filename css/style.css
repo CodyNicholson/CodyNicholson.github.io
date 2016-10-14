@@ -223,6 +223,6 @@
 
     .closeBtn
     {
-      height: 30px;
-      width: 30px;
+      font-size: 2em;
+      padding-right: 3px;
     }
