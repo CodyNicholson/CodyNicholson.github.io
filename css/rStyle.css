@@ -198,10 +198,11 @@ ul {
     color: white;
     float: right;
     text-align: center;
-    line-height: 2.5;
+    line-height: 1.3;
     font-weight: 600;
     right: 5%;
     margin-left: 2px;
+    font-size: 1.9em;
 }
 
 .download
