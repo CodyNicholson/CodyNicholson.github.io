@@ -6,7 +6,7 @@ var bio =
     {
         "github" : "CodyNicholson",
         "twitter" : "@CodyLiam7",
-        "location" : "Chicago",
+        "location" : "Schaumburg, IL",
         "linkedIn" : "codynicholson"
     },
     "welcomeMessage" : "My name is Cody Nicholson and this is my resume webpage where you can find all the details about my skills, experience, and background",
@@ -25,7 +25,7 @@ var work =
             {
                 "employer": "Textura Corporation",
                 "title": "Software Development Engineer in Test",
-                "location": "Chicago, IL",
+                "location": "Deerfield, IL",
                 "dates": "June 2015 - May 2016",
                 "description": "Automated test cases to make sure that our products were running smoothly, without errors. " +
                 "Created methods for various web pages to facilitate the work of myself and other automation engineers. " +
@@ -50,7 +50,7 @@ work.display = function()
         // Creates variables to hold the job information for each job
         var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
         var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
-        var formattedEmployerTitle = formattedEmployer + formattedTitle;
+        var formattedEmployerTitle = formattedTitle +formattedEmployer;
         var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
         var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
         // Adds the job info to the newly created div
@@ -110,10 +110,10 @@ var projects =
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg"]
         },
         {
-            "title": "Church of the Holy Spirit - Sidewalk Replacement and Improvement",
+            "title": "Eagle Project",
             "dates": "April 2014 - August 2014",
-            "description": "I led a team of 30+ volunteers in removing, replacing, and improving the southern sidewalk of the Church. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people with wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving a 85% discount on the cost of the materials.",
-            "images": []
+            "description": "I led a team of 30+ volunteers in removing, replacing, and improving the southern sidewalk of the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people with wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving a 85% discount on the cost of the materials.",
+            "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"]
         }
 
     ]
@@ -231,6 +231,8 @@ function locationizer(work_obj)
     return locationArray;
 }
 console.log(locationizer(work));
+
+$("#mapDiv").append(googleMap);
 
 /*
 // Change name to international format
