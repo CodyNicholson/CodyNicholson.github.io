@@ -202,7 +202,7 @@ projects.display();
 education.display();
 honors.display();
 
-//$("#mapDiv").append(googleMap);
+$("#mapDiv").append(googleMap);
 
 // Adds all my skills to index.html
 for(i = 0; i < bio.skills.length; i++)
