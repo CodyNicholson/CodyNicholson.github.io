@@ -224,7 +224,7 @@
     .closeButton
     {
       font-size: 2em;
-      padding-right: 3px;
+      padding: 0px 3px 0px 3px;
     }
     .closeButton:hover
     {
