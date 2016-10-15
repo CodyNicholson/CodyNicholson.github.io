@@ -34,7 +34,7 @@ var HTMLschoolName = '<a class="blueWords">%data%';
 var HTMLschoolDegree = ' -- %data%</a>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
-var HTMLschoolMajor = '<em><br>Major: %data%</em>';
+var HTMLschoolMajor = '<em><br>Field of Study: %data%</em>';
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
 var HTMLonlineTitle = '<a href="#">%data%';
@@ -65,7 +65,8 @@ $(document).ready(function() {
 });
 
 /*
-The next few lines about clicks are for the Collecting Click Locations quiz in the lesson Flow Control from JavaScript Basics.
+The next few lines about clicks are for the Collecting Click Locations quiz in the
+lesson Flow Control from JavaScript Basics.
 */
 var clickLocations = [];
 
@@ -90,8 +91,8 @@ This is the fun part. Here's where we generate the custom Google Map for the web
 See the documentation below for more details.
 https://developers.google.com/maps/documentation/javascript/reference
 */
-var map;    // declares a global map variable
 
+var map;    // declares a global map variable
 
 /*
 Start here! initializeMap() is called when page is loaded.
@@ -120,8 +121,10 @@ function initializeMap() {
     // initializes an empty array
     var locations = [];
 
-    // adds the single location property from bio to the locations array
-    locations.push(bio.contacts.location);
+    // adds the multiple location property from bio to the locations array
+    for (var i = 0; i < bio.contacts.location.length; i++) {
+        locations.push(bio.contacts.location[i]);
+    }
 
     // iterates through school locations and appends each location to
     // the locations array. Note that forEach is used for array iteration

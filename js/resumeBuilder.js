@@ -7,7 +7,7 @@ var bio =
         "email" : "codynicholson96@gmail.com",
         "github" : "CodyNicholson",
         "twitter" : "@CodyLiam7",
-        "location" : "Schaumburg, IL",
+        "location" : ["Schaumburg, IL", "Lincoln Park, IL"],
         "linkedIn" : "codynicholson"
     },
     "welcomeMessage" : "My name is Cody Nicholson and this is my resume webpage where you can find all the details about my skills, experience, and background",
@@ -66,9 +66,16 @@ var education =
         {
             "name" : "DePaul University",
             "location" : "Chicago, IL",
-            "degree" : ["Bachelor of Science in Computer Science", "Master of Science in Software Engineering"],
-            "majors" : "Computer Science with a concentration on Software Engineering",
-            "dates" : ["Bachelor of Science in Computer Science expected 2018", " Master of Science in Software Engineering expected 2020"] /*["Class of 2018", "Class of 2020"]*/
+            "degree" : ["Bachelor of Science in Computer Science", " Master of Science in Software Engineering"],
+            "studied" : "Computer Science with a concentration on Software Engineering",
+            "dates" : ["2018", " 2020"]
+        },
+        {
+            "name" : "James B. Conant High School",
+            "location" : "Hoffman Estates, IL",
+            "degree" : ["High School Diploma"],
+            "studied" : "General Education",
+            "dates" : ["Class of 2014"]
         }
     ],
     "onlineCourses" :
@@ -93,9 +100,9 @@ education.display = function()
         var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[edu].location);
         var formattedDates = HTMLschoolDates.replace("%data%", education.schools[edu].dates);
         var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
-        var formattedMajors = HTMLschoolMajor.replace("%data%", education.schools[edu].majors);
+        var formattedMajors = HTMLschoolMajor.replace("%data%", education.schools[edu].studied);
         // Adds the edu info to the newly created div
-        $(".education-entry:last").append(formattedTitle)/*.append(formattedDegree)*/.append(formattedDates).append(formattedLocation).append(formattedMajors);
+        $(".education-entry:last").append(formattedTitle).append(formattedDegree).append(formattedDates).append(formattedLocation).append(formattedMajors);
     }
 };
 
@@ -189,7 +196,7 @@ var formattedlinkedIn = HTMLlinkedIn.replace("%data%", bio.contacts.linkedIn);
 
 var formattedwelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
-var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location[0]);
 
 $("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart).append(formattedwelcomeMessage).prepend(HTMLreturnHome);
 $("#topContacts").append(formattedEmail).append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
