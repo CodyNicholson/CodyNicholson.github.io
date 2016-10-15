@@ -7,7 +7,7 @@
 
     .container
     {
-      padding: 0%;
+      padding: 0;
       display: flex;
       display: -webkit-flex;
       flex-wrap: wrap;
@@ -53,8 +53,8 @@
     .nav_bar
     {
       width: 100%;
-      padding-top: 0.3%;
-      padding-bottom: 0.4%;
+      padding-top: 0.4vh;
+      padding-bottom: 0.4vh;
     }
 
     nav
@@ -105,7 +105,7 @@
     .description
     {
       margin: 33vw 0vw 0vw 0vw;
-      padding: 0%;
+      padding: 0;
       width: 100%;
       position: relative;
       background-color: #ffffff;
