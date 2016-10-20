@@ -54,8 +54,10 @@
   <script type="text/javascript">
     $(document).ready(function(){
       jQuery('#projects img').on("click", function () {
-      $('#myModal img').prop('src', $(this).prop('src'));
-      $('#myModal').css("display", "block");
+        var clickedPicSrc = $(this).prop('src');
+        clickedPicSrc = clickedPicSrc.slice(-100,-4)+"L"+clickedPicSrc.slice(-4);
+        $('#myModal img').prop('src', clickedPicSrc);
+        $('#myModal').css("display", "block");
     })});
   </script>
 

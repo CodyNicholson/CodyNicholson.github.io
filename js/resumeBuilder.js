@@ -115,7 +115,7 @@ var projects =
             "title" : "https://codynicholson.github.io/",
             "dates" : "2016",
             "description" : "A portfolio website I designed and developed myself to promote my professional image. It includes a homepage with a cover letter and a resume page with all my skills and experience. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
-            "images" : ["../images/homepage.jpg", "../images/resumePage.jpg"]
+            "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"]
         },
         {
             "title": "Eagle Project",
