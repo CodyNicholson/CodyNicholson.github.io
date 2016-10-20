@@ -9,7 +9,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <!-- Load the page styles -->
   <link href="../css/rStyle.css" rel="stylesheet">
+  <link href="../css/rImagePopUp.css" rel="stylesheet">
   <!-- Load google map api -->
+  <script src="../js/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw_4glCNdRzSburBMULd57Mo2l7_C7RuE&libraries=places"></script>
 </head>
 <body>
@@ -40,9 +42,22 @@
     </div>
   </div>
 
+  <!-- The Image Modal -->
+<div id="myModal" class="modal">
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  <img src="" class="modal-content" style="width: 100%">
+</div>
+
   <script src="../js/jQuery.js"></script>
   <script src="../js/helper.js"></script>
   <script src="../js/resumeBuilder.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      jQuery('#projects img').on("click", function () {
+      $('#myModal img').prop('src', $(this).prop('src'));
+      $('#myModal').css("display", "block");
+    })});
+  </script>
 
   <script>
     if(document.getElementsByClassName('flex-item').length === 0) {
