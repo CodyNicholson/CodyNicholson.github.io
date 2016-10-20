@@ -114,13 +114,13 @@ var projects =
         {
             "title" : "https://codynicholson.github.io/",
             "dates" : "2016",
-            "description" : "A portfolio website I designed and developed myself to promote my professional image. It includes a homepage with a cover letter and a resume page with all my skills and experience. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
+            "description" : "A portfolio website I designed and developed myself to promote my professional image. It includes a homepage with a cover letter, and a resume page with all my skills and experience. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"]
         },
         {
             "title": "Eagle Project",
             "dates": "April 2014 - August 2014",
-            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people with wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving a 85% discount on the cost of the project.",
+            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving an 85% discount on the total cost of the project.",
             "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"]
         }
     ]
