@@ -114,7 +114,7 @@ var projects =
         {
             "title" : "https://codynicholson.github.io/",
             "dates" : "September 2016 - ",
-            "description" : "A portfolio website I designed and developed myself to promote my professional image. It includes a homepage with a cover letter, and a resume page with all my skills and experience. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
+            "description" : "A portfolio website I designed and developed myself to promote my professional image. It includes a homepage with a cover letter, and a resume page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"]
         },
         {
