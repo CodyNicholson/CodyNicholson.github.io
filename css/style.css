@@ -223,13 +223,17 @@
 
     .closeButton
     {
-      font-size: 3em;
-      padding: 0px 5px 0px 5px;
       position: absolute;
-      right: 1.5%;
-      top: 0.5%;
+      right: 5%;
+      top: -1%;
+      color: grey;
+      font-size: 50px;
+      font-weight: bold;
+      transition: 0.3s;
     }
     .closeButton:hover
     {
-      color: lightgrey;
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
     }
