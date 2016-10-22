@@ -16,9 +16,8 @@
 
     .nameHeader
     {
-      position: fixed;
-      margin-top: 1%;
-      margin-left: 2%;
+      padding-top: 1%;
+      padding-left: 2%;
       color: white;
       font-family: 'Josefin Slab', serif;
       font-size: 70%;
@@ -43,7 +42,7 @@
 
     #prlx_lyr_1
     {
-      position: fixed;
+      position: relative;
       background: url(../images/topBanner.jpg) no-repeat;
       background-size: 100%;
       width: 100%;
@@ -53,7 +52,7 @@
     .nav_bar
     {
       width: 100%;
-      padding-top: 0.4vh;
+      padding-top: 0.3vh;
       padding-bottom: 0.4vh;
     }
 
@@ -104,7 +103,7 @@
 
     .description
     {
-      margin: 33vw 0vw 0vw 0vw;
+      margin: 0;
       padding: 0;
       width: 100%;
       position: relative;
