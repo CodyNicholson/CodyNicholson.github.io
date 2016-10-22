@@ -66,7 +66,7 @@ var education =
         {
             "name" : "DePaul University",
             "location" : "Chicago, IL",
-            "degree" : ["Bachelor of Science in Computer Science", " Master of Science in Software Engineering"],
+            "degree" : ["B.S. in Computer Science", " M.S. in Software Engineering"],
             "studied" : "Computer Science with a concentration on Software Engineering",
             "dates" : ["2018", " 2020"]
         },
@@ -113,7 +113,7 @@ var projects =
     [
         {
             "title" : "https://codynicholson.github.io/",
-            "dates" : "September 2016 - ",
+            "dates" : "September 2016 - October 2016",
             "description" : "Developed and designed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a resume page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"]
         },
