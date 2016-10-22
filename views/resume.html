@@ -45,7 +45,8 @@
   <!-- The Image Modal -->
 <div id="myModal" class="modal" onclick="document.getElementById('myModal').style.display='none'">
   <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-  <img src="" class="modal-content" style="width: 100%">
+  <img src="" alt="" class="modal-content" style="width: 100%">
+  <div id="caption"></div>
 </div>
 
   <script src="../js/jQuery.js"></script>
@@ -55,8 +56,12 @@
     $(document).ready(function(){
       jQuery('#projects img').on("click", function () {
         var clickedPicSrc = $(this).prop('src');
+        var clickedPicAlt = $(this).prop('alt');
+        var captionText = document.getElementById("caption");
         clickedPicSrc = clickedPicSrc.slice(-100,-4)+"L"+clickedPicSrc.slice(-4);
+        captionText.innerHTML = clickedPicAlt;
         $('#myModal img').prop('src', clickedPicSrc);
+        $('#myModal img').prop('alt', clickedPicAlt);
         $('#myModal').css("display", "block");
     })});
   </script>

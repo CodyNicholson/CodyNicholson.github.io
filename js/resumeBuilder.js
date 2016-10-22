@@ -115,34 +115,37 @@ var projects =
             "title" : "https://codynicholson.github.io/",
             "dates" : "September 2016 - October 2016",
             "description" : "Developed and designed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a resume page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
-            "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"]
+            "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"],
+            "captions": ["My portfolio homepage","The top resume page with my skills and welcome message","The bottom of my resume page with the places I have lived and worked displayed on google maps"]
         },
         {
             "title": "Eagle Project",
             "dates": "April 2014 - August 2014",
             "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving an 85% discount on the total cost of the project.",
-            "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"]
+            "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"],
+            "captions": ["The sidewalk after I lead the demolition team in breaking it up into small pieces that we could carry", "A small portion of the team and I at the project site", "The finished sidewalk with the added handicap ramp"]
         }
     ]
 };
 
 projects.display = function()
 {
-    for (project in projects.projs)
+    for (p in projects.projs)
     {
         // Creates a div with class work-entry
         $("#projects").append(HTMLprojectStart);
         // Creates variables to hold the project information for each job
-        var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projs[project].title);
-        var formattedDates = HTMLprojectDates.replace("%data%", projects.projs[project].dates);
-        var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projs[project].description);
+        var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projs[p].title);
+        var formattedDates = HTMLprojectDates.replace("%data%", projects.projs[p].dates);
+        var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projs[p].description);
         // Adds the Employment description to the newly created div
         $(".project-entry:last").append(formattedTitle).append(formattedDates).append(formattedDescription);
-        if (projects.projs[project].images.length > 0)
+        if (projects.projs[p].images.length > 0)
         {
-            for (img in projects.projs[project].images)
+            for (i in projects.projs[p].images)
             {
-                var formattedImage = HTMLprojectImage.replace("%data%", projects.projs[project].images[img]);
+                var formattedImage = HTMLprojectImage.replace("%data%", projects.projs[p].images[i]);
+                formattedImage = formattedImage.replace("%caption%", projects.projs[p].captions[i]);
                 $(".project-entry:last").append(formattedImage);
             }
         }
