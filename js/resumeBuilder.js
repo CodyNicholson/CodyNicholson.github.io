@@ -10,7 +10,7 @@ var bio =
         "location" : ["Schaumburg, IL", "Lincoln Park, IL"],
         "linkedIn" : "codynicholson"
     },
-    "welcomeMessage" : "My name is Cody Nicholson and this is my resume webpage where you can find all the details about my skills, experience, and background",
+    "welcomeMessage" : "My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
         "Java", "Python", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium",
@@ -75,7 +75,7 @@ var education =
             "location" : "Hoffman Estates, IL",
             "degree" : ["High School Diploma"],
             "studied" : "General Education",
-            "dates" : ["Class of 2014"]
+            "dates" : ["2014"]
         }
     ],
     "onlineCourses" :
@@ -102,7 +102,7 @@ education.display = function()
         var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
         var formattedMajors = HTMLschoolMajor.replace("%data%", education.schools[edu].studied);
         // Adds the edu info to the newly created div
-        $(".education-entry:last").append(formattedTitle).append(formattedDegree).append(formattedDates).append(formattedLocation).append(formattedMajors);
+        $(".education-entry:last").append(formattedTitle).append(formattedDates).append(formattedDegree).append(formattedLocation).append(formattedMajors);
     }
 };
 
@@ -114,9 +114,9 @@ var projects =
         {
             "title" : "https://codynicholson.github.io/",
             "dates" : "September 2016 - October 2016",
-            "description" : "Developed and designed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a resume page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
+            "description" : "Developed and designed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"],
-            "captions": ["My portfolio homepage","The top resume page with my skills and welcome message","The bottom of my resume page with the places I have lived and worked displayed on google maps"]
+            "captions": ["My portfolio homepage","The top of my résumé page with my skills and welcome message","The bottom of my résumé page with the places I have lived and worked displayed on google maps"]
         },
         {
             "title": "Eagle Project",
@@ -202,8 +202,8 @@ var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location[0]);
 
 $("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart).append(formattedwelcomeMessage).prepend(HTMLreturnHome);
-$("#topContacts").append(formattedEmail).append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
-$("#footerContacts").append(formattedEmail).append(formattedGithub)/*.append(formattedlinkedIn)*/.append(formattedTwitter).append(formattedLocation);
+$("#topContacts").append(formattedEmail).append(formattedGithub).append(formattedlinkedIn)/*.append(formattedTwitter)*/.append(formattedLocation);
+$("#footerContacts").append(formattedEmail).append(formattedGithub).append(formattedlinkedIn)/*.append(formattedTwitter)*/.append(formattedLocation);
 
 
 // Runs the display functions and enables Google Maps

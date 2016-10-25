@@ -67,10 +67,6 @@
 
   @media screen and (min-width: 767px) and (max-width: 991px)
   {
-	  #prlx_lyr_1
-	  {
-	    width: 750px;
-	  }
     .title_super
     {
       font-size: 800%;
@@ -84,15 +80,11 @@
       line-height: 60px;
       font-size: 2.6em;
     }
-	}
+  }
 
-	@media screen and (min-width: 991px) and (max-width: 1200px)
-	{
-	  #prlx_lyr_1
-	  {
-	    width: 970px;
-	  }
-	  .title_super
+  @media screen and (min-width: 991px) and (max-width: 1200px)
+  {
+    .title_super
     {
       padding-top: 18vw;
       font-size: 900%;
@@ -117,12 +109,8 @@
     }
 	}
 
-	@media screen and (min-width: 1200px)
-	{
-	  #prlx_lyr_1
-	  {
-	    width: 1170px;
-	  }
+  @media screen and (min-width: 1200px)
+  {
     .title_super
     {
       font-size: 1000%;
