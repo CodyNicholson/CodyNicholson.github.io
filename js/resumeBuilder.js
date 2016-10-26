@@ -37,7 +37,7 @@ var work =
                 "title": "IT Database Analyst",
                 "location": "Chicago, IL",
                 "dates": "September 2016 - ",
-                "description": "As an IT Database Analyst I play an important role in the Acceptance Testing of our company's software systems by consolidating defects, creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications."
+                "description": "As an IT Database Analyst I play an important role including the Acceptance Testing of our company's software systems by consolidating defects, creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications."
             }
         ]
 };
