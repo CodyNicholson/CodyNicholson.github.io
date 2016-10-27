@@ -230,6 +230,8 @@ ul
     right: 5%;
     margin-left: 2px;
     font-size: 1.9em;
+    font-family: "EmojiSymbols";
+    font-weight: 500;
 }
 
 .downloadBtnL
