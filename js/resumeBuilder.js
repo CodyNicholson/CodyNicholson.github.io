@@ -13,8 +13,8 @@ var bio =
     "welcomeMessage" : "My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "Java", "Python", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium",
-        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies"
+        "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Rails", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium",
+        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies", "Mongo Hadoop"
     ],
     "bioPic" : "../images/codyHead.jpg"
 };
