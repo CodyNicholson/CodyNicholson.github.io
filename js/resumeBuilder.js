@@ -14,7 +14,7 @@ var bio =
     "skills" :
     [
         "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Rails", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium",
-        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies", "Hadoop MapReduce"
+        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies", "Hadoop"
     ],
     "bioPic" : "../images/codyHead.jpg"
 };
