@@ -234,7 +234,7 @@
       color: grey;
       font-size: 40px;
       font-weight: bold;
-      transition: 0.3s;
+      transition: 0.2s;
       padding: 10px;
     }
     .closeButton:hover
