@@ -13,7 +13,7 @@ var bio =
     "welcomeMessage" : "My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Rails", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium",
+        "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium",
         "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies", "Hadoop"
     ],
     "bioPic" : "../images/codyHead.jpg"
@@ -33,7 +33,7 @@ var work =
                 "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL."
             },
             {
-                "employer": "CNA Insurance",
+                "employer": "CNA Financial",
                 "title": "IT Database Analyst",
                 "location": "Chicago, IL",
                 "dates": "September 2016 - ",
