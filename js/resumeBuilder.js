@@ -13,7 +13,7 @@ var bio =
     "welcomeMessage" : "My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium",
+        "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium", "JIRA", "Jenkins",
         "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies", "Hadoop"
     ],
     "bioPic" : "../images/codyHead.jpg"
