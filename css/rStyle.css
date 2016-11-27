@@ -23,7 +23,9 @@ h6
 .education-entry,
 .work-entry,
 .project-entry,
-.honor-entry {
+.honor-entry,
+.comServe-entry
+{
   padding: 0 5%;
 }
 

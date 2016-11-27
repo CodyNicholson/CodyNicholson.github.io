@@ -117,13 +117,6 @@ var projects =
             "description" : "Developed and designed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"],
             "captions": ["My portfolio homepage","The top of my résumé page with my skills and welcome message","The bottom of my résumé page with the places I have lived and worked displayed on google maps"]
-        },
-        {
-            "title": "Eagle Project",
-            "dates": "April 2014 - August 2014",
-            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving an 85% discount on the total cost of the project.",
-            "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"],
-            "captions": ["The sidewalk after I lead the demolition team in breaking it up into small pieces that we could carry", "A small portion of the team and I at the project site", "The finished sidewalk with the added handicap ramp"]
         }
     ]
 };
@@ -201,6 +194,44 @@ var formattedwelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessag
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location[0]);
 
+var comServe =
+{
+    "projs" :
+    [
+        {
+            "title": "Eagle Project",
+            "dates": "April 2014 - August 2014",
+            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving an 85% discount on the total cost of the project.",
+            "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"],
+            "captions": ["The sidewalk after I lead the demolition team in breaking it up into small pieces that we could carry", "A small portion of the team and I at the project site", "The finished sidewalk with the added handicap ramp"]
+        }
+    ]
+};
+
+comServe.display = function()
+{
+    for (p in comServe.projs)
+    {
+        // Creates a div with class work-entry
+        $("#comService").append(HTMLcomServeStart);
+        // Creates variables to hold the project information for each job
+        var formattedTitle = HTMLcomServeTitle.replace("%data%", comServe.projs[p].title);
+        var formattedDates = HTMLcomServeDates.replace("%data%", comServe.projs[p].dates);
+        var formattedDescription = HTMLprojectDescription.replace("%data%", comServe.projs[p].description);
+        // Adds the Employment description to the newly created div
+        $(".comServe-entry:last").append(formattedTitle).append(formattedDates).append(formattedDescription);
+        if (comServe.projs[p].images.length > 0)
+        {
+            for (i in projects.projs[p].images)
+            {
+                var formattedImage = HTMLcomServeImage.replace("%data%", comServe.projs[p].images[i]);
+                formattedImage = formattedImage.replace("%caption%", comServe.projs[p].captions[i]);
+                $(".comServe-entry:last").append(formattedImage);
+            }
+        }
+    }
+};
+
 $("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart).append(formattedwelcomeMessage).prepend(HTMLreturnHome);
 $("#topContacts").append(formattedEmail).append(formattedGithub).append(formattedlinkedIn)/*.append(formattedTwitter)*/.append(formattedLocation);
 $("#footerContacts").append(formattedEmail).append(formattedGithub).append(formattedlinkedIn)/*.append(formattedTwitter)*/.append(formattedLocation);
@@ -211,6 +242,7 @@ work.display();
 projects.display();
 education.display();
 honors.display();
+comServe.display();
 
 $("#mapDiv").append(googleMap);
 

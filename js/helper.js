@@ -48,6 +48,13 @@ var HTMLhonorDates = '<div class="date-text">%data%</div>';
 var HTMLhonorLocation = '<div class="location-text">%data%</div>';
 var HTMLhonorDescription = '<p><br>%data%</p>';
 
+var HTMLcomServeStart = '<div class="comServe-entry"></div>';
+var HTMLcomServeTitle = '<a class="blueWords">%data%</a>';
+var HTMLcomServeDates = '<div class="date-text">%data%</div>';
+var HTMLcomServeDescription = '<p><br>%data%</p>';
+var HTMLcomServeImage = '<img id="myImg" alt="%caption%" src="%data%">';
+
+
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
 
