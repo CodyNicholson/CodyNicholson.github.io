@@ -23,7 +23,7 @@
     <div id="workExperience" class="gray">
       <h2 onclick="">Work Experience</h2>
     </div>
-    <div id="projects" class="white">
+    <div id="projects" class="white clickableImg">
       <h2>Projects</h2>
     </div>
     <div id="education" class="gray">
@@ -32,7 +32,7 @@
     <div id="honors" class="white">
       <h2>Honors and Awards</h2>
     </div>
-    <div id="comService" class="gray">
+    <div id="comService" class="gray clickableImg">
       <h2>Community Service</h2>
     </div>
     <div id="mapDiv" class="white">
@@ -57,7 +57,7 @@
   <script src="../js/resumeBuilder.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
-      jQuery('#projects img').on("click", function () {
+      jQuery('.clickableImg img').on("click", function () {
         var clickedPicSrc = $(this).prop('src');
         var clickedPicAlt = $(this).prop('alt');
         var captionText = document.getElementById("caption");
