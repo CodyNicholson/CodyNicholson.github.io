@@ -112,18 +112,20 @@ var projects =
     "projs" :
     [
         {
-            "title" : "Object Oriented Traffic Problem",
+            "title" : "Traffic Simulation Project",
             "dates" : "October 2016 - November 2016",
             "description" : "In the Fall quarter of 2016 at DePaul University I took my first graduate level class as a Junior undergraduate student: SE450 Object Oriented Software Development. The Traffic Simulation assignment was the final project for this course. I implemented the Factory Method, Visitor, Null Object, and State Design Patterns in this project. All of the details concerning my work and decisions on this project can be found on my Github repository that you can get to by following the link.",
             "images" : ["../images/ObjectOrientedTrafficProblem.jpg"],
-            "captions": ["This is what the program looks like when you run it, you can see my debug log in the console"]
+            "captions": ["This is what the program looks like when you run it, you can see my debug log in the console"],
+            "link": "https://github.com/CodyNicholson/Software_Development/tree/master/Object_Oriented_Software_Development/Traffic_Simulation_Project"
         },
         {
             "title" : "https://codynicholson.github.io/",
             "dates" : "September 2016 - October 2016",
             "description" : "Developed and designed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"],
-            "captions": ["My portfolio homepage","The top of my résumé page with my skills and welcome message","The bottom of my résumé page with the places I have lived and worked displayed on google maps"]
+            "captions": ["My portfolio homepage","The top of my résumé page with my skills and welcome message","The bottom of my résumé page with the places I have lived and worked displayed on google maps"],
+            "link": "https://codynicholson.github.io/"
         }
     ]
 };
@@ -135,7 +137,7 @@ projects.display = function()
         // Creates a div with class work-entry
         $("#projects").append(HTMLprojectStart);
         // Creates variables to hold the project information for each job
-        var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projs[p].title);
+        var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projs[p].title).replace("%link%", projects.projs[p].link);
         var formattedDates = HTMLprojectDates.replace("%data%", projects.projs[p].dates);
         var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projs[p].description);
         // Adds the Employment description to the newly created div
