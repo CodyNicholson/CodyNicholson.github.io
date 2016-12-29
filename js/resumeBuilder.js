@@ -112,6 +112,13 @@ var projects =
     "projs" :
     [
         {
+            "title" : "Object Oriented Traffic Problem",
+            "dates" : "October 2016 - November 2016",
+            "description" : "In the Fall quarter of 2016 at DePaul University I took my first graduate level class as a Junior undergraduate student: SE450 Object Oriented Software Development. The Traffic Simulation assignment was the final project for this course. I implemented the Factory Method, Visitor, Null Object, and State Design Patterns in this project. All of the details concerning my work and decisions on this project can be found on my Github repository that you can get to by following the link.",
+            "images" : ["../images/ObjectOrientedTrafficProblem.jpg"],
+            "captions": ["This is what the program looks like when you run it, you can see my debug log in the console"]
+        },
+        {
             "title" : "https://codynicholson.github.io/",
             "dates" : "September 2016 - October 2016",
             "description" : "Developed and designed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
