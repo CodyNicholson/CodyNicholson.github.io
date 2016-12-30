@@ -30,14 +30,16 @@ var work =
                 "dates": "June 2015 - May 2016",
                 "description": "Automated test cases to make sure that our products were running smoothly, without errors. " +
                 "Created methods for various web pages to facilitate the work of myself and other automation engineers. " +
-                "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL."
+                "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL.",
+                "link": "http://www.texturacorp.com/"
             },
             {
                 "employer": "CNA Financial",
                 "title": "IT Database Analyst",
                 "location": "Chicago, IL",
                 "dates": "September 2016 - ",
-                "description": "As an IT Database Analyst I play an important role including the Acceptance Testing of our company's software systems by consolidating defects, creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications."
+                "description": "As an IT Database Analyst I play an important role including the Acceptance Testing of our company's software systems by consolidating defects, creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications.",
+                "link": "https://www.cna.com/"
             }
         ]
 };
