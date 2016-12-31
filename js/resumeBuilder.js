@@ -52,7 +52,7 @@ work.display = function()
         $("#workExperience").append(HTMLworkStart);
         // Creates variables to hold the job information for each job
         var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
-        var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
+        var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title).replace("%link%", work.jobs[job].link);
         var formattedEmployerTitle = formattedTitle +formattedEmployer;
         var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
         var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
@@ -148,7 +148,7 @@ projects.display = function()
         {
             for (i in projects.projs[p].images)
             {
-                var formattedImage = HTMLprojectImage.replace("%data%", projects.projs[p].images[i]);
+                var formattedImage = HTMLprojectImage.replace("%data%", projects.projs[p].images[i]).replace("%link%", projects.projs[p].link);
                 formattedImage = formattedImage.replace("%caption%", projects.projs[p].captions[i]);
                 $(".project-entry:last").append(formattedImage);
             }
@@ -207,7 +207,7 @@ var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location[0])
 
 var comServe =
 {
-    "projs" :
+    "cService" :
     [
         {
             "title": "Eagle Project",
@@ -221,22 +221,22 @@ var comServe =
 
 comServe.display = function()
 {
-    for (p in comServe.projs)
+    for (p in comServe.cService)
     {
         // Creates a div with class work-entry
         $("#comService").append(HTMLcomServeStart);
         // Creates variables to hold the project information for each job
-        var formattedTitle = HTMLcomServeTitle.replace("%data%", comServe.projs[p].title);
-        var formattedDates = HTMLcomServeDates.replace("%data%", comServe.projs[p].dates);
-        var formattedDescription = HTMLprojectDescription.replace("%data%", comServe.projs[p].description);
+        var formattedTitle = HTMLcomServeTitle.replace("%data%", comServe.cService[p].title);
+        var formattedDates = HTMLcomServeDates.replace("%data%", comServe.cService[p].dates);
+        var formattedDescription = HTMLprojectDescription.replace("%data%", comServe.cService[p].description);
         // Adds the Employment description to the newly created div
         $(".comServe-entry:last").append(formattedTitle).append(formattedDates).append(formattedDescription);
-        if (comServe.projs[p].images.length > 0)
+        if (comServe.cService[p].images.length > 0)
         {
-            for (i in projects.projs[p].images)
+            for (i in comServe.cService[p].images)
             {
-                var formattedImage = HTMLcomServeImage.replace("%data%", comServe.projs[p].images[i]);
-                formattedImage = formattedImage.replace("%caption%", comServe.projs[p].captions[i]);
+                var formattedImage = HTMLcomServeImage.replace("%data%", comServe.cService[p].images[i]);
+                formattedImage = formattedImage.replace("%caption%", comServe.cService[p].captions[i]);
                 $(".comServe-entry:last").append(formattedImage);
             }
         }
