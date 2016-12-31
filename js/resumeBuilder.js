@@ -13,7 +13,7 @@ var bio =
     "welcomeMessage" : "My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium", "JIRA", "Jenkins",
+        "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium", "XPath", "JIRA", "Jenkins",
         "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies", "Hadoop"
     ],
     "bioPic" : "../images/codyHead.jpg"
@@ -70,14 +70,16 @@ var education =
             "location" : "Chicago, IL",
             "degree" : ["B.S. in Computer Science", " M.S. in Software Engineering"],
             "studied" : "Computer Science with a concentration on Software Engineering",
-            "dates" : ["2018", " 2020"]
+            "dates" : ["2018", " 2020"],
+            "link": "https://www.depaul.edu/"
         },
         {
             "name" : "James B. Conant High School",
             "location" : "Hoffman Estates, IL",
             "degree" : ["High School Diploma"],
             "studied" : "General Education",
-            "dates" : ["2014"]
+            "dates" : ["2014"],
+            "link": "http://chs.d211.org/"
         }
     ],
     "onlineCourses" :
@@ -98,7 +100,7 @@ education.display = function()
         // Creates a div with class education-entry
         $("#education").append(HTMLschoolStart);
         // Creates variables to hold the edu information for each school
-        var formattedTitle = HTMLschoolName.replace("%data%", education.schools[edu].name);
+        var formattedTitle = HTMLschoolName.replace("%data%", education.schools[edu].name).replace("%link%", education.schools[edu].link);
         var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[edu].location);
         var formattedDates = HTMLschoolDates.replace("%data%", education.schools[edu].dates);
         var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
