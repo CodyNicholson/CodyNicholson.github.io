@@ -165,17 +165,20 @@ var honorsAndAwards =
             {
                 "title": "Eagle Scout",
                 "dates": "July 2014",
-                "description": "After developing my leadership skills over six years I finally made it to the rank of Eagle. What this means is that I have extensive experience in working with others to achieve common goals, resolve conflicts, and facilitate the growth of others."
+                "description": "After developing my leadership skills over six years I finally made it to the rank of Eagle. What this means is that I have extensive experience in working with others to achieve common goals, resolve conflicts, and facilitate the growth of others.",
+                "link": "http://www.scouting.org/"
             },
             {
                 "title": "National Society of Collegiate Scholars",
                 "dates": "September 2015",
-                "description": "I was accepted into this organization because of my academic achievements at DePaul University."
+                "description": "I was accepted into this organization because of my academic achievements at DePaul University",
+                "link": "http://www.nscs.org/"
             },
             {
                 "title": "National Society of Leadership and Success",
                 "dates": "September 2016",
-                "description": "I was accepted into this organization because of my leadership experience and my academic achievements at DePaul University."
+                "description": "I was accepted into this organization because of my leadership experience and my academic achievements at DePaul University",
+                "link": "https://www.societyleadership.org/"
             }
         ]
 };
@@ -187,7 +190,7 @@ honors.display = function()
         // Creates a div with class honor-entry
         $("#honors").append(HTMLhonorStart);
         // Creates variables to hold the honor information for each honor
-        var formattedTitle = HTMLhonorTitle.replace("%data%", honorsAndAwards.honors[honor].title);
+        var formattedTitle = HTMLhonorTitle.replace("%data%", honorsAndAwards.honors[honor].title).replace("%link%", honorsAndAwards.honors[honor].link);
         var formattedDates = HTMLhonorDates.replace("%data%", honorsAndAwards.honors[honor].dates);
         var formattedDescription = HTMLhonorDescription.replace("%data%", honorsAndAwards.honors[honor].description);
         // Adds the honor info to the newly created div

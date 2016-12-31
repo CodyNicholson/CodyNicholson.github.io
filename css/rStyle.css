@@ -112,6 +112,11 @@ a
     margin-top: 10px;
 }
 
+.welcomeMsgDiv
+{
+    display: inline-flex;
+}
+
 .welcome-message
 {
   font-style: italic;
@@ -193,7 +198,7 @@ a
 
 .center-content
 {
-  padding: 2.5% 5%;
+  padding: 2.5% 5% 1.5% 5%;
 }
 
 ul

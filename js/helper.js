@@ -11,7 +11,7 @@ var HTMLlinkedIn = '<li class="flex-item"><span class="orange-text">linkedIn</sp
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
-var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
+var HTMLwelcomeMsg = '<div class="welcomeMsgDiv"><span class="welcome-message">%data%</span></div>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-row"></ul>';
 var HTMLskills = '<li class="flex-item skill-item"><span class="white-text">%data%</span></li>';
@@ -43,7 +43,7 @@ var HTMLonlineDates = '<div class="date-text">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
 var HTMLhonorStart = '<div class="honor-entry"></div>';
-var HTMLhonorTitle = '<div class="itemTitle"><a class="blueWords">%data%</a></div>';
+var HTMLhonorTitle = '<div class="itemTitle"><a class="blueWords" href="%link%" target="_blank">%data%</a></div>';
 var HTMLhonorDates = '<div class="date-text">%data%</div>';
 var HTMLhonorLocation = '<div class="location-text">%data%</div>';
 var HTMLhonorDescription = '<p><br>%data%</p>';
