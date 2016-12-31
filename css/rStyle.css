@@ -103,8 +103,13 @@ a
 {
   color: #1199c3;
   text-decoration: none;
-  margin-top: 10px;
-  display: block;
+}
+
+.itemTitle
+{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .welcome-message

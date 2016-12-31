@@ -17,39 +17,39 @@ var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills
 var HTMLskills = '<li class="flex-item skill-item"><span class="white-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
-var HTMLworkTitle = '<a class="blueWords" href="%link%" target="_blank">%data%';
-var HTMLworkEmployer = ' - %data%</a>';
+var HTMLworkTitle = '<div class="itemTitle"><a class="blueWords" href="%link%" target="_blank">%data%';
+var HTMLworkEmployer = ' - %data%</a></div>';
 var HTMLworkDates = '<div class="date-text">%data%</div>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectTitle = '<a class="blueWords" href="%link%" target="_blank">%data%</a>';
+var HTMLprojectTitle = '<div class="itemTitle"><a class="blueWords" href="%link%" target="_blank">%data%</a></div>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img id="myImg" alt="%caption%" src="%data%">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
-var HTMLschoolName = '<a class="blueWords" href="%link%" target="_blank">%data%';
-var HTMLschoolDegree = ' -- %data%</a>';
+var HTMLschoolName = '<div class="itemTitle"><a class="blueWords" href="%link%" target="_blank">%data%';
+var HTMLschoolDegree = ' -- %data%</a></div>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br>Field of Study: %data%</em>';
 
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
-var HTMLonlineTitle = '<a href="#">%data%';
-var HTMLonlineSchool = ' - %data%</a>';
+var HTMLonlineTitle = '<div class="itemTitle"><a href="#">%data%';
+var HTMLonlineSchool = ' - %data%</a></div>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
 var HTMLhonorStart = '<div class="honor-entry"></div>';
-var HTMLhonorTitle = '<a class="blueWords">%data%</a>';
+var HTMLhonorTitle = '<div class="itemTitle"><a class="blueWords">%data%</a></div>';
 var HTMLhonorDates = '<div class="date-text">%data%</div>';
 var HTMLhonorLocation = '<div class="location-text">%data%</div>';
 var HTMLhonorDescription = '<p><br>%data%</p>';
 
 var HTMLcomServeStart = '<div class="comServe-entry"></div>';
-var HTMLcomServeTitle = '<a class="blueWords">%data%</a>';
+var HTMLcomServeTitle = '<div class="itemTitle"><a class="blueWords">%data%</a></div>';
 var HTMLcomServeDates = '<div class="date-text">%data%</div>';
 var HTMLcomServeDescription = '<p><br>%data%</p>';
 var HTMLcomServeImage = '<img id="myImg" alt="%caption%" src="%data%">';
