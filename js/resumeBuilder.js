@@ -116,7 +116,7 @@ var projects =
         {
             "title" : "Traffic Simulation Project",
             "dates" : "October 2016 - November 2016",
-            "description" : "In the Fall quarter of 2016 at DePaul University I took my first graduate level class as a Junior undergraduate student: SE450 Object Oriented Software Development. The Traffic Simulation assignment was the final project for this course. I implemented the Factory Method, Visitor, Null Object, and State Design Patterns in this project. All of the details concerning my work and decisions on this project can be found on my Github repository that you can get to by following the project header link.",
+            "description" : "In the Fall quarter of 2016 I took my first graduate level class as a third-year undergraduate student at DePaul University: SE450 Object Oriented Software Development. The Traffic Simulation assignment was the final project for this course. I implemented the Factory Method, Visitor, Null Object, and State Design Patterns in this project. All of the details concerning the work I did and the decisions I made on this project can be found in my Github repository that you can get to by following the project header link.",
             "images" : ["../images/ObjectOrientedTrafficProblem.jpg"],
             "captions": ["This is what the program looks like when you run it, you can see my debug log in the console"],
             "link": "https://github.com/CodyNicholson/Software_Development/tree/master/Object_Oriented_Software_Development/Traffic_Simulation_Project"
