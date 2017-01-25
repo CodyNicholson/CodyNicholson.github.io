@@ -13,8 +13,8 @@ var bio =
     "welcomeMessage" : "My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "Java", "C#", "Object Oriented Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium", "XPath", "JIRA", "Jenkins",
-        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Agile Methodologies", "Hadoop"
+        "Java", "C#", "OOP", "Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium", "XPath", "JIRA", "Jenkins",
+        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Hadoop", "Agile Methodologies", "Scala", "ASP.NET MVC", "Entity Framework"
     ],
     "bioPic" : "../images/codyHead.jpg"
 };
@@ -29,8 +29,8 @@ var work =
                 "location": "Deerfield, IL",
                 "dates": "June 2015 - May 2016",
                 "description": "Automated test cases to make sure that our products were running smoothly, without errors. " +
-                "Created methods for various web pages to facilitate the work of myself and other automation engineers. " +
-                "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL.",
+                    "Created methods for various web pages to facilitate the work of myself and other automation engineers. " +
+                    "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL.",
                 "link": "http://www.texturacorp.com/"
             },
             {
@@ -38,7 +38,8 @@ var work =
                 "title": "IT Database Analyst",
                 "location": "Chicago, IL",
                 "dates": "September 2016 - ",
-                "description": "As an IT Database Analyst I play an important role including the Acceptance Testing of our company's software systems by consolidating defects, creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications.",
+                "description": "As an IT Database Analyst I play an important role including the Acceptance Testing of our company's software systems by consolidating defects," +
+                    "creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications.",
                 "link": "https://www.cna.com/"
             }
         ]
@@ -55,9 +56,10 @@ work.display = function()
         var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title).replace("%link%", work.jobs[job].link);
         var formattedEmployerTitle = formattedTitle +formattedEmployer;
         var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
+        var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs[job].location)
         var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
         // Adds the job info to the newly created div
-        $(".work-entry:last").append(formattedEmployerTitle).append(formattedDates).append(formattedDescription);
+        $(".work-entry:last").append(formattedEmployerTitle).append(formattedDates).append(formattedLocation).append(formattedDescription);
     }
 };
 
@@ -165,18 +167,23 @@ var honorsAndAwards =
             {
                 "title": "Eagle Scout",
                 "dates": "July 2014",
-                "description": "After developing my leadership skills over six years I finally made it to the rank of Eagle. What this means is that I have extensive experience in working with others to achieve common goals, resolve conflicts, and facilitate the growth of others.",
+                "location": "Schaumburg, IL",
+                "description": "After developing my leadership skills over six years I finally made it to the rank of Eagle."
+                    + "What this means is that I have extensive experience in working with others to achieve common goals,"
+                    + "resolve conflicts, and facilitate the growth of others.",
                 "link": "http://www.scouting.org/"
             },
             {
                 "title": "National Society of Collegiate Scholars",
                 "dates": "September 2015",
+                "location": "DePaul University",
                 "description": "I was accepted into this organization because of my academic achievements at DePaul University",
                 "link": "http://www.nscs.org/"
             },
             {
                 "title": "National Society of Leadership and Success",
                 "dates": "September 2016",
+                "location": "DePaul University",
                 "description": "I was accepted into this organization because of my leadership experience and my academic achievements at DePaul University",
                 "link": "https://www.societyleadership.org/"
             }
@@ -192,9 +199,10 @@ honors.display = function()
         // Creates variables to hold the honor information for each honor
         var formattedTitle = HTMLhonorTitle.replace("%data%", honorsAndAwards.honors[honor].title).replace("%link%", honorsAndAwards.honors[honor].link);
         var formattedDates = HTMLhonorDates.replace("%data%", honorsAndAwards.honors[honor].dates);
+        var formattedLocation = HTMLhonorLocation.replace("%data%", honorsAndAwards.honors[honor].location)
         var formattedDescription = HTMLhonorDescription.replace("%data%", honorsAndAwards.honors[honor].description);
         // Adds the honor info to the newly created div
-        $(".honor-entry:last").append(formattedTitle).append(formattedDates).append(formattedDescription);
+        $(".honor-entry:last").append(formattedTitle).append(formattedDates).append(formattedLocation).append(formattedDescription);
     }
 };
 
@@ -217,7 +225,11 @@ var comServe =
         {
             "title": "Eagle Project",
             "dates": "April 2014 - August 2014",
-            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving an 85% discount on the total cost of the project.",
+            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction,"
+                + "and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards,"
+                + "was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in"
+                + "the Church receiving an 85% discount on the total cost of the project.",
+            "location": "Schaumburg, IL",
             "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"],
             "captions": ["The sidewalk after I lead the demolition team in breaking it up into small pieces that we could carry", "A small portion of the team and I at the project site", "The finished sidewalk with the added handicap ramp"]
         }
@@ -234,8 +246,9 @@ comServe.display = function()
         var formattedTitle = HTMLcomServeTitle.replace("%data%", comServe.cService[p].title);
         var formattedDates = HTMLcomServeDates.replace("%data%", comServe.cService[p].dates);
         var formattedDescription = HTMLprojectDescription.replace("%data%", comServe.cService[p].description);
+        var formattedLocation = HTMLprojectLocation.replace("%data%", comServe.cService[p].location)
         // Adds the Employment description to the newly created div
-        $(".comServe-entry:last").append(formattedTitle).append(formattedDates).append(formattedDescription);
+        $(".comServe-entry:last").append(formattedTitle).append(formattedDates).append(formattedLocation).append(formattedDescription);
         if (comServe.cService[p].images.length > 0)
         {
             for (i in comServe.cService[p].images)
