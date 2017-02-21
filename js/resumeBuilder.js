@@ -24,14 +24,14 @@ var work =
     "jobs" :
         [
             {
-                "employer": "Textura Corporation",
-                "title": "Software Development Engineer in Test",
-                "location": "Deerfield, IL",
-                "dates": "June 2015 - May 2016",
-                "description": "Automated test cases to make sure that our products were running smoothly, without errors. " +
-                    "Created methods for various web pages to facilitate the work of myself and other automation engineers. " +
-                    "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL.",
-                "link": "http://www.texturacorp.com/"
+                "employer": "CNA Financial",
+                "title": "Software Engineer",
+                "location": "Chicago, IL",
+                "dates": "October 2016 - ",
+                "description": "Engineered a software system to preform automated functional testing of many of the company’s projects. " +
+                    "Created an excel spreadsheet generator that works alongside the functional automated testing system to export test results " +
+                    "in a format that the business team could understand. Brought in new employees and taught them how to automate acceptance tests.",
+                "link": "https://www.cna.com/"
             },
             {
                 "employer": "CNA Financial",
@@ -41,6 +41,16 @@ var work =
                 "description": "As an IT Database Analyst I play an important role including the Acceptance Testing of our company's software systems by consolidating defects," +
                     "creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications.",
                 "link": "https://www.cna.com/"
+            },
+            {
+                "employer": "Textura Corporation",
+                "title": "Software Development Engineer in Test",
+                "location": "Deerfield, IL",
+                "dates": "June 2015 - May 2016",
+                "description": "Automated test cases to make sure that our products were running smoothly, without errors. " +
+                    "Created methods for various web pages to facilitate the work of myself and other automation engineers. " +
+                    "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL.",
+                "link": "http://www.texturacorp.com/"
             }
         ]
 };
