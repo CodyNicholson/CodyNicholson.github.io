@@ -35,16 +35,17 @@ var work =
             },
             {
                 "employer": "CNA Financial",
-                "title": "IT Database Analyst",
+                "title": "Acceptance Testing Lead",
                 "location": "Chicago, IL",
                 "dates": "September 2016 - ",
-                "description": "As an IT Database Analyst I play an important role including the Acceptance Testing of our company's software systems by consolidating defects," +
-                    "creating project testing status reports, and putting together presentations that represent this data. I also help migrate data from legacy applications to enterprise applications.",
+                "description": "Played an important role including the acceptance testing of our company's software systems by consolidating defects," +
+                    "creating project testing status reports, and putting together presentations. I also recruited new employees and facilitated their" +
+                    "growth within the company.",
                 "link": "https://www.cna.com/"
             },
             {
                 "employer": "Textura Corporation",
-                "title": "Software Development Engineer in Test",
+                "title": "Software Development Engineer in Test Intern",
                 "location": "Deerfield, IL",
                 "dates": "June 2015 - May 2016",
                 "description": "Automated test cases to make sure that our products were running smoothly, without errors. " +
