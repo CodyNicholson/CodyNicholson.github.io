@@ -132,7 +132,7 @@ var projects =
             "title" : "Finding Lane Lines Project",
             "dates" : "March 2017",
             "description" : "The Finding Lane Lines Project was the first project I completed as a part of the Self-Driving Car Nanodegree Program offered by Udacity. In this program I use the computer vision 2 library in python to read in " +
-                "images of roads, identify the lane lines, and highlight them in red. This is important because by being able to identify these lane lines we can teach self-driving cars to stay between these lines and thus, drive safely. "
+                "images of roads, identify the lane lines, and highlight them in red. This is important because by being able to identify these lane lines we can teach self-driving cars to stay between these lines and thus, drive safely. " +
                 "This is done by reading in a picture, gray scaling it to eliminate noise, applying the Gaussian blur to make the image more general, detecting the gradient with the Canny edge detection algorithm, masking the image so that " +
                 "we only look at the area we are interested in, finding the Hough Lines and filtering out the lines we don't want, and finally highlighting the lines we found.",
             "images" : ["../images/solidWhiteRight.jpg","../images/solidWhiteRightprocessed.jpg","../images/solidYellowLeft.jpg","../images/solidYellowLeftprocessed.jpg"],
