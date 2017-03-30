@@ -128,6 +128,28 @@ var projects =
     "projs" :
     [
         {
+            "title" : "Finding Lane Lines Project",
+            "dates" : "March 2017",
+            "description" : "The Finding Lane Lines Project was the first project I completed as a part of the Self-Driving Car Nanodegree Program offered by Udacity. In this program I use the computer vision 2 library in python to read in " +
+                "images of roads, identify the lane lines, and highlight them in red. This is important because by being able to identify these lane lines we can teach self-driving cars to stay between these lines and thus, drive safely. "
+                "This is done by reading in a picture, gray scaling it to eliminate noise, applying the Gaussian blur to make the image more general, detecting the gradient with the Canny edge detection algorithm, masking the image so that " +
+                "we only look at the area we are interested in, finding the Hough Lines and filtering out the lines we don't want, and finally highlighting the lines we found.",
+            "images" : ["../images/solidWhiteRight.jpg","../images/solidWhiteRightprocessed.jpg","../images/solidYellowLeft.jpg","../images/solidYellowLeftprocessed.jpg"],
+            "captions": ["The solid white right lane line picture before processing","The solid white right lane line picture after processing","The solid yellow left lane line picture before processing","The solid yellow left lane line picture after processing"],
+            "link": "https://github.com/CodyNicholson/Finding_Lane_Lines"
+        },
+        {
+            "title" : "Enodo",
+            "dates" : "January 2017 - March 2017",
+            "description" : "The Enodo web application was my capstone project at DePaul University applying towards my bachelor's degree in computer science. The application is a tool for researchers to use to create surveys, view results, and collect data. " +
+                "I led the team as the project manager after my proof of concept was approved by all the other team members shortly after the project was assigned to us. In addition to managing the team I also designed and implemented our database, " +
+                "most of the front-end, and a large portion of the business logic for the Home, Users, and Surveys pages. I also worked on performance optimization by creating multiple web API's for our Users, Surveys, and Survey Results so they could " +
+                "allocate client-side resources instead of the server-side resources. I learned how to do all of this by taking Mosh Hamedani's ASP.NET MVC 5 Course on Udemy.",
+            "images" : ["../images/enodoHomepage.jpg","../images/enodoUsers.jpg","../images/enogoSunburst.jpg"],
+            "captions": ["The Enodo homepage","The data table with all of our users populated using a webAPI on the client side","Our D3 sunburst data visualization for the survey results"],
+            "link": "https://github.com/CodyNicholson/Capstone_Project"
+        },
+        {
             "title" : "Traffic Simulation Project",
             "dates" : "October 2016 - November 2016",
             "description" : "In the Fall quarter of 2016 I took my first graduate level class as a third-year undergraduate student at DePaul University: SE450 Object Oriented Software Development. The Traffic Simulation assignment was the final project for this course. I implemented the Factory Method, Visitor, Null Object, and State Design Patterns in this project. All of the details concerning the work I did and the decisions I made on this project can be found in my Github repository that you can get to by following the project header link.",
@@ -136,7 +158,7 @@ var projects =
             "link": "https://github.com/CodyNicholson/Software_Development/tree/master/Object_Oriented_Software_Development/Traffic_Simulation_Project"
         },
         {
-            "title" : "https://codynicholson.github.io/",
+            "title" : "Portfolio Website",
             "dates" : "September 2016 - October 2016",
             "description" : "Designed and developed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"],
