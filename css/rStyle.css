@@ -312,6 +312,11 @@ a.blueWords
     padding-bottom: 5px;
 }
 
+a.blueWords:hover
+{
+    color: darkgoldenrod;
+}
+
 #map
 {
   display: block;
