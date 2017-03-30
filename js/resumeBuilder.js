@@ -161,10 +161,10 @@ var projects =
         {
             "title" : "Portfolio Website",
             "dates" : "September 2016 - October 2016",
-            "description" : "Designed and developed my portfolio website to promote my professional image. It includes a homepage with a cover letter, and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
+            "description" : "Designed and developed my portfolio website to promote my professional image. It includes a homepage with a cover letter and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"],
             "captions": ["My portfolio homepage","The top of my résumé page with my skills and welcome message","The bottom of my résumé page with the places I have lived and worked displayed on google maps"],
-            "link": "https://codynicholson.github.io/"
+            "link": "https://github.com/CodyNicholson/CodyNicholson.github.io"
         }
     ]
 };
