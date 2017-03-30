@@ -133,8 +133,8 @@ var projects =
             "dates" : "March 2017",
             "description" : "The Finding Lane Lines Project was the first project I completed as a part of the Self-Driving Car Nanodegree Program offered by Udacity. In this program I use the computer vision 2 library in python to read in " +
                 "images of roads, identify the lane lines, and highlight them in red. This is important because by being able to identify these lane lines we can teach self-driving cars to stay between these lines and thus, drive safely. " +
-                "This is done by reading in a picture, gray scaling it to eliminate noise, applying the Gaussian blur to make the image more general, detecting the gradient with the Canny edge detection algorithm, masking the image so that " +
-                "we only look at the area we are interested in, finding the Hough Lines and filtering out the lines we don't want, and finally highlighting the lines we found.",
+                "This is done by reading in a picture, gray scaling it to eliminate noise, applying the Gaussian blur to make the objects in the image more general, detecting the gradient with the Canny edge detection algorithm to find the lines, masking the image so that " +
+                "we only look at the area we are interested in, finding the Hough Lines, filtering out the lines we don't want by looking only at lines with a certain slope, and finally highlighting the lines we found.",
             "images" : ["../images/solidWhiteRight.jpg","../images/solidWhiteRightprocessed.jpg","../images/solidYellowLeft.jpg","../images/solidYellowLeftprocessed.jpg"],
             "captions": ["The solid white right lane line picture before processing","The solid white right lane line picture after processing","The solid yellow left lane line picture before processing","The solid yellow left lane line picture after processing"],
             "link": "https://github.com/CodyNicholson/Finding_Lane_Lines"
@@ -143,9 +143,9 @@ var projects =
             "title" : "Enodo",
             "dates" : "January 2017 - March 2017",
             "description" : "The Enodo web application was my capstone project at DePaul University applying towards my bachelor's degree in computer science. The application is a tool for researchers to use to create surveys, view results, and collect data. " +
-                "I led the team as the project manager after my proof of concept was approved by all the other team members shortly after the project was assigned to us. In addition to managing the team I also designed and implemented our database, " +
-                "most of the front-end, and a large portion of the business logic for the Home, Users, and Surveys pages. I also worked on performance optimization by creating multiple web API's for our Users, Surveys, and Survey Results so they could " +
-                "allocate client-side resources instead of the server-side resources. I learned how to do all of this by taking Mosh Hamedani's ASP.NET MVC 5 Course on Udemy.",
+                "I led the team as the project manager after my proof of concept was approved by all the other team members. In addition to managing the team I also designed and implemented our database, " +
+                "most of the front-end, and a large portion of the business logic for the Home, Users, and Surveys pages. I also worked on performance optimization by creating web APIs that read data from our Users, Surveys, and Survey Results tables on " +
+                "the client-side to save server-side resources. I learned how to do all of this by taking Mosh Hamedani's ASP.NET MVC 5 Course on Udemy.",
             "images" : ["../images/enodoHomepage.jpg","../images/enodoUsers.jpg","../images/enogoSunburst.jpg"],
             "captions": ["The Enodo homepage","The data table with all of our users populated using a webAPI on the client side","Our D3 sunburst data visualization for the survey results"],
             "link": "https://github.com/CodyNicholson/Capstone_Project"
