@@ -129,6 +129,17 @@ var projects =
     "projs" :
     [
         {
+            "title" : "Selenium Functional Automated Testing Framework",
+            "dates" : "April 2017",
+            "description" : "After two years of being a Software Development Engineer in Test, this project represents a high-level view of my capabilities as an automated testing engineer. The framework I have created " +
+                "is meant to be used to automate the functional testing of web applications using Selenium, Java, TestNG, and the Apache POI library for Java. After running a test you will receive an excel spreadsheet " +
+                "with detailed information about any of the failures that may have occurred. If a test fails you will also get a screenshot of what exactly the browser was looking at upon failure. Using this approach " +
+                "makes it very easy to run tests and track down errors at a speed unattainable by manual testers or even HP UFT.",
+            "images" : ["../images/seleniumTesting.jpg","../images/seleniumConsoleOutput.jpg","../images/seleniumExcelOutput.jpg"],
+            "captions": ["Selenium is controlling the browser and is clicking the 'Github' button","The TestNG output from the two tests I ran","The output excel document with the results"],
+            "link": "https://github.com/CodyNicholson/Selenium_Functional_Automated_Testing"
+        },
+        {
             "title" : "Finding Lane Lines Project",
             "dates" : "March 2017",
             "description" : "The Finding Lane Lines Project was the first project I completed as a part of the Self-Driving Car Nanodegree Program offered by Udacity. In this project I programmed in python using the computer vision 2 library. I read in " +
