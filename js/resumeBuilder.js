@@ -13,8 +13,9 @@ var bio =
     "welcomeMessage" : "My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "Java", "C#", "OOP", "Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "AngularJS", "Bootstrap", "jQuery", "Linux", "Responsive Web Design", "Selenium", "XPath", "JIRA", "Jenkins",
-        "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Hadoop", "Agile Methodologies", "Scala", "ASP.NET MVC", "Entity Framework"
+        "Java", "C#", "OOP", "Design Patterns", "Ruby", "Python", "Git", "Maven", "HTML", "CSS", "JavaScript", "AngularJS", "Bootstrap", "jQuery", "Linux",
+        "Responsive Web Design", "Selenium", "XPath", "JIRA", "Jenkins", "SQL", "Leadership", "Acceptance Testing", "Microsoft Excel", "Hadoop", "Agile Methodologies",
+        "Scala", "ASP.NET MVC", "Entity Framework"
     ],
     "bioPic" : "../images/codyHead.jpg"
 };
@@ -98,7 +99,8 @@ var education =
     "onlineCourses" :
     [
         {
-            "title" : ["Responsive Web Design Fundamentals, How to use Git and Github", "Intro to Java Programming", "Programming Foundations with Python", "Responsive Images", "Intro to HTML and CSS", "JavaScript Basics", "Intro to jQuery", "Software Development Process"],
+            "title" : ["Responsive Web Design Fundamentals, How to use Git and Github", "Intro to Java Programming", "Programming Foundations with Python", "Responsive Images", 
+                        "Intro to HTML and CSS", "JavaScript Basics", "Intro to jQuery", "Software Development Process"],
             "school" : "Udacity",
             "date" : "2016",
             "url" : "Udacity.com"
@@ -134,7 +136,8 @@ var projects =
             "description" : "After two years of being a Software Development Engineer in Test, this project represents a high-level view of my capabilities as an automated testing engineer. The framework I have created " +
                 "is meant to be used to automate the functional testing of web applications using Selenium, Java, TestNG, and the Apache POI library for Java. After running a test you will receive an excel spreadsheet " +
                 "with detailed information about any of the failures that may have occurred. If a test fails you will also get a screenshot of what exactly the browser was looking at upon failure. Using this approach " +
-                "makes it very easy to run tests and track down errors at a speed unattainable by manual testers or even HP UFT.",
+                "makes it very easy to run tests and track down errors at a speed unattainable by manual testers or even HP UFT. Also, Selenium does not require licensing like many other test automation software - " +
+                "meaning it could add a lot of value to your company.",
             "images" : ["../images/seleniumTesting.jpg","../images/seleniumConsoleOutput.jpg","../images/seleniumExcelOutput.jpg"],
             "captions": ["Selenium is controlling the browser and is clicking the 'Github' button","The TestNG output from the two tests I ran","The output excel document with the results"],
             "link": "https://github.com/CodyNicholson/Selenium_Functional_Automated_Testing"
@@ -164,7 +167,8 @@ var projects =
         {
             "title" : "Traffic Simulation Project",
             "dates" : "October 2016 - November 2016",
-            "description" : "In the Fall quarter of 2016 I took my first graduate level class as a third-year undergraduate student at DePaul University: SE450 Object Oriented Software Development. The Traffic Simulation assignment was the final project for this course. I implemented the Factory Method, Visitor, Null Object, and State Design Patterns in this project. All of the details concerning the work I did and the decisions I made on this project can be found in my Github repository that you can get to by following the project header link.",
+            "description" : "In the Fall quarter of 2016 I took my first graduate level class as a third-year undergraduate student at DePaul University: SE450 Object Oriented Software Development. The Traffic Simulation assignment was the final project for this course. " +
+                "I implemented the Factory Method, Visitor, Null Object, and State Design Patterns in this project. All of the details concerning the work I did and the decisions I made on this project can be found in my Github repository that you can get to by following the project header link.",
             "images" : ["../images/ObjectOrientedTrafficProblem.jpg"],
             "captions": ["This is what the program looks like when you run it, you can see my debug log in the console"],
             "link": "https://github.com/CodyNicholson/Software_Development/tree/master/Object_Oriented_Software_Development/Traffic_Simulation_Project"
@@ -172,7 +176,8 @@ var projects =
         {
             "title" : "Portfolio Website",
             "dates" : "September 2016 - October 2016",
-            "description" : "Designed and developed my portfolio website to promote my professional image. It includes a homepage with a cover letter and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
+            "description" : "Designed and developed my portfolio website to promote my professional image. It includes a homepage with a cover letter and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, " +
+                "JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
             "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"],
             "captions": ["My portfolio homepage","The top of my résumé page with my skills and welcome message","The bottom of my résumé page with the places I have lived and worked displayed on google maps"],
             "link": "https://github.com/CodyNicholson/CodyNicholson.github.io"
