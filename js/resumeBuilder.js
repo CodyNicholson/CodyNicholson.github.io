@@ -134,8 +134,8 @@ var projects =
             "title" : "Vehicle Detection Project",
             "dates" : "May 2017",
             "description" : "I created this project (part of the Udacity Self-Driving Car Nanodegree program) to teach a self-driving car to detect other vehicles on the road. First, I performed a Histogram of Oriented"+
-                "Gradients (HOG) feature extraction on a labeled training set of images and trained a Linear SVM classifier based on these features. Next, I implemented a sliding-window technique that used my trained"+
-                "classifier to search for vehicles in images. I then ran my pipeline on a video stream and created a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.",
+                " Gradients (HOG) feature extraction on a labeled training set of images and trained a Linear SVM classifier based on these features. Next, I implemented a sliding-window technique that used my trained"+
+                " classifier to search for vehicles in images or each frame of a video. I then ran my pipeline on a video stream and created a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.",
             "images" : ["../images/hog_example.jpg","../images/example_vehicle_and_not_vehicle.jpg","../images/heatmap.jpg","../images/highlighted_lane.jpg"],
             "captions": ["In this picture you can see what an image looks like next to its histogram of oriented gradients","This is an example of a training sample used to teach my SVC Classifier the difference between an image with and an image without a car in it","This is an image of a heat map that is used to filter out false positives in the car detecting process","Finally - after using all of those techniques - this is an example of a single frame after going through my pipeline"],
             "link": "https://github.com/CodyNicholson/Vehicle_Detection_Project"
@@ -146,7 +146,7 @@ var projects =
             "description" : "In this project I wrote an algorithm to teach a self-driving car to identify lanes. To do this, I first computed the camera calibration matrix and distortion coefficients given a set of "+
                 "chessboard images. Then, I applied a distortion correction to raw images. I used color transforms, gradients, etc., to create a thresholded binary image. Then I applied a perspective transform to change "+
                 "the binary image perspective to a 'birds-eye view'. I detected the lane pixels and fit it to find the lane boundary. Then I determined the curvature of the lane and vehicle position with respect to center."+
-                "Then I warped the detected lane boundaries back onto the original image. Lastly, I outputted a visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.",
+                " Then I warped the detected lane boundaries back onto the original image. Lastly, I outputted a visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.",
             "images" : ["../images/highlighted_lane.jpg","../images/curved_img_before_perspective_transform.jpg","../images/warped_test_curved.jpg"],
             "captions": ["This is a single frame of the output of my project, the highlighted lane","This is an example of an image before being warped using the computer vision perspective transform","This image is the same image as the one before this one, it has just been zoomed into and stretched out to a bird's-eye view"],
             "link": "https://github.com/CodyNicholson/Advanced_Lane_Line_Finding_Project"
