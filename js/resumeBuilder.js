@@ -177,8 +177,7 @@ var projects =
             "description" : "After two years of being a Software Development Engineer in Test, this project represents a high-level view of my capabilities as an automated testing engineer. The framework I have created " +
                 "is meant to be used to automate the functional testing of web applications using Selenium, Java, TestNG, and the Apache POI library for Java. After running a test you will receive an excel spreadsheet " +
                 "with detailed information about any of the failures that may have occurred. If a test fails you will also get a screenshot of what exactly the browser was looking at upon failure. Using this approach " +
-                "makes it very easy to run tests and track down errors at a speed unattainable by manual testers or even HP UFT. Also, Selenium does not require licensing like many other test automation software - " +
-                "meaning it could add a lot of value to your company.",
+                "makes it very easy to run tests and track down errors at a speed unattainable by manual testers or even HP UFT. Also, Selenium does not require licensing like many other test automation software.",
             "images" : ["../images/seleniumTesting.jpg","../images/seleniumConsoleOutput.jpg","../images/seleniumExcelOutput.jpg"],
             "captions": ["Selenium is controlling the browser and is clicking the 'Github' button","The TestNG output from the two tests I ran","The output excel document with the results"],
             "link": "https://github.com/CodyNicholson/Selenium_Functional_Automated_Testing"
