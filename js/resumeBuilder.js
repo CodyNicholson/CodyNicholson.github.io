@@ -138,7 +138,7 @@ var projects =
                 "classifier to search for vehicles in images. I then ran my pipeline on a video stream and created a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.",
             "images" : ["../images/hog_example.jpg","../images/example_vehicle_and_not_vehicle.jpg","../images/heatmap.jpg","../images/highlighted_lane.jpg"],
             "captions": ["In this picture you can see what an image looks like next to its histogram of oriented gradients","This is an example of a training sample used to teach my SVC Classifier the difference between an image with and an image without a car in it","This is an image of a heat map that is used to filter out false positives in the car detecting process","Finally - after using all of those techniques - this is an example of a single frame after going through my pipeline"],
-            "link": "https://github.com/CodyNicholson/Vehicle_Detection"
+            "link": "https://github.com/CodyNicholson/Vehicle_Detection_Project"
         },
         {
             "title" : "Advanced Lane Line Finding Project",
