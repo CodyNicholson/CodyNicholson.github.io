@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 480px){
     #myImg {
-        width: 260px;
+        width: 240px;
         max-height: 200px;
         height: initial;
     }
