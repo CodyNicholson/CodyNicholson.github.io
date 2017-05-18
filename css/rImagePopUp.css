@@ -81,15 +81,17 @@
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
+@media only screen and (min-width:481px) and (max-width: 750px){
+    #myImg {
+        width: 300px;
+        max-height: 200px;
+        height: initial;
     }
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 480px){
     #myImg {
-        width: 350px;
+        width: 260px;
         max-height: 200px;
         height: initial;
     }
