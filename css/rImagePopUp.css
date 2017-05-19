@@ -4,7 +4,7 @@
     cursor: pointer;
     transition: 0.3s;
     width: auto;
-    max-height: 200px;
+    height: 200px;
 }
 
 #myImg:hover {opacity: 0.7;}
