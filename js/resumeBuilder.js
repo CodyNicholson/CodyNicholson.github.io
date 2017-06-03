@@ -28,7 +28,7 @@ var work =
                 "employer": "CNA Financial",
                 "title": "Software Engineer",
                 "location": "Chicago, IL",
-                "dates": "October 2016 - ",
+                "dates": "October 2016 - June 2017",
                 "description": "Engineered a software system to preform automated functional testing of many of the company’s projects. " +
                     "Created an excel spreadsheet generator that works alongside the functional automated testing system to export test results " +
                     "in a format that the business team could understand. Brought in new employees and taught them how to automate acceptance tests.",
@@ -38,7 +38,7 @@ var work =
                 "employer": "CNA Financial",
                 "title": "Acceptance Testing Lead",
                 "location": "Chicago, IL",
-                "dates": "September 2016 - ",
+                "dates": "September 2016 - October 2016",
                 "description": "Played an important role including the acceptance testing of our company's software systems by consolidating defects," +
                     "creating project testing status reports, and putting together presentations. I also recruited new employees and facilitated their" +
                     "growth within the company.",
