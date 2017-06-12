@@ -14,7 +14,7 @@ var bio =
     "skills" :
     [
         "Java", "C#", "Python", "TensorFlow", "Keras", "Computer Vision 2", "Image Processing", "Artificial Neural Networks", "C++", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "TypeScript", "Angular", "Jasmine",
-        "Agile Methodologies", "ASP.NET MVC5", "Entity Framework", "Bootstrap", "jQuery", "SQL", "Linux", "Responsive Web Design", "Selenium Webdriver", "Jenkins", "Acceptance Testing", "JIRA", "Leadership"
+        "Agile Methodologies", "ASP.NET MVC5", "Entity Framework", "Bootstrap", "jQuery", "SQL", "Linux", "Responsive Web Design", "Selenium Webdriver", "Jenkins", "Acceptance Testing", "Leadership"
     ],
     "bioPic" : "../images/codyHead.jpg"
 };
