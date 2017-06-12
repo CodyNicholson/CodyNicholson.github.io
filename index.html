@@ -16,30 +16,16 @@
   <link rel="stylesheet" type="text/css" href="css/mediaQueries.css">
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script>
-    function parallax()
-    {
-      var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
-      var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
-      prlx_lyr_1.style.top = (window.pageYOffset/3) + 'px';
-      prlx_lyr_2.style.top = -(window.pageYOffset/5) + 'px';
-      prlx_lyr_2.style.marginBottom = prlx_lyr_2.style.top;
-    }
-    window.addEventListener("scroll", parallax, false);
-  </script>
+  <script src="js/functions.js"></script>
 </head>
-
 <body>
-
   <div class="container">
-
     <header class="parallaxHeader">
       <div id="prlx_lyr_1">
         <p class="nameHeader">Cody Liam Nicholson</p>
         <p class="title_super">Welcome</p>
       </div>
     </header>
-
     <section class="description">
     <div class="nav_bar">
       <nav>
@@ -54,15 +40,12 @@
           <a class="email" data-toggle="modal" data-target="#contact" href="">Contact Me</a>
       </nav>
     </section>
-
     <footer id="prlx_lyr_2">
         <img class="foot_banner" src="images/cloudGate.jpg">
     </footer>
-
   </div>
 
-  <!-- Contact Me Modal Below-->
-
+  <!-- Contact Me Modal -->
   <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
           <div class="modal-content">
@@ -89,6 +72,5 @@
           </div>
       </div>
   </div>
-
 </body>
 </html>
