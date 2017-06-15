@@ -13,7 +13,7 @@ var bio =
     "welcomeMessage" : "My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "Java", "C#", "Python", "TensorFlow", "Artificial Neural Networks", "Keras", "Computer Vision", "Image Processing", "C++", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "TypeScript", "AngularJS", "Jasmine",
+        "Java", "C#", "Python", "TensorFlow", "Artificial Neural Networks", "Keras", "Computer Vision", "Image Processing", "C++", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "TypeScript", "Angular", "Jasmine",
         "Agile Methodologies", "ASP.NET MVC5", "Entity Framework", "Bootstrap", "jQuery", "SQL", "Linux", "Responsive Web Design", "Selenium Webdriver", "Acceptance Testing", "Leadership"
     ],
     "bioPic" : "../images/codyHead.jpg"
