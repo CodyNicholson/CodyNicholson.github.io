@@ -24,6 +24,15 @@ var work =
     "jobs" :
         [
             {
+                "employer": "CDK Global",
+                "title": "Full-Stack Development Intern",
+                "location": "Chicago, IL",
+                "dates": "June 2017 - August 2017",
+                "description": "Engineered software to complete stories I received during our two week development sprint cycles using technologies "+
+                "including: AngularJS, C#, JavaScript, TypeScript, Visual Studio, ASP.NET MVC5, .NET Core, HTML, CSS, Jasmine.",
+                "link": "http://www.cdkglobal.com/"
+            },
+            {
                 "employer": "CNA Financial",
                 "title": "Software Engineer",
                 "location": "Chicago, IL",
