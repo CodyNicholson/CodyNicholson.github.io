@@ -26,7 +26,7 @@ var work =
             {
                 "employer": "CDK Global",
                 "title": "Full-Stack Development Intern",
-                "location": "Chicago, IL",
+                "location": "Hoffman Estates, IL",
                 "dates": "June 2017 - August 2017",
                 "description": "Engineered software to complete stories I received during our two week development sprint cycles using technologies "+
                 "including: AngularJS, C#, JavaScript, TypeScript, Visual Studio, ASP.NET MVC5, .NET Core, HTML, CSS, Jasmine.",
