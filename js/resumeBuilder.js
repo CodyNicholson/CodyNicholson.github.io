@@ -81,9 +81,9 @@ var education =
         {
             "name" : "DePaul University",
             "location" : "Chicago, IL",
-            "degree" : ["B.S. in Computer Science", " M.S. in Software Engineering"],
+            "degree" : "B.S. in Computer Science",
             "studied" : "Computer Science with a concentration on Software Engineering",
-            "dates" : ["2018", " 2020"],
+            "dates" : "2018",
             "link": "https://www.depaul.edu/"
         },
         {
@@ -199,8 +199,8 @@ var projects =
                 "I led the team as the project manager after my proof of concept was approved by all the other team members. In addition to managing the team I also designed and implemented our database, " +
                 "most of the front-end, and a large portion of the business logic for the Home, Users, and Surveys pages. I also worked on performance optimization by creating web APIs that read data from our Users, Surveys, and Survey Results tables on " +
                 "the client-side to save server-side resources. I learned how to do all of this by taking Mosh Hamedani's ASP.NET MVC 5 Course on Udemy.",
-            "images" : ["../images/enodoHomepage.jpg","../images/enodoUsers.jpg","../images/enogoSunburst.jpg"],
-            "captions": ["The Enodo homepage","The data table with all of our users populated using a webAPI on the client side","Our D3 sunburst data visualization for the survey results"],
+            "images" : ["../images/enodoHomepage.jpg","../images/enodoUsers.jpg","../images/enodoTakeSurvey.jpg","../images/enogoSunburst.jpg"],
+            "captions": ["The Enodo homepage","The data table with all of our users populated using a webAPI on the client side","This is an example of someone taking a survey and using drag and drop to order the options","Our D3 sunburst data visualization for the survey results"],
             "link": "https://github.com/CodyNicholson/Capstone_Project"
         },
         {
@@ -392,16 +392,3 @@ function locationizer(work_obj)
     return locationArray;
 }
 console.log(locationizer(work));
-
-/*
-// Change name to international format
-function inName(name_obj)
-{
-    name_obj = name_obj.trim().split(" ");
-    console.log(name_obj);
-    name_obj[1] = name_obj[1].toUpperCase();
-    name_obj[0] = name_obj[0].slice(0,1).toUpperCase() + name_obj[0].slice(1).toLowerCase();
-    return name_obj[0] + " " + name_obj[1];
-}
-$('#main').append(internationalizeButton);
-*/
