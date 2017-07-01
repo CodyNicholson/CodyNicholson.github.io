@@ -48,8 +48,8 @@ var work =
                 "location": "Chicago, IL",
                 "dates": "September 2016 - October 2016",
                 "description": "Played an important role including the acceptance testing of our company's software systems by consolidating defects," +
-                    "creating project testing status reports, and putting together presentations. I also recruited new employees and facilitated their" +
-                    "growth within the company.",
+                    "creating project testing status reports, and putting together presentations. I also recruited new employees and facilitated their " +
+                    "growth within the company. The tools I used included: Java, Selenium, Design Patterns, Intellij, and SVN.",
                 "link": "https://www.cna.com/"
             },
             {
