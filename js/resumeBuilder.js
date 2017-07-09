@@ -6,7 +6,6 @@ var bio =
     {
         "email" : "codynicholson96@gmail.com",
         "github" : "CodyNicholson",
-        "twitter" : "@CodyLiam7",
         "location" : ["Schaumburg, IL", "Lincoln Park, IL"],
         "linkedIn" : "codynicholson"
     },
@@ -18,6 +17,28 @@ var bio =
     ],
     "bioPic" : "../images/codyHead.jpg"
 };
+
+var formattedName = HTMLheaderName.replace("%data%", bio.name);
+var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+
+var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
+var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+var formattedlinkedIn = HTMLlinkedIn.replace("%data%", bio.contacts.linkedIn);
+
+var formattedwelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
+var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location[0]);
+
+$("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart).append(formattedwelcomeMessage).prepend(HTMLreturnHome);
+$("#topContacts").append(formattedEmail).append(formattedGithub).append(formattedlinkedIn).append(formattedLocation);
+$("#footerContacts").append(formattedEmail).append(formattedGithub).append(formattedlinkedIn).append(formattedLocation);
+
+// Adds all my skills to the header
+for(i = 0; i < bio.skills.length; i++)
+{
+    var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
+    $("#skills").append(formattedSkill);
+}
 
 var work =
 {
@@ -83,102 +104,10 @@ work.display = function()
     }
 };
 
-var education =
-{
-    "schools" :
-    [
-        {
-            "name" : "DePaul University",
-            "location" : "Chicago, IL",
-            "degree" : "B.S. in Computer Science",
-            "studied" : "Computer Science with a concentration on Software Engineering",
-            "dates" : "2018",
-            "link": "https://www.depaul.edu/"
-        },
-        {
-            "name" : "James B. Conant High School",
-            "location" : "Hoffman Estates, IL",
-            "degree" : ["High School Diploma"],
-            "studied" : "General Education",
-            "dates" : ["2014"],
-            "link": "http://chs.d211.org/"
-        }
-    ],
-    "onlineCourses" :
-    [
-        {
-            "title" : ["Responsive Web Design Fundamentals, How to use Git and Github", "Intro to Java Programming", "Programming Foundations with Python", "Responsive Images",
-                        "Intro to HTML and CSS", "JavaScript Basics", "Intro to jQuery", "Software Development Process"],
-            "school" : "Udacity",
-            "date" : "2016",
-            "url" : "Udacity.com"
-        }
-    ]
-};
-
-education.display = function()
-{
-    for (edu in education.schools)
-    {
-        // Creates a div with class education-entry
-        $("#education").append(HTMLschoolStart);
-        // Creates variables to hold the edu information for each school
-        var formattedTitle = HTMLschoolName.replace("%data%", education.schools[edu].name).replace("%link%", education.schools[edu].link);
-        var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[edu].location);
-        var formattedDates = HTMLschoolDates.replace("%data%", education.schools[edu].dates);
-        var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
-        var formattedMajors = HTMLschoolMajor.replace("%data%", education.schools[edu].studied);
-        // Adds the edu info to the newly created div
-        $(".education-entry:last").append(formattedTitle).append(formattedDates).append(formattedDegree).append(formattedLocation).append(formattedMajors);
-    }
-};
-
-
 var projects =
 {
     "projs" :
     [
-        {
-            "title" : "Vehicle Detection Project",
-            "dates" : "May 2017",
-            "description" : "I created this project (part of the Udacity Self-Driving Car Nanodegree program) to teach a self-driving car to detect other vehicles on the road. First, I performed a Histogram of Oriented"+
-                " Gradients (HOG) feature extraction on a labeled training set of images and trained a Linear SVM classifier based on these features. Next, I implemented a sliding-window technique that used my trained"+
-                " classifier to search for vehicles in images or each frame of a video. I then ran my pipeline on a video stream and created a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.",
-            "images" : ["../images/hog_example.jpg","../images/example_vehicle_and_not_vehicle.jpg","../images/heatmap.jpg","../images/test_pipeline.jpg"],
-            "captions": ["In this picture you can see what an image looks like next to its histogram of oriented gradients","This is an example of a training sample used to teach my SVC Classifier the difference between an image with and an image without a car in it","This is an image of a heat map that is used to filter out false positives in the car detecting process","Finally - after using all of those techniques - this is an example of a single frame after going through my pipeline"],
-            "link": "https://github.com/CodyNicholson/Vehicle_Detection_Project"
-        },
-        {
-            "title" : "Advanced Lane Line Finding Project",
-            "dates" : "May 2017",
-            "description" : "In this project I wrote an algorithm to teach a self-driving car to identify lanes. To do this, I first computed the camera calibration matrix and distortion coefficients given a set of "+
-                "chessboard images. Then, I applied a distortion correction to raw images. I used color transforms, gradients, etc., to create a thresholded binary image. Then I applied a perspective transform to change "+
-                "the binary image perspective to a 'birds-eye view'. I detected the lane pixels and fit it to find the lane boundary. Then I determined the curvature of the lane and vehicle position with respect to center."+
-                " Then I warped the detected lane boundaries back onto the original image. Lastly, I outputted a visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.",
-            "images" : ["../images/highlighted_lane.jpg","../images/curved_img_before_perspective_transform.jpg","../images/warped_test_curved.jpg"],
-            "captions": ["This is a single frame of the output of my project, the highlighted lane","This is an example of an image before being warped using the computer vision perspective transform","This image is the same image as the one before this one, it has just been zoomed into and stretched out to a bird's-eye view"],
-            "link": "https://github.com/CodyNicholson/Advanced_Lane_Line_Finding_Project"
-        },
-        {
-            "title" : "Behavioral Cloning Project",
-            "dates" : "May 2017",
-            "description" : "In this project I used the simulator provided by Udacity to collect data of good driving behavior. I then built a convolution neural network in Keras that predicts steering angles from images."+
-                "Then I trained and validated the model with a training and validation set. After that I tested that the model successfully drives around the track without leaving the road, and posted a video of this on "+
-                "youtube that there is a link for in the project summary on github. Lastly, I summarized the results with a written report.",
-            "images" : ["../images/bcloning_Drive_Test.jpg","../images/center_lane_driving.jpg","../images/training_vs_validation.jpg"],
-            "captions": ["In this image the car is driving itself, and in the console you can see the values for the car's angle and speed values","This is an example of a training image that was used to teach the model what good driving looks like","In this image you can see that the mean squared error is only a bit lower when testing on the validation set than it was for the training set"],
-            "link": "https://github.com/CodyNicholson/Behavioral_Cloning_Project"
-        },
-        {
-            "title" : "Traffic Sign Classifier",
-            "dates" : "April 2017 - May 2017",
-            "description" : "In this project I used a deep convolutional neural network to classify images of German traffic signs. The model architecture is inspired by the LeNet architecture created by Yann LeCun." +
-                " I did this by preprocessing my dataset, constructing a model architecture, tuning my hyper-parameters, and training my model. I made this project as a student enrolled in the Self-Driving Car "+
-                "Nanodegree program.",
-            "images" : ["../images/stopSign.jpg","../images/traffic_sign_model_architecture.jpg","../images/lenet.jpg"],
-            "captions": ["This is just one example of the 42 traffic signs my project can be used to classify","This image shows my model architecture at a high level","My model architecture is based off of this model architecture created by Yann LeCun called 'LeNet'"],
-            "link": "https://github.com/CodyNicholson/Traffic_Sign_Classifier_Project"
-        },
         {
             "title" : "Selenium Functional Automated Testing Framework",
             "dates" : "April 2017",
@@ -191,15 +120,16 @@ var projects =
             "link": "https://github.com/CodyNicholson/Selenium_Functional_Automated_Testing"
         },
         {
-            "title" : "Finding Lane Lines Project",
-            "dates" : "March 2017",
-            "description" : "The Finding Lane Lines Project was the first project I completed as a part of the Self-Driving Car Nanodegree Program offered by Udacity. In this project I programmed in python using the computer vision 2 library. I read in " +
-                "images of roads, identified the lane lines, and highlighted them in red. This is important because we can teach self-driving cars to stay between these lines. " +
-                "I did this by reading in each picture, gray scaling it to eliminate noise, applying the Gaussian blur to make the objects in the image more general, detecting the gradient with the Canny edge detection algorithm to find the lines, masking the image so that " +
-                "we only look at the area we are interested in, finding the Hough Lines, filtering out the lines we don't want by looking only at lines with a certain slope, and finally highlighting the lines we found red.",
-            "images" : ["../images/solidWhiteRight.jpg","../images/solidWhiteRightprocessed.jpg","../images/solidYellowLeft.jpg","../images/solidYellowLeftprocessed.jpg"],
-            "captions": ["The solid white right lane line picture before processing","The solid white right lane line picture after processing","The solid yellow left lane line picture before processing","The solid yellow left lane line picture after processing"],
-            "link": "https://github.com/CodyNicholson/Finding_Lane_Lines"
+            "title" : "Self-Driving Car Nanodegree Projects",
+            "dates" : "March 2017 - ",
+            "description" : "This is a link to a website where you can find all of the projects I completed while enrolled in the Self-Driving Car Nanodegree program. In these projects I used various skills including: " +
+                "python, image processing, computer vision, neural networks, deep learning, behavioral cloning, transfer learning, data mining, C++, Kalman filters, sensor fusion, Markov models, localization software development, " +
+                "motion models, particle filters, PID controllers, vehicle models, and model predictive controllers among other technologies.",
+            "images" : ["../images/bcloning_Drive_Test.jpg","../images/highlighted_lane.jpg","../images/test_pipeline.jpg"],
+            "captions": ["I used deep learning to train a model to drive a car around a simulated track all by itself",
+                "Using computer vision and some math I was able to create a program that detects and highlights lane lines in a given image",
+                "Using some more math I created a program that can track the location of vehicles in a given video"],
+            "link": "https://codynicholson.github.io/Self-Driving_Car_Projects_Website/"
         },
         {
             "title" : "Enodo",
@@ -257,6 +187,56 @@ projects.display = function()
     }
 };
 
+var education =
+{
+    "schools" :
+    [
+        {
+            "name" : "DePaul University",
+            "location" : "Chicago, IL",
+            "degree" : "B.S. in Computer Science",
+            "studied" : "Computer Science with a concentration on Software Engineering",
+            "dates" : "2018",
+            "link": "https://www.depaul.edu/"
+        },
+        {
+            "name" : "James B. Conant High School",
+            "location" : "Hoffman Estates, IL",
+            "degree" : ["High School Diploma"],
+            "studied" : "General Education",
+            "dates" : ["2014"],
+            "link": "http://chs.d211.org/"
+        }
+    ],
+    "onlineCourses" :
+    [
+        {
+            "title" : ["Responsive Web Design Fundamentals, How to use Git and Github", "Intro to Java Programming", "Programming Foundations with Python", "Responsive Images",
+                        "Intro to HTML and CSS", "JavaScript Basics", "Intro to jQuery", "Software Development Process"],
+            "school" : "Udacity",
+            "date" : "2016",
+            "url" : "Udacity.com"
+        }
+    ]
+};
+
+education.display = function()
+{
+    for (edu in education.schools)
+    {
+        // Creates a div with class education-entry
+        $("#education").append(HTMLschoolStart);
+        // Creates variables to hold the edu information for each school
+        var formattedTitle = HTMLschoolName.replace("%data%", education.schools[edu].name).replace("%link%", education.schools[edu].link);
+        var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[edu].location);
+        var formattedDates = HTMLschoolDates.replace("%data%", education.schools[edu].dates);
+        var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
+        var formattedMajors = HTMLschoolMajor.replace("%data%", education.schools[edu].studied);
+        // Adds the edu info to the newly created div
+        $(".education-entry:last").append(formattedTitle).append(formattedDates).append(formattedDegree).append(formattedLocation).append(formattedMajors);
+    }
+};
+
 var honorsAndAwards =
 {
     "honors" :
@@ -303,18 +283,6 @@ honors.display = function()
     }
 };
 
-var formattedName = HTMLheaderName.replace("%data%", bio.name);
-var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-
-var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
-var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
-var formattedlinkedIn = HTMLlinkedIn.replace("%data%", bio.contacts.linkedIn);
-
-var formattedwelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
-var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
-var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location[0]);
-
 var comServe =
 {
     "cService" :
@@ -358,27 +326,15 @@ comServe.display = function()
     }
 };
 
-$("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(HTMLskillsStart).append(formattedwelcomeMessage).prepend(HTMLreturnHome);
-$("#topContacts").append(formattedEmail).append(formattedGithub).append(formattedlinkedIn)/*.append(formattedTwitter)*/.append(formattedLocation);
-$("#footerContacts").append(formattedEmail).append(formattedGithub).append(formattedlinkedIn)/*.append(formattedTwitter)*/.append(formattedLocation);
-
-
-// Runs the display functions and enables Google Maps
+// Runs the display functions
 work.display();
 projects.display();
 education.display();
 honors.display();
 comServe.display();
 
+// Add googleMap element to the mapDiv
 $("#mapDiv").append(googleMap);
-
-// Adds all my skills to index.html
-for(i = 0; i < bio.skills.length; i++)
-{
-    var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
-    $("#skills").append(formattedSkill);
-}
-
 
 // Click log
 $(document).click(function(loc)
@@ -387,7 +343,6 @@ $(document).click(function(loc)
    var y = loc.pageY;
    logClicks(x,y);
 });
-
 
 // Location
 function locationizer(work_obj)
