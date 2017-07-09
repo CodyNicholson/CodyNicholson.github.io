@@ -60,7 +60,7 @@ var work =
                 "dates": "October 2016 - June 2017",
                 "description": "Engineered a software system to preform automated functional testing of many of the company’s projects. " +
                     "Created an excel spreadsheet generator that works alongside the functional automated testing system to export test results " +
-                    "in a format that the business team could understand. Brought in new employees and taught them how to automate acceptance tests.",
+                    "in a format that the business team could understand. Brought in new employees and taught them how to automate user stories.",
                 "link": "https://www.cna.com/"
             },
             {
@@ -68,9 +68,9 @@ var work =
                 "title": "Acceptance Testing Lead",
                 "location": "Chicago, IL",
                 "dates": "September 2016 - October 2016",
-                "description": "Played an important role including the acceptance testing of our company's software systems by consolidating defects," +
-                    "creating project testing status reports, and putting together presentations. I also recruited new employees and facilitated their" +
-                    "growth within the company.",
+                "description": "Played an important role including the acceptance testing of our company's software systems by consolidating defects, " +
+                    "creating project testing status reports, and putting together presentations. I also recruited new employees and facilitated their " +
+                    "growth within the company. The tools I used included: Java, Selenium, Design Patterns, Intellij, and SVN.",
                 "link": "https://www.cna.com/"
             },
             {
