@@ -50,7 +50,8 @@ var work =
                 "location": "Hoffman Estates, IL",
                 "dates": "June 2017 - August 2017",
                 "description": "Engineered software to complete stories I received during our two week development sprint cycles using technologies "+
-                "including: AngularJS, C#, JavaScript, TypeScript, Visual Studio, ASP.NET MVC5, .NET Core, HTML, CSS, Jasmine.",
+                    "including: AngularJS, C#, JavaScript, TypeScript, Visual Studio, ASP.NET MVC5, .NET Core, HTML, CSS, Jasmine. Led a Hack-a-thon "+
+                    "team in creating an artificial intelligence to determine RGB values from given color names using data mining and a neural network",
                 "link": "http://www.cdkglobal.com/"
             },
             {
@@ -138,8 +139,8 @@ var projects =
                 "I led the team as the project manager after my proof of concept was approved by all the other team members. In addition to managing the team I also designed and implemented our database, " +
                 "most of the front-end, and a large portion of the business logic for the Home, Users, and Surveys pages. I also worked on performance optimization by creating web APIs that read data from our Users, Surveys, and Survey Results tables on " +
                 "the client-side to save server-side resources. I learned how to do all of this by taking Mosh Hamedani's ASP.NET MVC 5 Course on Udemy.",
-            "images" : ["../images/enodoHomepage.jpg","../images/enodoUsers.jpg","../images/enodoTakeSurvey.jpg","../images/enogoSunburst.jpg"],
-            "captions": ["The Enodo homepage","The data table with all of our users populated using a webAPI on the client side","This is an example of someone taking a survey and using drag and drop to order the options","Our D3 sunburst data visualization for the survey results"],
+            "images" : ["../images/enodoHomepage.jpg","../images/enodoTakeSurvey.jpg","../images/enogoSunburst.jpg"],
+            "captions": ["The Enodo homepage","This is an example of someone taking a survey and using drag and drop to order the options","Our D3 sunburst data visualization for the survey results"],
             "link": "https://github.com/CodyNicholson/Capstone_Project"
         },
         {
@@ -336,7 +337,7 @@ comServe.display();
 // Add googleMap element to the mapDiv
 $("#mapDiv").append(googleMap);
 
-// Click log
+// Log where users click on my website
 $(document).click(function(loc)
 {
    var x = loc.pageX;
@@ -344,7 +345,7 @@ $(document).click(function(loc)
    logClicks(x,y);
 });
 
-// Location
+// Get locations from jobs array to plot on googleMap
 function locationizer(work_obj)
 {
     var locationArray = [];
