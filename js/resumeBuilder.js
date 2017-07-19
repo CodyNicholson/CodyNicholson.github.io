@@ -246,8 +246,8 @@ var honorsAndAwards =
                 "title": "Eagle Scout",
                 "dates": "July 2014",
                 "location": "Schaumburg, IL",
-                "description": "After developing my leadership skills over six years I finally made it to the rank of Eagle."
-                    + "What this means is that I have extensive experience in working with others to achieve common goals,"
+                "description": "After developing my leadership skills over six years I finally made it to the highest rank in scounting: Eagle. "
+                    + "What this means is that I have extensive experience in working with others to achieve common goals, "
                     + "resolve conflicts, and facilitate the growth of others.",
                 "link": "http://www.scouting.org/"
             },
@@ -291,9 +291,9 @@ var comServe =
         {
             "title": "Eagle Project",
             "dates": "April 2014 - August 2014",
-            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction,"
-                + "and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards,"
-                + "was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in"
+            "description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, "
+                + "and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, "
+                + "was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in "
                 + "the Church receiving an 85% discount on the total cost of the project.",
             "location": "Schaumburg, IL",
             "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"],
