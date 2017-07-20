@@ -51,7 +51,7 @@ var work =
                 "dates": "June 2017 - August 2017",
                 "description": "Engineered software to complete stories I received during our two week development sprint cycles using technologies "+
                     "including: AngularJS, C#, JavaScript, TypeScript, Visual Studio, ASP.NET MVC5, .NET Core, HTML, CSS, Jasmine. Led a Hack-a-thon "+
-                    "team in creating an artificial intelligence to determine RGB values from given color names using data mining and a neural network",
+                    "team in creating a web application to determine RGB values from given color names using data mining techniques.",
                 "link": "http://www.cdkglobal.com/"
             },
             {
