@@ -110,6 +110,15 @@ var projects =
     "projs" :
     [
         {
+            "title" : "Tetris Web Application",
+            "dates" : "July 2017",
+            "description" : "This is a Tetris game I programmed using HTML5 Canvas and JavaScript. The game randomly generates Tetris pieces for the player to place in the Tetris arena using the arrow keys to move them and the "+
+                "'q' and 'w' keys to rotate them. When the player fills in an entire row they are rewarded with points. Every 50 points the player receives causes the pieces to drop faster.",
+            "images" : ["../images/tetrisMessage.jpg","../images/tetrisGame.jpg"],
+            "captions": ["This is the message that displays when the page loads","This is a picture of a person playing the game"],
+            "link": "https://github.com/CodyNicholson/Tetris_Web_App_Project"
+        },
+        {
             "title" : "Selenium Functional Automated Testing Framework",
             "dates" : "April 2017",
             "description" : "After two years of being a Software Development Engineer in Test, this project represents a high-level view of my capabilities as an automated testing engineer. The framework I have created " +
