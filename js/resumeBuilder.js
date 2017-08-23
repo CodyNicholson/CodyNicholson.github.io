@@ -49,9 +49,9 @@ var work =
                 "title": "Full-Stack Development Intern",
                 "location": "Hoffman Estates, IL",
                 "dates": "June 2017 - August 2017",
-                "description": "Engineered software to complete stories I received during our two week development sprint cycles using technologies "+
-                    "including: AngularJS, C#, JavaScript, TypeScript, Visual Studio, ASP.NET MVC5, .NET Core, HTML, CSS, Jasmine. Led a Hack-a-thon "+
-                    "team in creating a web application to determine RGB values from given color names using data mining techniques.",
+                "description": "Developed software to complete various stories I received during our two-week sprint cycles using various frontend, "+
+                    "backend, version control, project management, and unit testing technologies. Led a Hack-a-thon team in creating a web application "+
+                    "to determine RGB values from given color names using data mining techniques.",
                 "link": "http://www.cdkglobal.com/"
             },
             {
