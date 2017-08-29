@@ -67,7 +67,8 @@
     {
       background-color: black;
       color: white;
-      font-family: 'Baloo Tamma', cursive;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: bold;
       font-size: 1.5em;
       line-height: 50px;
       margin-top: 1.5px;
@@ -75,6 +76,7 @@
       text-align: center;
       min-height: 50px;
       vertical-align: middle;
+      padding-bottom: 5px;
     }
 
     .resume
@@ -134,7 +136,7 @@
       margin-bottom: 5vw;
       text-align: justify;
       line-height: 25px;
-      font-family: 'Georgia';
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 85%;
       background-color: #F5F5F5;
       padding: 8px;
