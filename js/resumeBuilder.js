@@ -205,27 +205,39 @@ var education =
             "name" : "DePaul University",
             "location" : "Chicago, IL",
             "degree" : "B.S. in Computer Science",
-            "studied" : "Computer Science with a concentration on Software Engineering",
-            "dates" : "2018",
+            "description" : "I am a senior at DePaul University pursuing a Bachelor of Science (BS) degree in Computer Science and a minor "+
+                "in Mathematics that I will receive in June of 2018. I am enrolled in the combined degree program and plan to receive a Master "+
+                "of Science (MS) degree in Software Engineering after my fifth year at DePaul in 2019.",
+            "dates" : "2014-2018",
             "link": "https://www.depaul.edu/"
+        },
+        {
+            "name" : "Udacity",
+            "location" : "Udacity.com",
+            "degree" : "Self-Driving Car Engineer Nanodegree",
+            "description" : "In the fall of 2016 I applied to participate in Udacity's Self-Driving Car Nanodegree program because I wanted to learn "+
+                "cutting edge skills that I could use to change the world. I was accepted into the program in January of 2017. I will be learning all "+
+                "about how to design and develop the software that makes cars drive themselves, and I expect to finish this program in the winter of 2017-2018.",
+            "dates" : "2017-2018",
+            "link": "https://www.udacity.com/drive"
+        },
+        {
+            "name" : "Udacity",
+            "location" : "Udacity.com",
+            "degree" : "Front-End Web Developer Nanodegree",
+            "description" : "I always aspired to be a full-stack developer because I wanted to gain as much experience as I could in both the front and "+
+                "back-end of applications. My first step in my journey towards full-stack development was to learn as much about the front-end as I could, "+
+                "so I started by taking classes in Udacity's Front-End Web Developer Nanodegree program.",
+            "dates" : "2016-2018",
+            "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
         },
         {
             "name" : "James B. Conant High School",
             "location" : "Hoffman Estates, IL",
             "degree" : ["High School Diploma"],
-            "studied" : "General Education",
+            "description" : "General Education",
             "dates" : ["2014"],
             "link": "http://chs.d211.org/"
-        }
-    ],
-    "onlineCourses" :
-    [
-        {
-            "title" : ["Responsive Web Design Fundamentals, How to use Git and Github", "Intro to Java Programming", "Programming Foundations with Python", "Responsive Images",
-                        "Intro to HTML and CSS", "JavaScript Basics", "Intro to jQuery", "Software Development Process"],
-            "school" : "Udacity",
-            "date" : "2016",
-            "url" : "Udacity.com"
         }
     ]
 };
@@ -241,7 +253,7 @@ education.display = function()
         var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[edu].location);
         var formattedDates = HTMLschoolDates.replace("%data%", education.schools[edu].dates);
         var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
-        var formattedMajors = HTMLschoolMajor.replace("%data%", education.schools[edu].studied);
+        var formattedMajors = HTMLschoolDescription.replace("%data%", education.schools[edu].description);
         // Adds the edu info to the newly created div
         $(".education-entry:last").append(formattedTitle).append(formattedDates).append(formattedDegree).append(formattedLocation).append(formattedMajors);
     }
