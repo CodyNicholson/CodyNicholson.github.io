@@ -54,7 +54,7 @@
     margin-right: 5%;
     margin-left: 2.5%;
     line-height: 30px;
-    font-size: 115%;
+    font-size: 100%;
     background-color: unset;
   }
   .github, .linkedin, .resume, .email
@@ -104,7 +104,7 @@
   }
   .cover_letter
   {
-    font-size: 150%;
+    font-size: 130%;
     line-height: 40px;
   }
 }
@@ -117,7 +117,7 @@
   }
   .cover_letter
   {
-    font-size: 180%;
+    font-size: 160%;
     line-height: 50px;
   }
   .nameHeader
