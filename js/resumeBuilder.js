@@ -237,7 +237,7 @@ var education =
             "degree" : ["High School Diploma"],
             "description" : "In high school I was an average student who ran cross country, track, and occasionally performed in gymnastics. I graduated "+
                 "with a 3.0 GPA and a 27 on my ACT. Once I got to college I started taking my education much more seriously.",
-            "dates" : ["2014"],
+            "dates" : ["2010-2014"],
             "link": "http://chs.d211.org/"
         }
     ]

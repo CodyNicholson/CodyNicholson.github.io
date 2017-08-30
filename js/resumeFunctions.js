@@ -86,9 +86,9 @@ function initializeMap() {
 
     // Iterates through school locations and appends each location to
     // the locations array, forEach is used for array iteration
-    education.schools.forEach(function(school){
-      locations.push(school.location);
-    });
+    //education.schools.forEach(function(school){
+    //  locations.push(school.location);
+    //});
 
     // Iterates through work locations and appends each location to
     // the locations array, forEach is used for array iteration
