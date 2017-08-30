@@ -31,8 +31,8 @@ var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img id="myImg" alt="%caption%" src="%data%">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
-var HTMLschoolName = '<div class="itemTitle"><a class="blueWords" href="%link%" target="_blank">%data%';
-var HTMLschoolDegree = ' -- %data%</a></div>';
+var HTMLschoolName = '<div class="itemTitle"><a class="blueWords" href="%link%" target="_blank">%data%</a></div>';
+var HTMLschoolDegree = '<p>%data%</p>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolDescription = '<p><br>%data%</p>';

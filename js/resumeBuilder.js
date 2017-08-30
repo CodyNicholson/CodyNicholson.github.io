@@ -204,7 +204,7 @@ var education =
         {
             "name" : "DePaul University",
             "location" : "Chicago, IL",
-            "degree" : "B.S. in Computer Science",
+            "degree" : "Bachelor of Computer Science",
             "description" : "I am a senior at DePaul University pursuing a Bachelor of Science (BS) degree in Computer Science and a minor "+
                 "in Mathematics that I will receive in June of 2018. I am enrolled in the combined degree program and plan to receive a Master "+
                 "of Science (MS) degree in Software Engineering after my fifth year at DePaul in 2019.",
@@ -255,7 +255,7 @@ education.display = function()
         var formattedDegree = HTMLschoolDegree.replace("%data%", education.schools[edu].degree);
         var formattedMajors = HTMLschoolDescription.replace("%data%", education.schools[edu].description);
         // Adds the edu info to the newly created div
-        $(".education-entry:last").append(formattedTitle).append(formattedDates).append(formattedDegree).append(formattedLocation).append(formattedMajors);
+        $(".education-entry:last").append(formattedTitle).append(formattedDegree).append(formattedDates).append(formattedLocation).append(formattedMajors);
     }
 };
 
