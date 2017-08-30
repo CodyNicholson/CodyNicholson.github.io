@@ -235,7 +235,8 @@ var education =
             "name" : "James B. Conant High School",
             "location" : "Hoffman Estates, IL",
             "degree" : ["High School Diploma"],
-            "description" : "General Education",
+            "description" : "In high school I was an average student who ran cross country, track, and occasionally performed in gymnastics. I graduated "+
+                "with a 3.0 GPA and a 27 on my ACT. Once I got to college I started taking my education much more seriously.",
             "dates" : ["2014"],
             "link": "http://chs.d211.org/"
         }
