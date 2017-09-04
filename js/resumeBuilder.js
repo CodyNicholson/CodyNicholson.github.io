@@ -59,7 +59,7 @@ var work =
                 "title": "Software Engineer",
                 "location": "Chicago, IL",
                 "dates": "October 2016 - June 2017",
-                "description": "Engineered a software system to preform automated functional testing of many of the company’s projects. " +
+                "description": "Engineered a software system to perform automated functional testing of many of the company’s projects. " +
                     "Created an excel spreadsheet generator that works alongside the functional automated testing system to export test results " +
                     "in a format that the business team could understand. Brought in new employees and taught them how to automate user stories.",
                 "link": "https://www.cna.com/"
