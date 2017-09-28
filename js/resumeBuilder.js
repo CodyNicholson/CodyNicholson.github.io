@@ -1,7 +1,7 @@
 var bio =
 {
     "name" : "Cody Nicholson",
-    "role" : "Undergrad at DePaul University",
+    "role" : "Software Engineer",
     "contacts" :
     {
         "email" : "codynicholson96@gmail.com",
