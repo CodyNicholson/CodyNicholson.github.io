@@ -6,14 +6,14 @@ var bio =
     {
         "email" : "codynicholson96@gmail.com",
         "github" : "CodyNicholson",
-        "location" : ["Schaumburg, IL", "Lincoln Park, IL"],
+        "location" : ["Chicago, IL", "Lincoln Park, IL", "Schaumburg, IL"],
         "linkedIn" : "codynicholson"
     },
     "welcomeMessage" : "This is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
         "Java", "C#", "Python", "TensorFlow", "Keras", "Computer Vision", "Image Processing", "C++", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "TypeScript", "Angular", "Jasmine",
-        "Agile Methodologies", "ASP.NET MVC5", "Entity Framework", "Bootstrap", "jQuery", "SQL", "Linux", "Selenium Webdriver", "Acceptance Testing", "Leadership"
+        "Agile Methodologies", "ASP.NET MVC 5", "Entity Framework", "Bootstrap", "jQuery", "MySQL", "Linux", "Selenium Webdriver", "Acceptance Testing", "Leadership"
     ],
     "bioPic" : "../images/codyHead.jpg"
 };
