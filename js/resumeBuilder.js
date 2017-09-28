@@ -212,9 +212,9 @@ var education =
             "link": "https://www.depaul.edu/"
         },
         {
-            "name" : "Udacity",
+            "name" : "Self-Driving Car Engineer Nanodegree",
             "location" : "Udacity.com",
-            "degree" : "Self-Driving Car Engineer Nanodegree",
+            "degree" : "Udacity",
             "description" : "In the fall of 2016 I applied to participate in Udacity's Self-Driving Car Nanodegree program because I wanted to learn "+
                 "cutting edge skills that I could use to change the world. I was accepted into the program in January of 2017. I will be learning all "+
                 "about how to design and develop the software that makes cars drive themselves, and I expect to finish this program in the winter of 2017-2018.",
@@ -222,9 +222,9 @@ var education =
             "link": "https://www.udacity.com/drive"
         },
         {
-            "name" : "Udacity",
+            "name" : "Front-End Web Developer Nanodegree",
             "location" : "Udacity.com",
-            "degree" : "Front-End Web Developer Nanodegree",
+            "degree" : "Udacity",
             "description" : "I always aspired to be a full-stack developer because I wanted to gain as much experience as I could in both the front and "+
                 "back-end of applications. My first step in my journey towards full-stack development was to learn as much about the front-end as I could, "+
                 "so I started by taking classes in Udacity's Front-End Web Developer Nanodegree program.",
@@ -233,9 +233,9 @@ var education =
         },
         {
             "name" : "The Complete ASP.NET MVC 5 Course",
-            "location" : "https://www.udemy.com/",
-            "degree" : ["Certificate of Completion"],
-            "description" : "I was disappointed that I didn't get to work much with a Microsoft program stack at my university, so I enrolled in this class "+
+            "location" : "Udemy.com",
+            "degree" : ["Udemy"],
+            "description" : "I was disappointed that I didn't get the chance to work much with a Microsoft program stack at my university, so I enrolled in this class "+
                 "on Udemy to learn how to develop enterprise applications using C#, Entity Framework, ASP.NET, and other Microsoft tools.",
             "dates" : ["August 2017"],
             "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Eudemy%2Ecom%2Fcertificate%2FUC-H8LCRVVB%2F&urlhash=nE7G&trk=profile_certification_title"
