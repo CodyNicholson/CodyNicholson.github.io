@@ -232,6 +232,15 @@ var education =
             "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
         },
         {
+            "name" : "The Complete ASP.NET MVC 5 Course",
+            "location" : "https://www.udemy.com/",
+            "degree" : ["Certificate of Completion"],
+            "description" : "I was disappointed that I didn't get to work much with a Microsoft program stack at my university, so I enrolled in this class "+
+                "on Udemy to learn how to develop enterprise applications using C#, Entity Framework, ASP.NET, and other Microsoft tools.",
+            "dates" : ["August 2017"],
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Eudemy%2Ecom%2Fcertificate%2FUC-H8LCRVVB%2F&urlhash=nE7G&trk=profile_certification_title"
+        },
+        {
             "name" : "James B. Conant High School",
             "location" : "Hoffman Estates, IL",
             "degree" : ["High School Diploma"],
