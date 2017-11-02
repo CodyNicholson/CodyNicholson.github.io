@@ -28,7 +28,10 @@ if(document.getElementsByClassName('education-entry').length === 0) {
       document.getElementById('education').style.display = 'none';
 }
 if(document.getElementsByClassName('honor-entry').length === 0) {
-      document.getElementById('honor').style.display = 'none';
+      document.getElementById('honors').style.display = 'none';
+}
+if(document.getElementsByClassName('comServe-entry').length === 0) {
+      document.getElementById('comService').style.display = 'none';
 }
 if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('lets-connect').style.display = 'none';

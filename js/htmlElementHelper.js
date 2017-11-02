@@ -37,12 +37,6 @@ var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolDescription = '<p><br>%data%</p>';
 
-var HTMLonlineClasses = '<h3>Online Classes</h3>';
-var HTMLonlineTitle = '<div class="itemTitle"><a href="#">%data%';
-var HTMLonlineSchool = ' - %data%</a></div>';
-var HTMLonlineDates = '<div class="date-text">%data%</div>';
-var HTMLonlineURL = '<br><a href="#">%data%</a>';
-
 var HTMLhonorStart = '<div class="honor-entry"></div>';
 var HTMLhonorTitle = '<div class="itemTitle"><a class="blueWords" href="%link%" target="_blank">%data%</a></div>';
 var HTMLhonorDates = '<div class="date-text">%data%</div>';
