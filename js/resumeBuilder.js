@@ -12,10 +12,10 @@ var bio =
     "welcomeMessage" : "This is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "C#", "ASP.NET", "Entity Framework", "SQL", "Git", "Python", "Pandas", 
-        "Jupyter Notebooks", "Keras", "Computer Vision", "Image Processing",
-        "Angular", "React", "Redux", "JavaScript", "TypeScript",
-        "Agile", "Java", "Bootstrap", "jQuery", "MySQL", "Linux",
+        "C#", "ASP.NET", "Entity Framework", "SQL", "Git", "DevOps", "Python", "Pandas", "MongoDB",
+        "Data Mining", "Jupyter Notebooks", "Docker", "Keras", "Computer Vision", "Image Processing",
+        "Angular", "React", "Redux", "JavaScript", "TypeScript", "D3", "Ajax", "RxJS",
+        "Agile", "Java", "Kotlin", "Bootstrap", "jQuery", "MySQL", "Linux",
         "Leadership", "Mentoring"
     ],
     "bioPic" : "images/codyHead.jpg"

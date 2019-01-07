@@ -115,6 +115,7 @@ a
 .welcomeMsgDiv
 {
     display: inline-flex;
+    width: 100%;
 }
 
 .welcome-message
