@@ -1,76 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CLN Portfolio</title>
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
-  <link rel="image_src" href="images/homepage.jpg">
-  <link rel="image_src" href="images/homepageL.jpg">
-  <meta name="description" content="My name is Cody Nicholson and this is my portfolio website where you can find all the details about my skills and background">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/mediaQueries.css">
+  <title>CLN Portfolio</title>
+  <link rel="image_src" href="images/topBanner.jpg">
+  <link rel="image_src" href="images/chicagoSkyline.jpg">
+  <meta name="description" content="My name is Cody Nicholson and this is my résumé webpage where you can find all the details about my skills, experience, and background">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="js/jquery-2.1.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/functions.js"></script>
+  <!-- Load the page styles -->
+  <link href="css/resumeImagePopUp.css" rel="stylesheet">
+  <link href="css/resumeStyle.css" rel="stylesheet">
+  <!-- Load google map api -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw_4glCNdRzSburBMULd57Mo2l7_C7RuE&libraries=places"></script>
 </head>
 <body>
-  <div class="container">
-    <header class="parallaxHeader">
-      <div id="prlx_lyr_1">
-        <p class="nameHeader">Cody Liam Nicholson</p>
-        <p class="title_super">Welcome</p>
-      </div>
-    </header>
-    <section class="description">
-    <div class="nav_bar">
-      <nav>
-        <a class="resume" href="views/resume.html">Résumé</a>
-        <a class="github" href="https://github.com/CodyNicholson" target="_blank">Github</a>
-      </nav>
+  <div id="main">
+    <div id="header" class="center-content clear-fix">
+      <ul id="topContacts" class="flex-box"></ul>
     </div>
-      <img class="codyPic" src="images/codyMid.jpg">
-      <p class="cover_letter">I am a software engineer pursuing a bachelor's degree in computer science. I have experience working as a full-stack web developer, as a lead software engineer, and as a software development engineer in test. Please take a look at my skills and experience and let me know if there is any way I can help your organization.<br><br>Sincerely,<br>Cody Nicholson</p>
-      <nav class="nav_bar">
-          <a class="linkedin" href="https://www.linkedin.com/in/codynicholson" target="_blank">LinkedIn</a>
-          <a class="email" data-toggle="modal" data-target="#contact" href="">Contact Me</a>
-      </nav>
-    </section>
-    <footer id="prlx_lyr_2">
-        <img class="foot_banner" src="images/cloudGate.jpg">
-    </footer>
+    <div style="clear: both;"></div>
+    <div id="workExperience" class="gray">
+      <h2 onclick="">Work Experience</h2>
+    </div>
+    <div id="projects" class="white clickableImg">
+      <h2>Projects</h2>
+    </div>
+    <div id="education" class="gray">
+      <h2>Education</h2>
+    </div>
+    <div id="honors" class="white">
+      <h2>Honors and Awards</h2>
+    </div>
+    <div id="comService" class="gray clickableImg">
+      <h2>Community Service</h2>
+    </div>
+    <div id="mapDiv" class="white">
+      <h2>Where I've Lived and Worked</h2>
+    </div>
+    <div id="lets-connect" class="dark-gray">
+      <h2 class="orange lets_connect_text center-text">Let's Connect</h2>
+        <ul id="footerContacts" class="flex-box">
+      </ul>
+    </div>
   </div>
 
-  <!-- Contact Me Modal -->
-  <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title" id="contactLabel">Contact Me</h4>
-                <span class="closeButton" data-dismiss="modal">x</span>
-              </div>
-            <div class="modal-body">
-              <div id="contact-area">
-                <form method="post" action="https://formspree.io/codynicholson96@gmail.com">
-                  <label for="Name">Name:</label>
-                  <input type="text" name="Name" id="Name" placeholder="Please enter your name">
-                  <label for="Message">Message:</label><br>
-                  <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Please enter your message"></textarea>
-                  <label for="Contact">Email:</label>
-                  <input type="text" name="Contact" id="Contact" placeholder="Please enter your Email address">
-                  <label for="Feedback">Feedback:</label><br />
-                  <textarea name="Feedback" rows="20" cols="20" id="Feedback" placeholder="What do you think of my website? How could I improve it?"></textarea>
-                  <input type="submit" name="submit" value="Submit" class="submit-button" />
-                </form>
-                <div style="clear: both;"></div>
-              </div>
-            </div>
-          </div>
-      </div>
+  <!-- The Image Modal -->
+  <div id="myModal" class="modal" onclick="document.getElementById('myModal').style.display='none'">
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+    <img src="" alt="" class="modal-content" style="width: 100%">
+    <div id="caption"></div>
   </div>
+
+  <script src="js/jQuery.js"></script>
+  <script src="js/htmlElementHelper.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+  <script src="js/resumeFunctions.js"></script>
 </body>
 </html>
