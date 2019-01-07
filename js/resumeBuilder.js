@@ -12,10 +12,13 @@ var bio =
     "welcomeMessage" : "This is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "Java", "C#", "Python", "TensorFlow", "Keras", "Computer Vision", "Image Processing", "C++", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "TypeScript", "Angular", "Jasmine",
-        "Agile Methodologies", "ASP.NET MVC 5", "Entity Framework", "Bootstrap", "jQuery", "MySQL", "Linux", "Selenium Webdriver", "Acceptance Testing", "Leadership"
+        "C#", "ASP.NET", "Entity Framework", "SQL", "Git", "Python", "Pandas", 
+        "Jupyter Notebooks", "Keras", "Computer Vision", "Image Processing",
+        "Angular", "React", "Redux", "JavaScript", "TypeScript",
+        "Agile", "Java", "Bootstrap", "jQuery", "MySQL", "Linux",
+        "Leadership", "Mentoring"
     ],
-    "bioPic" : "../images/codyHead.jpg"
+    "bioPic" : "images/codyHead.jpg"
 };
 
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
@@ -45,8 +48,24 @@ var work =
     "jobs" :
         [
             {
+                "employer": "Trilogy Education Services",
+                "title": "Data Science Teaching Assistant",
+                "location": "Hoffman Estates, IL",
+                "dates": "April 2018 - Present",
+                "description": "Tutored struggling students by asking questions to expose their ignorance so I could then fill the gaps in their understanding. Planned curriculum with other teaching staff to ensure that the content was delivered in a way that was both easy to digest and appealed to different types of learners. Provided detailed feedback in grading homeworks and while helping with in-class activities.",
+                "link": "https://www.trilogyed.com/"
+            },
+            {
+                "employer": "Perficient",
+                "title": "Associate Technical Consultant",
+                "location": "Chicago, IL",
+                "dates": "June 2018 - December 2018",
+                "description": "Software engagement engineer responsible for delivery of customer-facing solutions projects for presentation to clients. Full-stack development using a wide range of technologies including: C#, ASP.NET Core, Entity Framework, Angular, PHP, MySQL, Microsoft DQL Management Studio, and ASP.NET Web Forms.",
+                "link": "https://www.perficient.com/"
+            },
+            {
                 "employer": "CDK Global",
-                "title": "Full-Stack Development Intern",
+                "title": "Software Development Intern",
                 "location": "Hoffman Estates, IL",
                 "dates": "June 2017 - August 2017",
                 "description": "Developed software to complete various stories I received during our two-week sprint cycles using various frontend, "+
@@ -114,7 +133,7 @@ var projects =
             "dates" : "July 2017",
             "description" : "This is a Tetris game I programmed using HTML5 Canvas and JavaScript. The game randomly generates Tetris pieces for the player to place in the Tetris arena using the arrow keys to move them and the "+
                 "'q' and 'w' keys to rotate them. When the player fills in an entire row they are rewarded with points. Every 50 points the player receives causes the pieces to drop faster.",
-            "images" : ["../images/tetrisMessage.jpg","../images/tetrisGame.jpg"],
+            "images" : ["images/tetrisMessage.jpg","images/tetrisGame.jpg"],
             "captions": ["This is the message that displays when the page loads","This is a picture of a person playing the game"],
             "link": "https://github.com/CodyNicholson/Tetris_Web_App_Project"
         },
@@ -125,7 +144,7 @@ var projects =
                 "is meant to be used to automate the functional testing of web applications using Selenium, Java, TestNG, and the Apache POI library for Java. After running a test you will receive an excel spreadsheet " +
                 "with detailed information about any of the failures that may have occurred. If a test fails you will also get a screenshot of what exactly the browser was looking at upon failure. Using this approach " +
                 "makes it very easy to run tests and track down errors at a speed unattainable by manual testers or even HP UFT. Also, Selenium does not require licensing like many other test automation software.",
-            "images" : ["../images/seleniumTesting.jpg","../images/seleniumConsoleOutput.jpg","../images/seleniumExcelOutput.jpg"],
+            "images" : ["images/seleniumTesting.jpg","images/seleniumConsoleOutput.jpg","images/seleniumExcelOutput.jpg"],
             "captions": ["Selenium is controlling the browser and is clicking the 'Github' button","The TestNG output from the two tests I ran","The output excel document with the results"],
             "link": "https://github.com/CodyNicholson/Selenium_Functional_Automated_Testing"
         },
@@ -135,7 +154,7 @@ var projects =
             "description" : "This is a link to a website where you can find all of the projects I completed while enrolled in the Self-Driving Car Nanodegree program. In these projects I used various skills including: " +
                 "python, image processing, computer vision, neural networks, deep learning, behavioral cloning, transfer learning, data mining, C++, Kalman filters, sensor fusion, Markov models, localization software development, " +
                 "motion models, particle filters, PID controllers, vehicle models, and model predictive controllers among other technologies.",
-            "images" : ["../images/bcloning_Drive_Test.jpg","../images/highlighted_lane.jpg","../images/test_pipeline.jpg"],
+            "images" : ["images/bcloning_Drive_Test.jpg","images/highlighted_lane.jpg","images/test_pipeline.jpg"],
             "captions": ["I used deep learning to train a model to drive a car around a simulated track all by itself",
                 "Using computer vision and some math I was able to create a program that detects and highlights lane lines in a given image",
                 "Using some more math I created a program that can track the location of vehicles in a given video"],
@@ -148,7 +167,7 @@ var projects =
                 "I led the team as the project manager after my proof of concept was approved by all the other team members. In addition to managing the team I also designed and implemented our database, " +
                 "most of the front-end, and a large portion of the business logic for the Home, Users, and Surveys pages. I also worked on performance optimization by creating web APIs that read data from our Users, Surveys, and Survey Results tables on " +
                 "the client-side to save server-side resources. I learned how to do all of this by taking Mosh Hamedani's ASP.NET MVC 5 Course on Udemy.",
-            "images" : ["../images/enodoHomepage.jpg","../images/enodoTakeSurvey.jpg","../images/enogoSunburst.jpg"],
+            "images" : ["images/enodoHomepage.jpg","images/enodoTakeSurvey.jpg","images/enogoSunburst.jpg"],
             "captions": ["The Enodo homepage","This is an example of someone taking a survey and using drag and drop to order the options","Our D3 sunburst data visualization for the survey results"],
             "link": "https://github.com/CodyNicholson/Capstone_Project"
         },
@@ -157,7 +176,7 @@ var projects =
             "dates" : "October 2016 - November 2016",
             "description" : "In the Fall quarter of 2016 I took my first graduate level class as a third-year undergraduate student at DePaul University: SE450 Object Oriented Software Development. The Traffic Simulation assignment was the final project for this course. " +
                 "I implemented the Factory Method, Visitor, Null Object, and State Design Patterns in this project. All of the details concerning the work I did and the decisions I made on this project can be found in my Github repository that you can get to by following the project title link.",
-            "images" : ["../images/ObjectOrientedTrafficProblem.jpg"],
+            "images" : ["images/ObjectOrientedTrafficProblem.jpg"],
             "captions": ["This is what the program looks like when you run it, you can see my debug log in the console"],
             "link": "https://github.com/CodyNicholson/Software_Development/tree/master/Object_Oriented_Software_Development/Traffic_Simulation_Project"
         },
@@ -166,7 +185,7 @@ var projects =
             "dates" : "September 2016 - October 2016",
             "description" : "Designed and developed my portfolio website to promote my professional image. It includes a homepage with a cover letter and a résumé page with all my skills, experience, and background information. The skills I used to complete this project were: HTML, CSS, " +
                 "JavaScript, jQuery, Bootstrap, Responsive Web Design, Linux, and Git.",
-            "images" : ["../images/homepage.jpg", "../images/resumePage.jpg", "../images/resumePage2.jpg"],
+            "images" : ["images/homepage.jpg", "images/resumePage.jpg", "images/resumePage2.jpg"],
             "captions": ["My portfolio homepage","The top of my résumé page with my skills and welcome message","The bottom of my résumé page with the places I have lived and worked displayed on google maps"],
             "link": "https://github.com/CodyNicholson/CodyNicholson.github.io"
         }
@@ -327,7 +346,7 @@ var comServe =
                 + "was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in "
                 + "the Church receiving an 85% discount on the total cost of the project.",
             "location": "Schaumburg, IL",
-            "images": ["../images/eagleProject1.jpg", "../images/eagleProject2.jpg", "../images/eagleProject3.jpg"],
+            "images": ["images/eagleProject1.jpg", "images/eagleProject2.jpg", "images/eagleProject3.jpg"],
             "captions": ["The sidewalk after I lead the demolition team in breaking it up into small pieces that we could carry", "A small portion of the team and I at the project site", "The finished sidewalk with the added handicap ramp"]
         }
     ]
