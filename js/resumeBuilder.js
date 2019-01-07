@@ -50,7 +50,7 @@ var work =
             {
                 "employer": "Trilogy Education Services",
                 "title": "Data Science Teaching Assistant",
-                "location": "Hoffman Estates, IL",
+                "location": "Chicago, IL",
                 "dates": "April 2018 - Present",
                 "description": "Tutored struggling students by asking questions to expose their ignorance so I could then fill the gaps in their understanding. Planned curriculum with other teaching staff to ensure that the content was delivered in a way that was both easy to digest and appealed to different types of learners. Provided detailed feedback in grading homeworks and while helping with in-class activities.",
                 "link": "https://www.trilogyed.com/"
