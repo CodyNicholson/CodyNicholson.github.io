@@ -224,9 +224,7 @@ var education =
             "name" : "DePaul University",
             "location" : "Chicago, IL",
             "degree" : "Bachelor of Computer Science",
-            "description" : "I am a senior at DePaul University pursuing a Bachelor of Science (BS) degree in Computer Science and a minor "+
-                "in Mathematics that I will receive in June of 2018. I am enrolled in the combined degree program and plan to receive a Master "+
-                "of Science (MS) degree in Software Engineering after my fifth year at DePaul in 2019.",
+            "description" : "I graduated DePaul University with a Bachelor of Science (BS) degree in Computer Science. During my time at DePaul I was a member of: The National Society of Collegiate Scholars, Computer Science Society, The National Society for Leadership and Success, and DePaul Virtual Reality Society.",
             "dates" : "2014-2018",
             "link": "https://www.depaul.edu/"
         },
@@ -241,6 +239,15 @@ var education =
             "link": "https://www.udacity.com/drive"
         },
         {
+            "name" : "The Complete ASP.NET MVC 5 Course",
+            "location" : "Udemy.com",
+            "degree" : ["Udemy"],
+            "description" : "I was disappointed that I didn't get the chance to work much with a Microsoft program stack at my university, so I enrolled in this class "+
+                "on Udemy to learn how to develop enterprise applications using C#, Entity Framework, ASP.NET, and other Microsoft tools.",
+            "dates" : ["August 2017"],
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Eudemy%2Ecom%2Fcertificate%2FUC-H8LCRVVB%2F&urlhash=nE7G&trk=profile_certification_title"
+        },
+        {
             "name" : "Front-End Web Developer Nanodegree",
             "location" : "Udacity.com",
             "degree" : "Udacity",
@@ -249,15 +256,6 @@ var education =
                 "so I started by taking classes in Udacity's Front-End Web Developer Nanodegree program.",
             "dates" : "2016-2018",
             "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
-        },
-        {
-            "name" : "The Complete ASP.NET MVC 5 Course",
-            "location" : "Udemy.com",
-            "degree" : ["Udemy"],
-            "description" : "I was disappointed that I didn't get the chance to work much with a Microsoft program stack at my university, so I enrolled in this class "+
-                "on Udemy to learn how to develop enterprise applications using C#, Entity Framework, ASP.NET, and other Microsoft tools.",
-            "dates" : ["August 2017"],
-            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Eudemy%2Ecom%2Fcertificate%2FUC-H8LCRVVB%2F&urlhash=nE7G&trk=profile_certification_title"
         },
         {
             "name" : "James B. Conant High School",
