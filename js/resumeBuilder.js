@@ -12,7 +12,7 @@ var bio =
     "welcomeMessage" : "This is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "C#", "ASP.NET", "Entity Framework", "SQL", "Git", "DevOps", "Python", "Pandas", "MongoDB",
+        "C#", "ASP.NET", "Entity Framework", "SQL", "MySQL", "Git", "DevOps", "Python", "Pandas", "MongoDB",
         "Data Mining", "Jupyter Notebooks", "Docker", "Keras", "Computer Vision", "Image Processing",
         "Angular", "React", "Redux", "JavaScript", "TypeScript", "D3", "Ajax", "RxJS",
         "Agile", "Java", "Kotlin", "Bootstrap", "jQuery", "MySQL", "Linux",
@@ -52,7 +52,7 @@ var work =
                 "title": "Data Science Teaching Assistant",
                 "location": "Chicago, IL",
                 "dates": "April 2018 - Present",
-                "description": "Tutored struggling students by asking questions to expose their ignorance so I could then fill the gaps in their understanding. Planned curriculum with other teaching staff to ensure that the content was delivered in a way that was both easy to digest and appealed to different types of learners. Provided detailed feedback in grading homeworks and while helping with in-class activities.",
+                "description": "Tutored struggling students by asking questions so I could then fill the gaps in their understanding. Planned curriculum with other teaching staff to ensure that the content was delivered in a way that was both easy to digest and appealed to different types of learners. Provided detailed feedback in grading homeworks and while helping with in-class activities.",
                 "link": "https://www.trilogyed.com/"
             },
             {
