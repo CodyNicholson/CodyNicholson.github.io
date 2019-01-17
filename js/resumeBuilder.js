@@ -15,7 +15,7 @@ var bio =
         "C#", "ASP.NET", "Entity Framework", "SQL", "MySQL", "Git", "DevOps", "Python", "Pandas", "MongoDB",
         "Data Mining", "Jupyter Notebooks", "Docker", "Keras", "Computer Vision", "Image Processing",
         "Angular", "React", "Redux", "JavaScript", "TypeScript", "D3", "Ajax", "RxJS",
-        "Agile", "Java", "Kotlin", "Bootstrap", "jQuery", "MySQL", "Linux",
+        "Agile", "Java", "Spring", "Kotlin", "Ruby", "Ruby on Rails", "Bootstrap", "jQuery", "MySQL", "Linux",
         "Leadership", "Mentoring"
     ],
     "bioPic" : "images/codyHead.jpg"
