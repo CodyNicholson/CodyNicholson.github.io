@@ -129,6 +129,15 @@ var projects =
     "projs" :
     [
         {
+            "title" : "Ruby On Rails Blogging Application",
+            "dates" : "January 2019",
+            "description" : "I built this blogging application to get more experience with Ruby On Rails. From the home page you can click the 'Create New Post' button to add a post or you can click the title of any post in the " +
+                "list of existing posts to view the details and comments on that post. From the post details page you can also add new comments, delete comments, edit the post, or delete the post which will also delete all the comments for that post.",
+            "images" : ["images/rubyrailsblogging1.jpg","images/rubyrailsblogging2.jpg","images/rubyrailsblogging3.jpg"],
+            "captions": ["The home page with a list of the posts","This is an example of the details page for an individual post where you can see the comments","This is the page you get to when you click 'Create New Post' on the Home page"],
+            "link": "https://github.com/CodyNicholson/Ruby_On_Rails_Blog_Project"
+        },
+        {
             "title" : "Tetris Web Application",
             "dates" : "July 2017",
             "description" : "This is a Tetris game I programmed using HTML5 Canvas and JavaScript. The game randomly generates Tetris pieces for the player to place in the Tetris arena using the arrow keys to move them and the "+
