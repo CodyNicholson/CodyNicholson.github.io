@@ -129,7 +129,16 @@ var projects =
     "projs" :
     [
         {
-            "title" : "Ruby On Rails Blogging Application",
+            "title" : "Project Task Board Application",
+            "dates" : "January 2019",
+            "description" : "This Project Task Board Application I built to get more experience working with Java Spring Boot - specifically connecting a React frontend to a Spring backend RESTFul API. " +
+                "The project allows users to log tasks with their titles, acceptance criteria, and statues. Tasks have CRUD operations and update immediately without needing any additional calls to the database thanks to Redux.",
+            "images" : ["images/projectboard_1.jpg","images/projectboard_2.jpg"],
+            "captions": ["The home page with a list of the posts","This is an example of the details page for an individual post where you can see the comments"],
+            "link": "https://github.com/CodyNicholson/Project_Board_Java_Spring_Boot_Project"
+        },
+        {
+            "title" : "Blogging Web Application",
             "dates" : "January 2019",
             "description" : "I built this blogging application to get more experience with Ruby On Rails. From the home page you can click the 'Create New Post' button to add a post or you can click the title of any post in the " +
                 "list of existing posts to view the details and comments on that post. From the post details page you can also add new comments, delete comments, edit the post, or delete the post which will also delete all the comments for that post.",
