@@ -164,7 +164,7 @@ var projects =
                 "makes it very easy to run tests and track down errors at a speed unattainable by manual testers or even HP UFT. Also, Selenium does not require licensing like many other test automation software.",
             "images" : ["images/seleniumTesting.jpg","images/seleniumConsoleOutput.jpg","images/seleniumExcelOutput.jpg"],
             "captions": ["Selenium is controlling the browser and is clicking the 'Github' button","The TestNG output from the two tests I ran","The output excel document with the results"],
-            "link": "https://github.com/CodyNicholson/Selenium_Functional_Automated_Testing"
+            "link": "https://github.com/CodyNicholson/Selenium_Automated_Testing_Project/"
         },
         {
             "title" : "Self-Driving Car Nanodegree Projects",
@@ -176,7 +176,7 @@ var projects =
             "captions": ["I used deep learning to train a model to drive a car around a simulated track all by itself",
                 "Using computer vision and some math I was able to create a program that detects and highlights lane lines in a given image",
                 "Using some more math I created a program that can track the location of vehicles in a given video"],
-            "link": "https://codynicholson.github.io/Self-Driving_Car_Projects_Website/"
+            "link": "https://codynicholson.github.io/Self-Driving_Car_Projects/"
         },
         {
             "title" : "Enodo",
@@ -187,7 +187,7 @@ var projects =
                 "the client-side to save server-side resources. I learned how to do all of this by taking Mosh Hamedani's ASP.NET MVC 5 Course on Udemy.",
             "images" : ["images/enodoHomepage.jpg","images/enodoTakeSurvey.jpg","images/enogoSunburst.jpg"],
             "captions": ["The Enodo homepage","This is an example of someone taking a survey and using drag and drop to order the options","Our D3 sunburst data visualization for the survey results"],
-            "link": "https://github.com/CodyNicholson/Capstone_Project"
+            "link": "https://github.com/CodyNicholson/Enodo_Project/"
         },
         {
             "title" : "Traffic Simulation Project",
