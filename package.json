@@ -2,7 +2,7 @@
   "name": "react_resume",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://codynicholson.github.io/React_Resume_Project/",
+  "homepage": "https://codynicholson.github.io/",
   "dependencies": {
     "ajv": "^6.10.0",
     "gh-pages": "^2.0.1",
