@@ -73,7 +73,7 @@ var work =
             },
             {
                 "employer": "2U Inc.",
-                "title": "Data Science Substitue Instructor",
+                "title": "Data Science Substitute Instructor",
                 "location": "Chicago, IL",
                 "dates": "October 2018 - December 2020",
                 "description": "Led the class in learning tools including: VBA, Python, SQL, JS, ETL, Machine Learning and more. Delivered content in a format that was easy to digest and appealed to different types of learners. Provided interview questions and created a job hunting guide to supplement class material. Published articles to supplement class material.",
