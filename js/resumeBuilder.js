@@ -1,22 +1,22 @@
 var bio =
 {
     "name" : "Cody Nicholson",
-    "role" : "Software Engineer",
+    "role" : "Senior Software Engineer",
     "contacts" :
     {
         "email" : "codynicholson96@gmail.com",
         "github" : "CodyNicholson",
-        "location" : ["Chicago, IL", "Lincoln Park, IL", "Schaumburg, IL"],
+        "location" : ["Chicago, IL", "Hoffman Estates, IL", "Schaumburg, IL", "Bronzeville, Chicago, IL"],
         "linkedIn" : "codynicholson"
     },
     "welcomeMessage" : "This is my résumé webpage where you can find all the details about my skills, experience, and background",
     "skills" :
     [
-        "C#", "ASP.NET", "Entity Framework", "SQL", "MySQL", "Git", "DevOps", "Python", "Pandas", "MongoDB",
-        "Data Mining", "Jupyter Notebooks", "Docker", "Keras", "Computer Vision", "Image Processing",
-        "Angular", "React", "Redux", "JavaScript", "TypeScript", "D3", "Ajax", "RxJS",
-        "Agile", "Java", "Spring", "Kotlin", "Ruby", "Ruby on Rails", "Bootstrap", "jQuery", "MySQL", "Linux",
-        "Leadership", "Mentoring"
+        "Kotlin", "Java", "Python", "JavaScript", "TypeScript", "C#", 
+        "Postgres", "Prometheus", "Cassandra", "MongoDB", "Informix 4GL", "MySQL",
+        "Sprint Boot", "Kafka", "Spark", "React", "Redux", "Ajax", "jQuery", "ASP.NET Core", "Pandas", "Angular", "D3js", "Tensorflow", "Computer Vision", 
+        "Heroku", "Jenkins", "Azure", "AWS", "Docker", 
+        "Grafana", "Splunk", "Data Mining", "ETL", "Linux", "Agile", "Git", "JIRA"
     ],
     "bioPic" : "images/codyHead.jpg"
 };
@@ -48,49 +48,91 @@ var work =
     "jobs" :
         [
             {
-                "employer": "Trilogy Education Services",
-                "title": "Data Science Teaching Assistant",
+                "employer": "Peapod Digital Labs",
+                "title": "Software Engineer II",
                 "location": "Chicago, IL",
-                "dates": "April 2018 - Present",
-                "description": "Tutored struggling students by asking questions so I could then fill the gaps in their understanding. Planned curriculum with other teaching staff to ensure that the content was delivered in a way that was both easy to digest and appealed to different types of learners. Provided detailed feedback in grading homeworks and while helping with in-class activities.",
+                "dates": "August 2020 - Present",
+                "description": "Designed and developed new features for a legacy Informix 4GL order fulfillment application. Collaborated with engineering leadership to modernize procedural apps to be event-driven using Kafka, Java Spring Boot Micro Services, and Postgres.",
+                "link": "https://www.peapoddigitallabs.com/home"
+            },
+            {
+                "employer": "HackerU",
+                "title": "Lead Full Stack Development Instructor",
+                "location": "Chicago, IL",
+                "dates": "December 2020 - Present",
+                "description": "Facilitated the career development of students I had the privilege of instructing in the areas of web design, web development, artificial intelligence, and software engineering.",
+                "link": "https://hackerusa.com/full-stack-development-coding/"
+            },
+            {
+                "employer": "Chicago Artist Guide",
+                "title": "Engineering Team Lead",
+                "location": "Chicago, IL",
+                "dates": "December 2020 - Present",
+                "description": "Led the engineering effort to create a centralized place for Chicago theatre companies, individual artists, and communities to come together using tools including: React, NodeJS, AWS, Postgres, Java, Kotlin, Spring Boot. We remove common obstacles so artists can focus on what’s most important: making art. Hired new developers to join our team.",
+                "link": "https://chiartistguide.weebly.com/the-team.html"
+            },
+            {
+                "employer": "2U Inc.",
+                "title": "Data Science Substitue Instructor",
+                "location": "Chicago, IL",
+                "dates": "October 2018 - December 2020",
+                "description": "Led the class in learning tools including: VBA, Python, SQL, JS, ETL, Machine Learning and more. Delivered content in a format that was easy to digest and appealed to different types of learners. Provided interview questions and created a job hunting guide to supplement class material. Published articles to supplement class material.",
                 "link": "https://www.trilogyed.com/"
             },
             {
+                "employer": "2U Inc.",
+                "title": "Data Science Teaching Assistant",
+                "location": "Chicago, IL",
+                "dates": "April 2018 - December 2020",
+                "description": "Taught as one of three teachers in multiple cohorts of a six-month data science bootcamp. Provided detailed feedback while grading homework and helping with in-class activities. Demoed side projects I had worked on that used the tools we were learning. Facilitated the creation of a comfortable learning environment.",
+                "link": "https://www.trilogyed.com/"
+            },
+            {
+                "employer": "Arity",
+                "title": "Software Engineer",
+                "location": "Chicago, IL",
+                "dates": "August 2019 - August 2020",
+                "description": "Implemented micro-services to enroll users in many of Arity's products using: Kotlin, Java, Spring Boot, PCF, Kafka, Postgres, and Cassandra. Led Training Committee to better provide engineers with the resources they need to do their best work. Led the Young Professionals Organization in building a sense of community and facilitating career development.",
+                "link": "https://www.arity.com/"
+            },
+            {
+                "employer": "Arity",
+                "title": "Data Engineer",
+                "location": "Chicago, IL",
+                "dates": "February 2019 - August 2019",
+                "description": "Developed software to process telematic data and provide a driving score to users insured by our clients so they can more accurately predict the risk associated with driving behavior. Processed data using tools including: Python, Scala, Golang, Flink, Spark, Kafka, and Hadoop. Implemented streaming using Flink to replace nightly batch jobs.",
+                "link": "https://www.arity.com/"
+            },
+            {
                 "employer": "Perficient",
-                "title": "Associate Technical Consultant",
+                "title": "Technical Consultant",
                 "location": "Chicago, IL",
                 "dates": "June 2018 - December 2018",
-                "description": "Software engagement engineer responsible for delivery of customer-facing solutions projects for presentation to clients. Full-stack development using a wide range of technologies including: C#, ASP.NET Core, Entity Framework, Angular, PHP, MySQL, Microsoft DQL Management Studio, and ASP.NET Web Forms.",
+                "description": "Delivered customer-facing end-to-end software solutions for clients using a wide range of technologies including: C#, PHP, JavaScript, ASP.NET Core, Entity Framework, Angular, MySQL. Led presentations on project progress to clients where I shared insights, questioned design decisions, explained blockers, and gave estimates on the completion time for the project.",
                 "link": "https://www.perficient.com/"
             },
             {
                 "employer": "CDK Global",
-                "title": "Software Development Intern",
+                "title": "Software Engineer Intern",
                 "location": "Hoffman Estates, IL",
                 "dates": "June 2017 - August 2017",
-                "description": "Developed software to complete various stories I received during our two-week sprint cycles using various frontend, "+
-                    "backend, version control, project management, and unit testing technologies. Led a Hack-a-thon team in creating a web application "+
-                    "to determine RGB values from given color names using data mining techniques.",
+                "description": "Developed software to complete various stories I received during our two-week sprint cycles using various frontend, backend, version control, project management, and unit testing technologies. Led a Hack-a-thon team in creating a web application to determine RGB values from given color names using data mining techniques.",
                 "link": "http://www.cdkglobal.com/"
             },
             {
-                "employer": "CNA Financial",
-                "title": "Software Engineer",
+                "employer": "CNA Financial (Contract)",
+                "title": "Lead Software Engineer in Test",
                 "location": "Chicago, IL",
                 "dates": "October 2016 - June 2017",
-                "description": "Engineered a software system to perform automated functional testing of many of the company’s projects. " +
-                    "Created an excel spreadsheet generator that works alongside the functional automated testing system to export test results " +
-                    "in a format that the business team could understand. Brought in new employees and taught them how to automate user stories.",
+                "description": "Developed a software system to perform automated functional testing of many of the company’s projects. Created an excel spreadsheet generator that works alongside the automated testing system to export test results in a format that the business team could understand. Brought in new employees and taught them how to automate acceptance tests.",
                 "link": "https://www.cna.com/"
             },
             {
-                "employer": "CNA Financial",
+                "employer": "CNA Financial (Contract)",
                 "title": "Acceptance Testing Lead",
                 "location": "Chicago, IL",
                 "dates": "September 2016 - October 2016",
-                "description": "Played an important role including the acceptance testing of our company's software systems by consolidating defects, " +
-                    "creating project testing status reports, and putting together presentations. I also recruited new employees and facilitated their " +
-                    "growth within the company. The tools I used included: Java, Selenium, Design Patterns, Intellij, and SVN.",
+                "description": "Expedited the acceptance testing of our company's software systems by consolidating defects, creating project testing status reports, and putting together presentations. Recruited new employees and facilitated their growth within the company.",
                 "link": "https://www.cna.com/"
             },
             {
@@ -98,9 +140,7 @@ var work =
                 "title": "Software Development Engineer in Test Intern",
                 "location": "Deerfield, IL",
                 "dates": "June 2015 - May 2016",
-                "description": "Automated test cases to make sure that our products were running smoothly, without errors. " +
-                    "Created methods for various web pages to facilitate the work of myself and other automation engineers. " +
-                    "Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL.",
+                "description": "Automated test cases to make sure that our products were running smoothly, without errors. Created methods for various web pages to facilitate the work of myself and other Software Development Engineers in Test. Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, JIRA, Jenkins, and SQL.",
                 "link": "http://www.texturacorp.com/"
             }
         ]
