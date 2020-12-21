@@ -422,4 +422,3 @@ function locationizer(work_obj)
     }
     return locationArray;
 }
-console.log(locationizer(work));

@@ -1,3 +1,7 @@
+html {
+  background-color: #484848;
+}
+
 body,
 div,
 ul,
@@ -71,6 +75,9 @@ h5
 
 }
 
+#projects, #honors, #mapDiv {
+  background-color: white;
+}
 
 .date-text
 {
@@ -334,7 +341,7 @@ a.blueWords:hover
 {
   height: 400px;
   width: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 6%;
 }
 
 /* Media queries to handle various device widths */
@@ -343,15 +350,19 @@ a.blueWords:hover
 {
     #mapDiv
     {
-        padding-bottom: 25%;
+        padding-bottom: 35%;
     }
 }
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 750px)
 {
-  #lets-connect
+  .biopic
   {
-    margin-top: 5%;
+    width: 150px;
+  }
+  .welcome-message
+  {
+    display: none;
   }
 }
 
@@ -360,22 +371,6 @@ a.blueWords:hover
   .biopic
   {
     width: 175px;
-  }
-}
-
-@media only screen and (max-width: 750px)
-{
-  #lets-connect
-  {
-    margin-top: 10%;
-  }
-  .biopic
-  {
-    width: 150px;
-  }
-  .welcome-message
-  {
-    display: none;
   }
 }
 
@@ -404,6 +399,22 @@ a.blueWords:hover
   .returnHomeL
   {
     display: unset;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 550px)
+{
+  #mapDiv
+  {
+    padding-bottom: 15%;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1300px)
+{
+  #mapDiv
+  {
+    padding-bottom: 10%;
   }
 }
 
