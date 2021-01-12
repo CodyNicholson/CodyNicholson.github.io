@@ -14,7 +14,7 @@ var bio =
     [
         "Kotlin", "Java", "Python", "JavaScript", "TypeScript", "C#", 
         "Postgres", "Prometheus", "Cassandra", "MongoDB", "Informix 4GL", "MySQL",
-        "Sprint Boot", "Kafka", "Spark", "React", "Redux", "Ajax", "jQuery", "ASP.NET Core", "Pandas", "Angular", "D3js", "Tensorflow", "Computer Vision", 
+        "Spring Boot", "Kafka", "Spark", "React", "Redux", "Ajax", "jQuery", "ASP.NET Core", "Pandas", "Angular", "D3js", "Tensorflow", "Computer Vision", 
         "Heroku", "Jenkins", "Azure", "AWS", "Docker", 
         "Grafana", "Splunk", "Data Mining", "ETL", "Linux", "Agile", "Git", "JIRA"
     ],
