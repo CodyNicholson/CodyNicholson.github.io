@@ -52,7 +52,7 @@ var work =
                 "title": "Software Engineer II",
                 "location": "Chicago, IL",
                 "dates": "August 2020 - Present",
-                "description": "Designed and developed new features for a legacy Informix 4GL order fulfillment application. Collaborated with engineering leadership to modernize procedural apps to be event-driven using Kafka, Java Spring Boot Micro Services, and Postgres.",
+                "description": "Designed and developed new features for a legacy Informix 4GL order fulfillment application. Modernized procedural apps to be event-driven using Kafka, Java Spring Boot Micro Services, and Postgres.",
                 "link": "https://www.peapoddigitallabs.com/home"
             },
             {
@@ -169,6 +169,22 @@ var projects =
     "projs" :
     [
         {
+            "title" : "Chicago Artist Guide",
+            "dates" : "January 2021 - Present",
+            "description" : "I led my team at the Chicago Artist Guide in creating a backend API that powers our frontend react application using tools including: Java, Kotlin, Spring Boot, Docker, Postgres, AWS, Heroku. The Chicago Artist Guide web app is a place for Chicago theatre companies, individual artists, and communities to come together and it facilitates the casting process for theatre organizations.",
+            "images" : ["images/cag1.PNG","images/cag4.png","images/cag5.png"],
+            "captions": ["Chicago Artist Guide Home Page","An Individual Profile example","A Theater Group Profile example"],
+            "link": "https://chiartistguide.weebly.com/"
+        },
+        {
+            "title" : "International Space Station Tracker",
+            "dates" : "May 2020 - February 2021",
+            "description" : "In this project I created an ETL app and a front-end Python Flask app to display the location of the International Space Station in real-time. The ETL app calls four APIs every minute to get the location of the International Space Station, the weather at that location, the country information at that location, and finally a random number fact. The Flask app displays a map using Leaflet.js with a maker for each data point. The Flask app and Postgres database are deployed using Heroku.",
+            "images" : ["images/iss-map.PNG","images/iss-graphs1.PNG","images/iss-graphs2.PNG"],
+            "captions": ["This is the map where I plot the location of the ISS every minute","Graphs of the ISS Data I collect over the last day","A graph of the most visited countries over the last day"],
+            "link": "https://iss-tracking-app.herokuapp.com/"
+        },
+        {
             "title" : "Project Task Board Application",
             "dates" : "January 2019",
             "description" : "This Project Task Board Application I built to get more experience working with Java Spring Boot - specifically connecting a React frontend to a Spring backend RESTFul API. " +
@@ -216,7 +232,7 @@ var projects =
             "captions": ["I used deep learning to train a model to drive a car around a simulated track all by itself",
                 "Using computer vision and some math I was able to create a program that detects and highlights lane lines in a given image",
                 "Using some more math I created a program that can track the location of vehicles in a given video"],
-            "link": "https://codynicholson.github.io/Self-Driving_Car_Projects/"
+            "link": "https://codynicholson.github.io/Self-Driving_Car_Projects_Website/"
         },
         {
             "title" : "Enodo",
