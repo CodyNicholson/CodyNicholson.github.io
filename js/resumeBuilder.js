@@ -67,7 +67,7 @@ var work =
                 "employer": "Chicago Artist Guide",
                 "title": "Engineering Team Lead",
                 "location": "Chicago, IL",
-                "dates": "December 2020 - Present",
+                "dates": "December 2020 - June 2021",
                 "description": "Led the engineering effort to create a centralized place for Chicago theatre companies, individual artists, and communities to come together using tools including: React, NodeJS, AWS, Postgres, Java, Kotlin, Spring Boot. We remove common obstacles so artists can focus on what’s most important: making art. Hired new developers to join our team.",
                 "link": "https://chiartistguide.weebly.com/the-team.html"
             },
@@ -170,7 +170,7 @@ var projects =
     [
         {
             "title" : "Chicago Artist Guide",
-            "dates" : "January 2021 - Present",
+            "dates" : "January 2021 - June 2021",
             "description" : "I led my team at the Chicago Artist Guide in creating a backend API that powers our frontend react application using tools including: Java, Kotlin, Spring Boot, Docker, Postgres, AWS, Heroku. The Chicago Artist Guide web app is a place for Chicago theatre companies, individual artists, and communities to come together and it facilitates the casting process for theatre organizations.",
             "images" : ["images/cag1.PNG","images/cag4.PNG","images/cag5.PNG"],
             "captions": ["Chicago Artist Guide Home Page","An Individual Profile example","A Theater Group Profile example"],
